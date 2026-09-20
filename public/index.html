@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudio Personal - Notion & Juegos con IA</title>
+  <!-- Google Fonts: Caligrafía Natural y Manuscrita para Apuntes de Estudio -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Kalam:wght@300;400;700&family=Patrick+Hand&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20260920_v7">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+</head>
+<body>
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Encabezado Superior Principal -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">📖</div>
+      <div>
+        <div class="brand-title">ESTUDIO PERSONAL</div>
+        <div class="brand-subtitle">Cuaderno de Apuntes & Juegos con IA</div>
+      </div>
+    </div>
+
+    <!-- Barra Central: Selector de Pestañas de Navegación -->
+    <div class="nav-tabs">
+      <button id="btnTabNotion" class="nav-tab-btn active">
+        📓 Mis Apuntes de Estudio
+      </button>
+      <button id="btnTabGame" class="nav-tab-btn">
+        🏆 Concurso y Repaso
+      </button>
+    </div>
+
+    <!-- Buscador Global con Lupa (🔍) -->
+    <div class="header-search-container">
+      <div class="search-input-wrapper">
+        <span class="search-lens-icon">🔍</span>
+        <input 
+          type="text" 
+          id="globalSearchInput" 
+          class="header-search-input" 
+          placeholder="Buscar palabras en todas tus notas... (Ctrl+K)" 
+          autocomplete="off"
+        >
+        <button id="btnSearchClear" class="search-clear-btn" type="button" title="Borrar palabra buscada" aria-label="Borrar búsqueda" style="display: none;">✕</button>
+      </div>
+    </div>
+
+    <!-- Acciones de Encabezado -->
+    <div class="header-actions">
+      <button id="btnToggleTheme" class="btn-icon theme-toggle-btn" title="Cambiar entre Modo Día y Modo Noche">
+        <span id="themeToggleIcon">☀️</span> <span id="themeToggleText">Modo Día</span>
+      </button>
+      <button id="btnToggleSound" class="btn-icon" title="Activar/Silenciar efectos y música">
+        🔇 <span>Música Off</span>
+      </button>
+      <button id="btnOpenConfig" class="btn-icon" title="Configurar API de Gemini y Ajustes">
+        ⚙️ <span>Ajustes</span>
+      </button>
+
+      <!-- Grupo de Controles de Ventana en la Esquina Superior Derecha -->
+      <div class="header-window-controls" title="Controles de ventana y pantalla">
+        <button id="btnWinMinimize" class="win-control-btn win-minimize" type="button" title="Minimizar (Salir de pantalla completa)" aria-label="Minimizar">
+          <span class="win-icon">─</span>
+        </button>
+        <button id="btnToggleFullscreen" class="win-control-btn win-fullscreen" type="button" title="Pantalla Completa (Ocultar navegador) / Restaurar ventana (Ver URL)" aria-label="Pantalla Completa / Restaurar ventana">
+          <span id="fullscreenIcon" class="win-icon">🗖</span>
+        </button>
+        <button id="btnWinClose" class="win-control-btn win-close" type="button" title="Cerrar / Salir de pantalla completa" aria-label="Cerrar">
+          <span class="win-icon">✕</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================================================================ -->
+    <!-- SECCIÓN 1: ESPACIO DE TRABAJO ESTILO CUADERNO / NOTION (ESTUDIO) -->
+    <!-- ================================================================ -->
+    <section id="notionSection" class="notion-workspace">
+      <!-- Barra lateral izquierda (Sidebar) -->
+      <aside id="notionSidebar" class="notion-sidebar">
+        <!-- Acciones principales del Menú: Añadir Entrada + Generar Preguntas con IA -->
+        <div class="sidebar-top-action">
+          <button id="btnSidebarMainAction" class="btn-primary btn-full" title="Añadir una entrada o documento a la sección activa">
+            ➕ Añadir Día al Mes
+          </button>
+          <div class="sidebar-questions-action-row">
+            <button id="btnSidebarGenerateQuestions" class="btn-sidebar-ai-questions" title="Generar preguntas con IA para el apunte abierto">
+              ⚡ Generar Preguntas con IA
+            </button>
+            <button id="btnSidebarViewQuestions" class="btn-sidebar-view-questions" title="Ver preguntas del concurso guardadas de este apunte">
+              🏆 <span id="sidebarQuestionsCount">0</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Barra de Años Disponibles con Botón para Añadir Nuevo Año -->
+        <div class="sidebar-years-bar">
+          <div class="years-label">
+            <span>📅 AÑOS DE ESTUDIO:</span>
+            <button id="btnOpenNewYearModal" class="btn-add-year-small" title="Añadir un nuevo año (ej: 2027)">
+              + Añadir Año
+            </button>
+          </div>
+          <div id="yearsPillsContainer" class="years-pills-row">
+            <!-- Píldoras de años cargadas dinámicamente -->
+          </div>
+        </div>
+
+        <!-- Árbol de Categorías Jerárquicas -->
+        <div class="sidebar-section-title" style="display: flex; justify-content: space-between; align-items: center;">
+          <span>📂 CATEGORÍAS</span>
+          <button id="btnOpenNewCategoryModal" class="btn-add-year-small" title="Añadir una nueva categoría o subcategoría personalizada">+ Categoría</button>
+        </div>
+        <div id="sidebarTree" class="sidebar-tree">
+          <!-- Renderizado dinámicamente -->
+        </div>
+
+        <!-- Lista de Apuntes Diarios de la Categoría/Mes Seleccionado -->
+        <div class="sidebar-notes-header">
+          <span id="currentCategoryTitle" class="current-cat-name">Todos los Apuntes</span>
+          <span id="notesCountBadge" class="cat-count-badge">0 días</span>
+        </div>
+        <div id="notesListContainer" class="notes-list-container">
+          <!-- Tarjetas de días ordenadas cronológicamente con separadores -->
+        </div>
+      </aside>
+
+      <!-- Panel Central / Área de Estudio y Escritura de la Nota Activa -->
+      <div class="notion-main-area">
+        <!-- Estado vacío cuando no hay nota seleccionada -->
+        <div id="emptyEditorPlaceholder" class="empty-editor-state">
+          <div class="empty-icon">✍️</div>
+          <h2>Selecciona o crea una entrada de estudio</h2>
+          <p>Elige un mes en el menú lateral o pulsa <strong>"Nuevo Día de Apuntes"</strong> para abrir tu cuaderno de estudio con letra manuscrita y papel claro.</p>
+        </div>
+
+        <!-- Contenedor del Cuaderno / Editor Activo -->
+        <div id="activeEditorContainer" class="active-editor-card paper-warm-parchment" style="display: none;">
+          <!-- Barra superior del editor (Breadcrumbs + Modo Ampliado + Guardado + Acciones) -->
+          <div class="editor-top-bar">
+            <div id="noteBreadcrumbs" class="editor-breadcrumbs">
+              <!-- Breadcrumbs generados dinámicamente -->
+            </div>
+            <div class="editor-top-actions">
+              <button id="btnToggleSidebar" class="btn-secondary" title="Ocultar/Mostrar menú lateral para máxima concentración">
+                📖 Modo Estudio Ampliado
+              </button>
+              <span id="saveStatusText" class="save-status-badge status-saved">✓ Guardado</span>
+              <button id="btnPlayNoteGame" class="btn-play-action" title="Jugar con las preguntas de este apunte en Saber y Ganar">
+                🎯 Saber y Ganar
+              </button>
+              <button id="btnPlayNoteRosco" class="btn-play-action rosco-style" title="Jugar con las preguntas de este apunte en la Ruleta A-Z">
+                🎡 El Rosco A-Z
+              </button>
+              <button id="btnDeleteNote" class="btn-danger-icon" title="Eliminar esta entrada">
+                🗑️
+              </button>
+            </div>
+          </div>
+
+          <!-- Barra Flotante de Navegación de Referencias de Búsqueda -->
+          <div id="searchNavBanner" class="search-nav-banner" style="display: none;">
+            <div class="search-nav-left">
+              <span class="search-nav-icon">🔍</span>
+              <span class="search-nav-label">Búsqueda activa:</span>
+              <span id="searchNavQueryText" class="search-nav-query">"..."</span>
+              <span id="searchNavIndexText" class="search-nav-counter">Ref. 1 de 1</span>
+            </div>
+            <div class="search-nav-right">
+              <button id="btnSearchNavPrev" class="btn-search-nav" type="button" title="Ver referencia anterior">◀ Anterior</button>
+              <button id="btnSearchNavNext" class="btn-search-nav" type="button" title="Ver siguiente referencia">Siguiente ▶</button>
+              <button id="btnSearchNavReturn" class="btn-search-nav btn-search-nav-primary" type="button" title="Volver a ver todas las referencias de esta búsqueda">
+                📋 Ver todas las referencias (<span id="searchNavTotalCount">0</span>)
+              </button>
+              <button id="btnSearchNavClose" class="btn-search-nav-close" type="button" title="Cerrar barra de búsqueda">✕</button>
+            </div>
+          </div>
+
+          <!-- Contenedor Visual de Hoja de Papel (Paper Notebook Design) -->
+          <div id="paperSheetContainer" class="paper-notebook-sheet paper-warm-parchment">
+            <!-- Sello de Encabezado del Día (Marca claramente que es una nueva entrada diaria) -->
+            <div class="paper-header-strip">
+              <div class="day-stamp-badge">
+                <span class="day-stamp-icon">📅</span>
+                <span id="activeDayHeaderBanner" class="day-stamp-text">DÍA 17 • Jueves, 17 de Septiembre de 2026</span>
+              </div>
+              <div class="paper-binder-rings">
+                <span class="binder-hole"></span>
+                <span class="binder-hole"></span>
+                <span class="binder-hole"></span>
+              </div>
+            </div>
+
+            <!-- Cabecera interactiva con Icono, Título y Prompts de Metadatos -->
+            <div class="note-header-interactive">
+              <div class="note-icon-row">
+                <button id="noteIconBtn" class="note-icon-picker-btn" title="Haz clic para cambiar el emoticono de este día">
+                  🌅
+                </button>
+                <div class="note-title-prompt-container">
+                  <input 
+                    type="text" 
+                    id="noteTitleInput" 
+                    class="note-title-input handwriting-title" 
+                    placeholder="Escribe el título de este día aquí... (ej: 'El valor incalculable de la fe')"
+                  >
+                </div>
+              </div>
+
+              <!-- Fila de Prompts: Fecha exacta, Categoría, Subcategoría/Año/Mes y Etiquetas -->
+              <div class="note-metadata-prompts paper-meta-row">
+                <div class="prompt-field">
+                  <label class="prompt-label">📅 Fecha de Entrada:</label>
+                  <input type="date" id="noteDateInput" class="prompt-input">
+                </div>
+
+                <div class="prompt-field">
+                  <label class="prompt-label">🏷️ Categoría:</label>
+                  <select id="noteCategorySelect" class="prompt-select">
+                    <option value="daily_text">🌅 Daily Text Comments</option>
+                    <option value="events">🏛️ Events</option>
+                    <option value="spiritual_notes">💡 Spiritual Notes</option>
+                  </select>
+                </div>
+
+                <div id="subCategoryWrapper" class="prompt-field" style="display: none;">
+                  <label class="prompt-label">🏛️ Evento:</label>
+                  <select id="noteSubCategorySelect" class="prompt-select">
+                    <option value="bethel_talks">🎤 Bethel Talks</option>
+                    <option value="annual_meeting">🌐 Annual Meeting</option>
+                    <option value="gilead_meeting">🎓 Gilead Meeting</option>
+                    <option value="others">📂 Others</option>
+                  </select>
+                </div>
+
+                <div id="monthWrapper" class="prompt-field" style="display: inline-flex; gap: 8px;">
+                  <div>
+                    <label class="prompt-label">Año:</label>
+                    <input type="number" id="noteYearInput" class="prompt-input" value="2026" style="width: 75px;">
+                  </div>
+                  <div>
+                    <label class="prompt-label">Mes:</label>
+                    <select id="noteMonthSelect" class="prompt-select">
+                      <option value="Enero">Enero</option>
+                      <option value="Febrero">Febrero</option>
+                      <option value="Marzo">Marzo</option>
+                      <option value="Abril">Abril</option>
+                      <option value="Mayo">Mayo</option>
+                      <option value="Junio">Junio</option>
+                      <option value="Julio">Julio</option>
+                      <option value="Agosto">Agosto</option>
+                      <option value="Septiembre" selected>Septiembre</option>
+                      <option value="Octubre">Octubre</option>
+                      <option value="Noviembre">Noviembre</option>
+                      <option value="Diciembre">Diciembre</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="prompt-field" style="flex: 1; min-width: 140px;">
+                  <label class="prompt-label">🔖 Etiquetas:</label>
+                  <input type="text" id="noteTagsInput" class="prompt-input" placeholder="fe, paciencia, ministerio...">
+                </div>
+              </div>
+            </div>
+
+            <!-- Barra de Herramientas de Estudio (Caligrafía + Formato + Versículo + Gemini) -->
+            <div id="paperToolbar" class="notion-toolbar paper-toolbar">
+              <!-- Botón Minimizar / Ampliar Barra de Herramientas -->
+              <button type="button" id="btnToggleToolbarCollapse" class="toolbar-toggle-btn" title="Minimizar barra de herramientas">
+                <span class="toggle-icon">▲</span>
+                <span class="toggle-text">Minimizar</span>
+              </button>
+
+              <!-- Selector de Fuente y Estilo de Papel -->
+              <div class="toolbar-format-group">
+                <div class="toolbar-custom-control">
+                  <span class="control-icon">✍️</span>
+                  <select id="fontFamilySelector" class="toolbar-select" title="Cambiar tipo de letra manuscrita">
+                    <option value="kalam" selected>✍️ Kalam (Caligrafía Natural)</option>
+                    <option value="patrick">📝 Patrick Hand (Caligrafía Cuaderno)</option>
+                    <option value="caveat">🖋️ Caveat (Manuscrita Fluida)</option>
+                    <option value="system">💻 Tipografía Impresa</option>
+                  </select>
+                </div>
+
+                <div class="toolbar-custom-control">
+                  <span class="control-icon">📜</span>
+                  <select id="paperStyleSelector" class="toolbar-select" title="Estilo del papel de notas">
+                    <option value="paper-warm-parchment" selected>📜 Papel Crema Suave</option>
+                    <option value="paper-ruled">📝 Papel Rayado de Cuaderno</option>
+                    <option value="paper-clean-ivory">📄 Papel Marfil Puro</option>
+                    <option value="paper-grid">📐 Papel Cuadriculado</option>
+                    <option value="paper-dark">🌙 Modo Noche</option>
+                  </select>
+                </div>
+
+                <button type="button" id="btnFontDec" class="toolbar-btn" title="Disminuir tamaño de letra">A-</button>
+                <button type="button" id="btnFontInc" class="toolbar-btn" title="Aumentar tamaño de letra">A+</button>
+
+                <button type="button" id="btnToolbarAddEntry" class="toolbar-btn" title="Insertar una nueva entrada con fecha y título en este documento" style="background: rgba(212, 175, 55, 0.18); color: var(--gold-primary); font-weight: 700; border: 1px solid rgba(212, 175, 55, 0.5); padding: 4px 10px; border-radius: 6px; margin-left: 4px;">
+                  ➕ Añadir Entrada
+                </button>
+
+                <div class="toolbar-sep">|</div>
+
+                <button type="button" class="toolbar-btn" data-format="bold" title="Negrita (**texto**)">
+                  <strong>B</strong>
+                </button>
+                <button type="button" class="toolbar-btn" data-format="italic" title="Cursiva (*texto*)">
+                  <em>I</em>
+                </button>
+                <button type="button" class="toolbar-btn" data-format="normal" title="Texto normal (Quitar encabezado, cita, viñeta o estilo aplicado)">Normal</button>
+                <button type="button" class="toolbar-btn" data-format="h1" title="Encabezado (#)">H1</button>
+                <button type="button" class="toolbar-btn" data-format="h2" title="Subtítulo (##)">H2</button>
+                <button type="button" class="toolbar-btn" data-format="bullet" title="Viñeta (•)">• Viñeta</button>
+                <button type="button" class="toolbar-btn" data-format="quote" title="Cita en bloque (>)">❝ Cita</button>
+                <button type="button" class="toolbar-btn" data-format="callout" title="Punto clave destacado (💡)">💡 Destacado</button>
+                <button type="button" class="toolbar-btn" data-format="scripture" title="Cita bíblica formateada (📖)">📖 Versículo</button>
+              </div>
+
+              <!-- Herramienta IA Única: Corregir y Mejorar con Track Changes -->
+              <div class="toolbar-ai-group">
+                <button type="button" id="btnRunAiAssist" class="btn-ai-single" title="Revisar ortografía, tildes y pulir redacción con Gemini en 1 solo clic y ver control de cambios">
+                  ✨ Corregir y Mejorar con Gemini
+                </button>
+              </div>
+            </div>
+
+            <!-- Panel de Control de Cambios (Track Changes) -->
+            <div id="aiDiffPanel" class="ai-track-changes-panel" style="display: none;">
+              <div class="ai-track-header">
+                <div class="ai-track-title-box">
+                  <span class="ai-track-badge">✨ Control de Cambios con Gemini</span>
+                  <span id="aiChangesCount" class="ai-changes-badge">0 cambios</span>
+                  <span id="aiEngineBadge" class="ai-engine-badge">Gemini Flash</span>
+                </div>
+                <div class="ai-track-actions">
+                  <button id="btnApplyAiChanges" class="btn-primary btn-track-accept" title="Aceptar todas las correcciones con 1 solo clic">
+                    ✓ Aceptar Cambios
+                  </button>
+                  <button id="btnDiscardAiChanges" class="btn-secondary btn-track-reject" title="Rechazar los cambios con 1 solo clic">
+                    ✕ Rechazar
+                  </button>
+                </div>
+              </div>
+              <div class="ai-track-legend">
+                <span class="legend-item"><del class="track-del">Texto eliminado / corregido</del></span>
+                <span class="legend-item"><ins class="track-ins">Texto nuevo / corregido</ins></span>
+              </div>
+              <div id="aiDiffContent" class="ai-track-body">
+                <!-- Texto con marcas de control de cambios renderizado aquí -->
+              </div>
+            </div>
+
+            <!-- Área de Escritura Amplia con Letra Manuscrita y Fondo de Papel -->
+            <div class="editor-textarea-wrapper">
+              <div class="notebook-left-margin-line"></div>
+              <div 
+                id="noteRichEditor" 
+                class="notion-rich-editor handwriting-paper font-kalam" 
+                contenteditable="true" 
+                spellcheck="false"
+                role="textbox"
+                aria-multiline="true"
+                data-placeholder="Escribe aquí tus apuntes matutinos, comentarios del texto diario o perlas de la reunión...&#10;&#10;¡Usa los botones de H1, H2, Versículo 📖 o Viñeta para organizar visualmente tus notas!"
+              ></div>
+              <textarea id="noteTextarea" style="display: none;"></textarea>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================ -->
+    <!-- SECCIÓN 2: PLATÓ DE JUEGOS (SABER Y GANAR & EL ROSCO A-Z)        -->
+    <!-- ================================================================ -->
+    <section id="gameSection" style="display: none;">
+      <!-- VISTA 1: LOBBY / SELECCIÓN DE TEMAS -->
+      <section id="lobbyView">
+        <div class="hero-banner">
+          <div class="hero-badge">Estudio Interactivo con IA</div>
+          <h1>El Gran Concurso de tu Estudio</h1>
+          <p>Elige de 1 a 5 temas de tus apuntes diarios o documentos, responde preguntas con 4 opciones (5 puntos cada acierto) y alcanza los 100 puntos (20 preguntas) para desbloquear la Ruleta de la A a la Z.</p>
+        </div>
+
+        <div class="selection-bar">
+          <div class="selection-info">
+            <span style="font-weight: 600; color: #fff;">Temas seleccionados:</span>
+            <span id="selectedCountBadge" class="selection-count-badge">0 / 5 seleccionados</span>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <button id="btnSyncApuntes" class="btn-secondary" title="Comprueba la carpeta de apuntes y genera preguntas si hay archivos nuevos" style="font-size: 0.9rem; padding: 10px 18px;">
+              🔄 Sincronizar Apuntes
+            </button>
+            <button id="btnStartGame" class="btn-primary" disabled>
+              ▶ ¡EMPEZAR EL JUEGO!
+            </button>
+          </div>
+        </div>
+
+        <div id="topicsGrid" class="topics-grid"></div>
+
+        <div class="glass-panel" style="margin-top: 1.5rem;">
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem; color: var(--gold-primary);">
+            📥 Añadir Nuevos Documentos Externos
+          </h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+            Arrastra aquí archivos existentes (.txt, .md, .docx, .pdf) para extraer automáticamente su contenido y añadir preguntas a tu base de datos.
+          </p>
+          <div id="uploadArea" class="upload-box">
+            <div class="upload-icon">📄</div>
+            <div class="upload-title">Arrastra tu archivo aquí o haz clic para examinar</div>
+            <div class="upload-desc">Soporta documentos de Word (.docx), PDF (.pdf) y texto (.txt, .md)</div>
+            <input type="file" id="fileInput" accept=".txt,.md,.docx,.pdf" style="display: none;">
+          </div>
+          <div id="uploadStatus" style="display: none;"></div>
+        </div>
+      </section>
+
+      <!-- VISTA 2: PLATÓ DE JUEGO ("EN DIRECTO") -->
+      <section id="gameView" class="game-view" style="display: none;">
+        <div class="scoreboard">
+          <div class="score-panel">
+            <div class="score-panel-label">PUNTOS</div>
+            <div id="currentScoreVal" class="score-panel-value">0</div>
+          </div>
+
+          <div class="progress-center">
+            <div class="progress-bar-outer">
+              <div id="progressBarInner" class="progress-bar-inner"></div>
+            </div>
+            <div class="progress-label">
+              Meta: <strong id="targetScoreVal" style="color: var(--gold-primary);">100</strong> puntos | <span id="progressText">0% hacia la meta</span>
+            </div>
+          </div>
+
+          <div class="streak-panel">
+            <div class="score-panel-label" style="margin-bottom: 4px;">RACHA</div>
+            <div class="streak-badge">
+              🔥 <span id="streakVal">0</span> seguidas
+            </div>
+          </div>
+        </div>
+
+        <div class="question-tv-screen">
+          <div id="questionTopicTag" class="question-topic-tag">
+            📚 Tema: Cargando...
+          </div>
+          <div id="questionText" class="question-text">
+            Cargando pregunta...
+          </div>
+        </div>
+
+        <div id="optionsGrid" class="options-grid"></div>
+
+        <div id="explanationPanel" class="explanation-panel">
+          <div class="explanation-title">
+            <span>💡 Explicación del Apunte:</span>
+          </div>
+          <div id="explanationText" class="explanation-body">...</div>
+        </div>
+
+        <div class="game-controls">
+          <button id="btnExitGame" class="btn-secondary">⏹ Salir al Menú</button>
+          <button id="btnNextQuestion" class="btn-primary" style="display: none; padding: 10px 24px; font-size: 1rem;">
+            Siguiente Pregunta ➔
+          </button>
+        </div>
+      </section>
+
+      <!-- VISTA 3: PANTALLA DE META ALCANZADA (100 PUNTOS) -->
+      <section id="victoryView" class="victory-view glass-panel" style="display: none;">
+        <div class="trophy-container">🏆</div>
+        <h2 class="victory-title">¡META ALCANZADA: 100 PUNTOS!</h2>
+        <p class="victory-subtitle">¡Has superado la primera fase del concurso! Ahora tienes acceso al gran reto final televisivo.</p>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div id="finalScoreVal" class="stat-value">100</div>
+            <div class="stat-label">Puntos Logrados</div>
+          </div>
+          <div class="stat-card">
+            <div id="finalAccuracyVal" class="stat-value">100%</div>
+            <div class="stat-label">Precisión</div>
+          </div>
+          <div class="stat-card">
+            <div id="finalTopicsVal" class="stat-value">3</div>
+            <div class="stat-label">Temas Repasados</div>
+          </div>
+        </div>
+
+        <div class="victory-actions" style="flex-direction: column; align-items: center; gap: 15px;">
+          <button id="btnStartRosco" class="btn-primary" style="font-size: 1.25rem; padding: 15px 35px; box-shadow: 0 0 30px var(--gold-glow); animation: pulse-correct 1.5s infinite;">
+            🎡 ¡ENTRAR A LA RULETA FINAL (A a la Z)!
+          </button>
+          <div style="display: flex; gap: 12px;">
+            <button id="btnPlayAgain" class="btn-secondary">🔄 Jugar Otra Partida Normal</button>
+            <button id="btnBackToLobby" class="btn-secondary">🏠 Volver al Menú</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- VISTA 4: LA RULETA DE LA A A LA Z (EL ROSCO) -->
+      <section id="roscoView" class="rosco-view glass-panel" style="display: none;">
+        <div class="rosco-header">
+          <div class="rosco-timer-box">
+            <span class="timer-icon">⏱️</span>
+            <span id="roscoTimer" class="rosco-timer-digits">05:00</span>
+          </div>
+          <div class="rosco-score-counters">
+            <span class="badge-acierto">✓ <strong id="roscoCorrectCount">0</strong></span>
+            <span class="badge-fallo">✗ <strong id="roscoWrongCount">0</strong></span>
+            <span class="badge-pendiente">⏳ <strong id="roscoPendingCount">22</strong></span>
+          </div>
+          <div class="rosco-time-adjust">
+            <label style="font-size: 0.8rem; color: var(--text-muted);">Tiempo:</label>
+            <select id="roscoTimeSelect" class="form-input" style="width: auto; padding: 4px 8px; font-size: 0.85rem;">
+              <option value="180">3 min</option>
+              <option value="300" selected>5 min</option>
+              <option value="420">7 min</option>
+              <option value="600">10 min</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="rosco-stage">
+          <div id="roscoWheel" class="rosco-wheel"></div>
+          <div class="rosco-center-screen">
+            <div id="roscoActiveLetterBadge" class="active-letter-badge">A</div>
+            <div id="roscoPrefix" class="active-prefix">Empieza por A</div>
+            <div id="roscoQuestionText" class="rosco-question-prompt">
+              Cargando definición de los apuntes...
+            </div>
+          </div>
+        </div>
+
+        <div class="rosco-input-area">
+          <form id="roscoForm" onsubmit="return false;">
+            <input 
+              type="text" 
+              id="roscoInput" 
+              class="rosco-text-input" 
+              placeholder="Escribe aquí tu respuesta..." 
+              autocomplete="off" 
+              autofocus
+            >
+            <div class="rosco-buttons-row">
+              <button type="submit" id="btnRoscoSubmit" class="btn-primary" style="flex: 1;">
+                Enviar Respuesta (Enter)
+              </button>
+              <button type="button" id="btnRoscoPass" class="btn-pasapalabra" style="flex: 1;">
+                🔁 Pasapalabra (Espacio)
+              </button>
+            </div>
+          </form>
+          <div class="rosco-hint-keys">
+            💡 Puedes pulsar <strong>ENTER</strong> para responder o la <strong>BARRA ESPACIADORA</strong> para pasar palabra.
+          </div>
+        </div>
+      </section>
+
+      <!-- VISTA 5: RESULTADOS FINALES DEL ROSCO -->
+      <section id="roscoResultView" class="glass-panel" style="display: none; text-align: center; padding: 2.5rem 1.5rem;">
+        <div style="font-size: 4rem; margin-bottom: 0.5rem;" id="roscoResultEmoji">🎉</div>
+        <h2 id="roscoResultTitle" style="font-size: 2.2rem; color: var(--gold-primary); margin-bottom: 0.5rem;">
+          ¡FIN DEL ROSCO DE LA A A LA Z!
+        </h2>
+        <p id="roscoResultSubtitle" style="color: var(--text-muted); margin-bottom: 2rem;">
+          Aquí tienes el desglose detallado de tu estudio en la ruleta de la fortuna:
+        </p>
+
+        <div class="stats-grid" style="max-width: 700px; margin: 0 auto 2rem;">
+          <div class="stat-card" style="border-color: var(--green-correct);">
+            <div id="roscoFinalCorrect" class="stat-value" style="color: var(--green-correct);">0</div>
+            <div class="stat-label">Preguntas Acertadas</div>
+          </div>
+          <div class="stat-card" style="border-color: var(--red-wrong);">
+            <div id="roscoFinalWrong" class="stat-value" style="color: var(--red-wrong);">0</div>
+            <div class="stat-label">Preguntas Falladas</div>
+          </div>
+          <div class="stat-card" style="border-color: var(--gold-primary);">
+            <div id="roscoFinalPassed" class="stat-value" style="color: var(--gold-primary);">0</div>
+            <div class="stat-label">Preguntas Pasadas</div>
+          </div>
+        </div>
+
+        <div style="text-align: left; max-width: 800px; margin: 0 auto 2rem;">
+          <h4 style="color: #fff; margin-bottom: 1rem;">📋 Soluciones y Repaso de Apuntes:</h4>
+          <div id="roscoAnswersReview" style="max-height: 320px; overflow-y: auto; background: rgba(0,0,0,0.3); border-radius: 8px; padding: 1rem;"></div>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 15px;">
+          <button id="btnRoscoRetry" class="btn-primary">🔄 Repetir el Rosco</button>
+          <button id="btnRoscoToMenu" class="btn-secondary">🏠 Volver a Selección de Temas</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!-- ================================================================ -->
+  <!-- ================================================================ -->
+  <!-- MODAL 1: AÑADIR NUEVO DÍA AL DOCUMENTO MENSUAL                   -->
+  <!-- ================================================================ -->
+  <div id="newDayModal" class="modal-overlay">
+    <div class="modal-content new-day-modal-box">
+      <div class="modal-header">
+        <div id="newDayModalTitle" class="modal-title">
+          📅 Añadir Día al Documento Mensual
+        </div>
+        <button id="btnCloseNewDayModal" class="modal-close">&times;</button>
+      </div>
+      <form id="newDayForm">
+        <div class="modal-body">
+          <p id="newDayModalDesc" style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.2rem;">
+            Cada entrada se añade de forma ordenada dentro del documento mensual, mostrando al principio la <strong>fecha marcada</strong> y el <strong>título de la entrada</strong>.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label" style="font-weight: 700; color: #fff; font-size: 0.95rem;">
+              📅 Fecha Marcada:
+            </label>
+            <input type="date" id="newDayDateInput" class="form-input" required style="font-size: 1rem; padding: 10px;">
+            <div id="newDayCalculatedInfo" class="form-help" style="color: var(--gold-primary); font-weight: 600; font-size: 0.9rem; margin-top: 6px;">
+              📍 Fecha marcada: Calculando...
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" style="font-weight: 700; color: var(--gold-primary); font-size: 1rem;">
+              ✍️ Título de la Entrada:
+            </label>
+            <input 
+              type="text" 
+              id="newDayTitleInput" 
+              class="form-input" 
+              placeholder="Introduce aquí el título de la entrada (ej: La perseverancia de Job ante las pruebas)..."
+              required
+              style="font-size: 1rem; padding: 10px 12px; font-weight: 600; border-color: rgba(212,175,55,0.4);"
+            >
+            <div class="form-help" style="color: var(--text-muted); font-size: 0.85rem; margin-top: 4px;">
+              Este título aparecerá en el encabezado principal de la entrada y en el índice lateral.
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">📖 Texto Bíblico del Día (Opcional):</label>
+            <input 
+              type="text" 
+              id="newDayScriptureInput" 
+              class="form-input" 
+              placeholder="Ej: Santiago 1:2-4 o Proverbios 3:5, 6"
+            >
+          </div>
+
+          <div class="entry-header-preview-box" style="margin-top: 10px; padding: 10px 14px; background: rgba(0,0,0,0.3); border-radius: 6px; border: 1px dashed rgba(212,175,55,0.35); font-size: 0.85rem;">
+            <span style="color: var(--gold-primary); font-weight: 600;">👀 Encabezado al inicio de la entrada:</span>
+            <div id="newDayPreviewHeading" style="color: #cbd5e1; margin-top: 4px; font-family: monospace;">
+              ## 📅 DÍA 18 • Fecha: ... <br># ✍️ Título: ...
+            </div>
+          </div>
+        </div>
+
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="button" id="btnCancelNewDay" class="btn-secondary">Cancelar</button>
+          <button type="submit" class="btn-primary" style="font-size: 0.95rem; padding: 8px 20px;">
+            ✓ Insertar Entrada (con Fecha y Título)
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL 2: AÑADIR DOCUMENTO A CARPETA (BASE DE DATOS NOTION)       -->
+  <!-- ================================================================ -->
+  <div id="newFolderDocModal" class="modal-overlay">
+    <div class="modal-content new-day-modal-box">
+      <div class="modal-header">
+        <div id="folderDocModalTitle" class="modal-title">
+          📄 Nuevo Documento en la Carpeta
+        </div>
+        <button id="btnCloseFolderDocModal" class="modal-close">&times;</button>
+      </div>
+      <form id="newFolderDocForm">
+        <input type="hidden" id="folderDocCategoryInput" value="events">
+        <input type="hidden" id="folderDocSubCategoryInput" value="bethel_talks">
+
+        <div class="modal-body">
+          <p id="folderDocModalDesc" style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.2rem;">
+            Este documento se guardará permanentemente en la base de datos de esta carpeta.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label">✍️ Título del Documento:</label>
+            <input 
+              type="text" 
+              id="folderDocTitleInput" 
+              class="form-input" 
+              placeholder="Ej: Discurso: Cómo cultivar paciencia y gozo constante"
+              required
+            >
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <div class="form-group">
+              <label class="form-label">📅 Fecha:</label>
+              <input type="date" id="folderDocDateInput" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Icono:</label>
+              <select id="folderDocIconSelect" class="form-input">
+                <option value="🎤" selected>🎤 Micrófono (Discurso)</option>
+                <option value="🌐">🌐 Globo (Annual Meeting)</option>
+                <option value="🎓">🎓 Birrete (Gilead)</option>
+                <option value="💡">💡 Bombilla (Spiritual Note)</option>
+                <option value="📜">📜 Pergamino</option>
+                <option value="🏛️">🏛️ Evento</option>
+                <option value="🕊️">🕊️ Paloma</option>
+                <option value="🛡️">🛡️ Escudo</option>
+                <option value="💎">💎 Diamante</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">👤 Orador / Fuente de la Información:</label>
+            <input 
+              type="text" 
+              id="folderDocSpeakerInput" 
+              class="form-input" 
+              placeholder="Ej: Hno. Mark Sanderson (Miembro del Cuerpo Gobernante) / Betel"
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">🔖 Etiquetas temáticas (separadas por coma):</label>
+            <input 
+              type="text" 
+              id="folderDocTagsInput" 
+              class="form-input" 
+              placeholder="Ej: paciencia, bethel, amor, gozo"
+            >
+          </div>
+        </div>
+
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="button" id="btnCancelFolderDoc" class="btn-secondary">Cancelar</button>
+          <button type="submit" class="btn-primary" style="font-size: 0.95rem; padding: 8px 20px;">
+            ✓ Guardar Documento en la Base de Datos
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL: PROMPT PARA AÑADIR UN NUEVO AÑO                           -->
+  <!-- ================================================================ -->
+  <div id="newYearModal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 480px;">
+      <div class="modal-header">
+        <div class="modal-title">
+          ➕ Añadir Nuevo Año de Estudio
+        </div>
+        <button id="btnCloseNewYearModal" class="modal-close">&times;</button>
+      </div>
+      <form id="newYearForm">
+        <div class="modal-body">
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.2rem;">
+            Introduce el año que deseas incorporar al árbol de Daily Text Comments (ej: 2027, 2028). Tendrá inmediatamente disponibles los 12 meses para tus apuntes.
+          </p>
+          <div class="form-group">
+            <label class="form-label">Año a incorporar:</label>
+            <input type="number" id="newYearNumberInput" class="form-input" min="2020" max="2050" value="2027" required>
+          </div>
+        </div>
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="button" id="btnCancelNewYear" class="btn-secondary">Cancelar</button>
+          <button type="submit" class="btn-primary" style="padding: 8px 18px;">
+            ✓ Añadir Año
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL DE BÚSQUEDA GLOBAL RÁPIDA CON LUPA (🔍)                     -->
+  <!-- ================================================================ -->
+  <div id="searchModal" class="modal-overlay">
+    <div class="modal-content search-modal-box">
+      <div class="modal-header">
+        <div class="modal-title">
+          🔍 Búsqueda Rápida en toda la Base de Datos
+        </div>
+        <button id="btnCloseSearch" class="modal-close">&times;</button>
+      </div>
+      <div class="search-modal-subheader">
+        <div class="search-modal-input-box">
+          <span class="search-modal-lens">🔍</span>
+          <input 
+            type="text" 
+            id="modalSearchInput" 
+            class="modal-search-input" 
+            placeholder="Buscar cualquier palabra, versículo o tema..." 
+            autocomplete="off"
+          >
+          <button id="btnModalSearchClear" class="modal-search-clear-btn" type="button" title="Borrar palabra buscada" style="display: none;">✕</button>
+        </div>
+        <span id="searchCountBadge" class="cat-count-badge">0 resultados</span>
+      </div>
+      <div id="searchResultsList" class="search-results-container">
+        <p style="text-align: center; color: var(--text-muted); padding: 2rem;">
+          Escribe cualquier palabra, versículo o tema en la barra superior para buscar en todos tus apuntes.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL SELECTOR DE EMOTICONOS                                     -->
+  <!-- ================================================================ -->
+  <div id="emojiPickerModal" class="modal-overlay">
+    <div class="modal-content emoji-picker-box">
+      <div class="modal-header">
+        <div class="modal-title">Selecciona un Emoticono para este Día</div>
+        <button id="btnCloseEmojiPicker" class="modal-close">&times;</button>
+      </div>
+      <div id="emojiGrid" class="emoji-grid"></div>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL DE AJUSTES Y GEMINI API                                    -->
+  <!-- ================================================================ -->
+  <div id="configModal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title">⚙️ Configuración del Juego y de la IA</div>
+        <button id="btnCloseConfig" class="modal-close">&times;</button>
+      </div>
+      <form id="configForm">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Google Gemini API Key (Opcional):</label>
+            <input type="password" id="apiKeyInput" class="form-input" placeholder="AIzaSy...">
+            <div class="form-help">
+              Puedes obtener una API Key gratuita en <a href="https://aistudio.google.com/" target="_blank" style="color: var(--blue-accent);">Google AI Studio</a>. Si no ingresas una clave, el sistema usará el motor heurístico local integrado sin conexión de forma ilimitada.
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Meta de Puntos para Ganar:</label>
+            <input type="number" id="targetScoreInput" class="form-input" min="20" max="500" step="10" value="100">
+            <div class="form-help">Por defecto son 100 puntos (exactamente 20 preguntas acertadas a 5 puntos cada una).</div>
+          </div>
+
+          <hr style="border: none; border-top: 1px solid var(--border-subtle); margin: 1.5rem 0;">
+
+          <!-- Sección de Respaldo y Copias de Seguridad -->
+          <div class="form-group">
+            <label class="form-label">💾 Copia de Seguridad y Respaldo en GitHub:</label>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px;">
+              Tus apuntes se guardan automáticamente con copias rotativas locales. También puedes descargar tu base de datos o sincronizar con tu repositorio de GitHub.
+            </p>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+              <a href="/api/backup/download" class="btn-secondary" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; font-size: 0.88rem;">
+                📥 Descargar Copia (.json)
+              </a>
+              <button type="button" id="btnSyncGitHub" class="btn-secondary" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; font-size: 0.88rem; background: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.4); color: #38bdf8;">
+                🚀 Subir a GitHub
+              </button>
+            </div>
+            <div id="gitSyncStatusText" style="font-size: 0.82rem; margin-top: 8px; color: var(--gold-primary); display: none;"></div>
+          </div>
+        </div>
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="submit" class="btn-primary" style="font-size: 0.95rem; padding: 8px 18px;">
+            Guardar Ajustes
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL DE NUEVA CATEGORÍA O SUBCATEGORÍA                          -->
+  <!-- ================================================================ -->
+  <div id="newCategoryModal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 500px;">
+      <div class="modal-header">
+        <div class="modal-title">🏷️ Nueva Categoría o Subcategoría</div>
+        <button id="btnCloseCategoryModal" class="modal-close">&times;</button>
+      </div>
+      <form id="newCategoryForm">
+        <div class="modal-body">
+          <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1.2rem;">
+            Añade tus propias secciones organizativas para tus apuntes personales, discursos, investigaciones o temas de estudio.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label">Tipo de Sección:</label>
+            <select id="newCategoryTypeSelect" class="form-select">
+              <option value="main">📁 Categoría Principal</option>
+              <option value="sub">📂 Subcategoría (dentro de una existente)</option>
+            </select>
+          </div>
+
+          <div id="parentCategoryWrapper" class="form-group" style="display: none;">
+            <label class="form-label">Categoría Principal Padre:</label>
+            <select id="parentCategorySelect" class="form-select">
+              <!-- Se cargan dinámicamente -->
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Nombre de la Categoría:</label>
+            <input type="text" id="newCategoryNameInput" class="form-input" placeholder="ej: Asambleas, Proverbios, Familia..." required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Icono o Emoticono:</label>
+            <div style="display: flex; gap: 8px; align-items: center;">
+              <input type="text" id="newCategoryIconInput" class="form-input" value="📁" style="width: 70px; text-align: center; font-size: 1.3rem;">
+              <span style="font-size: 0.82rem; color: var(--text-muted);">Usa cualquier emoji (ej: 🏛️, 🎤, 📖, 💡, 🌿, 🛡️)</span>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="button" id="btnCancelCategoryModal" class="btn-secondary">Cancelar</button>
+          <button type="submit" class="btn-primary" style="padding: 8px 18px;">✓ Crear Categoría</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL DE PREGUNTAS GUARDADAS                                     -->
+  <!-- ================================================================ -->
+  <div id="questionsModal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 800px;">
+      <div class="modal-header">
+        <div id="questionsModalTitle" class="modal-title">Banco de Preguntas</div>
+        <button id="btnCloseQuestions" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body" id="questionsModalList"></div>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL DE CLAVE GEMINI API (CONECTAR EN 1 CLIC)                   -->
+  <!-- ================================================================ -->
+  <div id="geminiKeyPromptModal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 520px;">
+      <div class="modal-header">
+        <div class="modal-title">✨ Conectar con Google Gemini</div>
+        <button id="btnCloseGeminiKeyPrompt" class="modal-close">&times;</button>
+      </div>
+      <form id="geminiKeyPromptForm">
+        <div class="modal-body">
+          <p style="color: var(--text-light); font-size: 0.92rem; margin-bottom: 12px; line-height: 1.5;">
+            Para que la IA revise tu ortografía y mejore tus notas con <strong>Google Gemini</strong>, introduce tu API Key gratuita. Se guardará de inmediato para que siempre funcione con 1 solo clic.
+          </p>
+          <div class="form-group">
+            <label class="form-label">Google Gemini API Key:</label>
+            <input type="password" id="geminiPromptKeyInput" class="form-input" placeholder="AIzaSy..." required autocomplete="off">
+            <div class="form-help">
+              Consíguela gratis en <a href="https://aistudio.google.com/" target="_blank" style="color: var(--blue-accent); text-decoration: underline;">Google AI Studio</a>.
+            </div>
+          </div>
+        </div>
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="button" id="btnCancelGeminiPrompt" class="btn-secondary" style="padding: 8px 16px;">
+            Cancelar
+          </button>
+          <button type="submit" class="btn-primary" style="padding: 8px 20px;">
+            ⚡ Guardar y Continuar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- MODAL DE CONSULTA E INSERCIÓN BÍBLICA (JW.ORG / TNM)             -->
+  <!-- ================================================================ -->
+  <div id="scriptureLookupModal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 580px;">
+      <div class="modal-header">
+        <div class="modal-title">📖 Insertar Cita Bíblica (TNM / NWT)</div>
+        <button id="btnCloseScriptureLookupModal" class="modal-close">&times;</button>
+      </div>
+      <form id="scriptureLookupForm">
+        <div class="modal-body">
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">
+            Escribe la cita bíblica (completa o abreviada en español o inglés, ej: <em>Mateo 4:5</em>, <em>Matt. 4:5</em>, <em>1 Cor. 13:4-8</em>, <em>Prov. 3:5, 6</em>). Se consultará automáticamente la Traducción del Nuevo Mundo oficial en jw.org.
+          </p>
+          <div class="form-group">
+            <label class="form-label">Cita Bíblica:</label>
+            <div style="display: flex; gap: 8px;">
+              <input type="text" id="scriptureLookupInput" class="form-input" placeholder="ej: Mateo 4:5 o Matt. 4:5" required autocomplete="off" style="flex: 1;">
+              <button type="button" id="btnSearchScriptureLookup" class="btn-secondary" style="padding: 8px 16px;">
+                🔍 Buscar
+              </button>
+            </div>
+          </div>
+          <div id="scriptureLookupPreviewBox" class="scripture-lookup-preview-box" style="display: none;">
+            <div class="lookup-preview-header">
+              <span id="scriptureLookupRefBadge" class="lookup-ref-badge">Matthew 4:5</span>
+              <span id="scriptureLookupSourceBadge" class="lookup-source-badge">TNM / jw.org</span>
+            </div>
+            <div id="scriptureLookupTextPreview" class="lookup-text-preview"></div>
+          </div>
+        </div>
+        <div style="padding: 1rem 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end; gap: 10px;">
+          <button type="button" id="btnCancelScriptureLookup" class="btn-secondary">Cancelar</button>
+          <button type="submit" id="btnSubmitScriptureLookup" class="btn-primary" style="padding: 8px 20px;">
+            ✓ Insertar en el Apunte
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/sound.js?v=20260920_v7"></script>
+  <script src="js/rosco.js?v=20260920_v7"></script>
+  <script src="js/game.js?v=20260920_v7"></script>
+  <script src="js/notes.js?v=20260920_v7"></script>
+</body>
+</html>

@@ -1,0 +1,2243 @@
+{
+  "config": {
+    "geminiApiKey": "",
+    "targetScore": 100,
+    "pointsPerQuestion": 5,
+    "availableYears": [
+      2025,
+      2026,
+      2027,
+      2028
+    ]
+  },
+  "topics": [
+    {
+      "id": "daily_text_2026_Julio",
+      "title": "Daily Text — Julio 2026",
+      "isNote": true,
+      "noteId": "daily_text_2026_Julio",
+      "category": "daily_text",
+      "subCategory": "",
+      "date": "2026-07-01",
+      "icon": "🌅",
+      "rawTextSnippet": "# 🌅 Daily Text Comments — Julio 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Julio\" para registrar tus apuntes matutinos.*\n",
+      "createdAt": "2026-09-20T23:14:08.198Z",
+      "updatedAt": "2026-09-20T23:14:08.198Z"
+    },
+    {
+      "id": "note_1789945604325_fcykp",
+      "title": "Gilead Graduation 160th Class",
+      "isNote": true,
+      "noteId": "note_1789945604325_fcykp",
+      "category": "events",
+      "subCategory": "gilead_meeting",
+      "date": "2026-09-12",
+      "icon": "🎓",
+      "rawTextSnippet": "## 📅 Fecha: Sábado, 12 de Septiembre de 2026\n\n# ✍️ Título: Gilead Graduation 160th Class\n\n# Jedele Jody Introduction\n\nAs soon as you started school, you realized you could find balance. Assignments keep changing, but in all of them we need to find balance. When we walk, we need balance. Trying to keep balance on one leg with your eyes closed makes it very difficult. Balance means giving priority to the important things and using good judgment and modesty.\n\nOur spiritual routine needs to be bala",
+      "createdAt": "2026-09-20T23:06:44.325Z",
+      "updatedAt": "2026-09-20T23:12:48.543Z"
+    },
+    {
+      "id": "daily_text_2026_Octubre",
+      "title": "Daily Text — Octubre 2026",
+      "isNote": true,
+      "noteId": "daily_text_2026_Octubre",
+      "category": "daily_text",
+      "subCategory": "",
+      "date": "2026-10-01",
+      "icon": "🌅",
+      "rawTextSnippet": "# 🌅 Daily Text Comments — Octubre 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Octubre\" para registrar tus apuntes matutinos.*\n",
+      "createdAt": "2026-09-20T21:34:58.109Z",
+      "updatedAt": "2026-09-20T21:34:58.109Z"
+    },
+    {
+      "id": "daily_text_2026_Noviembre",
+      "title": "Daily Text — Noviembre 2026",
+      "isNote": true,
+      "noteId": "daily_text_2026_Noviembre",
+      "category": "daily_text",
+      "subCategory": "",
+      "date": "2026-11-01",
+      "icon": "🌅",
+      "rawTextSnippet": "# 🌅 Daily Text Comments — Noviembre 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Noviembre\" para registrar tus apuntes matutinos.*\n",
+      "createdAt": "2026-09-20T21:34:56.900Z",
+      "updatedAt": "2026-09-20T21:34:56.900Z"
+    },
+    {
+      "id": "note_1789823258841_e17x4",
+      "title": "Follow the Course of Hospitatility",
+      "isNote": true,
+      "noteId": "note_1789823258841_e17x4",
+      "category": "events",
+      "subCategory": "others",
+      "date": "2026-09-19",
+      "icon": "🎤",
+      "rawTextSnippet": "---\n\n## 📅 Fecha: Sábado, 19 de Septiembre de 2026\n\n# ✍️ Título: Follow the Course of Hospitality\n\n> \"Follow the course of hospitality.\"\n\nThere is a lot of need, so whenever we share with others, Jehovah is very happy. Sometimes we share material things, but we can also share our time. When we show hospitality, we make people feel happy.\n\nIt promotes a loving and friendly spirit in the congregation.\n\nJehovah is the perfect example of hospitality. He causes rain to fall for everyone. He wants to ",
+      "createdAt": "2026-09-19T13:07:38.841Z",
+      "updatedAt": "2026-09-20T22:12:42.832Z"
+    },
+    {
+      "id": "note_1789756073681_yjqyt",
+      "title": "Look Intently at the Reward",
+      "isNote": true,
+      "noteId": "note_1789756073681_yjqyt",
+      "category": "events",
+      "subCategory": "bethel_talks",
+      "date": "2026-09-14",
+      "icon": "🎤",
+      "rawTextSnippet": "## 📅 Fecha: Lunes, 14 de Septiembre de 2026\n\n# ✍️ Título: Look Intently at the Reward\n\n**👤 Orador / Fuente:** Rian Wagner\n\nUsually, the rewards the world offers involve spending money.\n\nJehovah offers a reward for loyalty.\n\nHeb. 11:6 says: “He is a rewarder of those seeking him.” He is described as *the* Rewarder. Should we expect a reward for serving Jehovah? We are supposed to serve Jehovah out of love for him.\n\nDoes expecting a reward cheapen our service to Jehovah?\n\nJehovah doesn’t forget ",
+      "createdAt": "2026-09-18T18:27:53.681Z",
+      "updatedAt": "2026-09-20T23:15:38.092Z"
+    },
+    {
+      "id": "daily_text_2026_Enero",
+      "title": "Daily Text — Enero 2026",
+      "isNote": true,
+      "noteId": "daily_text_2026_Enero",
+      "category": "daily_text",
+      "subCategory": "",
+      "date": "2026-01-01",
+      "icon": "🌅",
+      "rawTextSnippet": "# 🌅 Daily Text Comments — Enero 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Enero\" para registrar tus apuntes matutinos.*\n",
+      "createdAt": "2026-09-17T18:53:07.335Z",
+      "updatedAt": "2026-09-17T18:53:07.335Z"
+    },
+    {
+      "id": "daily_text_2026_Septiembre",
+      "title": "Daily Text — Septiembre 2026",
+      "isNote": true,
+      "noteId": "daily_text_2026_Septiembre",
+      "category": "daily_text",
+      "subCategory": "",
+      "date": "2026-09-20",
+      "icon": "🌅",
+      "rawTextSnippet": "# 🌅 Daily Text Comments — Septiembre 2026\n\n---\n\n## 📅 DÍA 1 • Keep Testing Whether You Are in the Faith (2 Cor. 13:5-6)\n\n# Keep Testing Whether You Are in the Faith — 1 de Septiembre de 2026\n\n> 📖 \"Keep testing whether you are in the faith. Keep proving what you yourselves are.\" — 2 Corintios 13:5-6\n\n### Overview\n\n- Meeting centered on **2 Corinthians 13:5-6**: *\"Keep testing whether you are in the faith. Keep proving what you yourselves are.\"*\n- Multiple speakers from different locations gave ",
+      "createdAt": "2026-09-17T14:25:30.274Z",
+      "updatedAt": "2026-09-20T23:04:42.767Z"
+    },
+    {
+      "id": "note_spiritual_01",
+      "title": "Perlas Espirituales: La paciencia de Jacob en Harán",
+      "isNote": true,
+      "noteId": "note_spiritual_01",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "date": "2026-09-05",
+      "icon": "💡",
+      "rawTextSnippet": "# Estudio Personal: La perseverancia de Jacob\n\n- **Lectura:** Génesis 29 al 31.\n- A pesar de los engaños continuos de su tío Labán, quien le cambió el salario diez veces, Jacob nunca tomó represalias con maldad.\n- Puso su confianza en que Dios haría justicia a su debido tiempo.\n- **Lección práctica:** Cuando alguien en el trabajo o en la vida diaria nos trate injustamente, imitar la paciencia de Jacob y dejar los asuntos en manos de Dios.",
+      "createdAt": "2026-09-17T14:25:30.274Z",
+      "updatedAt": "2026-09-17T14:25:30.274Z"
+    },
+    {
+      "id": "note_apuntes_jacob",
+      "title": "Jacob: He Faced Danger to Protect His Family",
+      "isNote": true,
+      "noteId": "note_apuntes_jacob",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "date": "2026-09-06",
+      "icon": "📜",
+      "rawTextSnippet": "# Jacob: He Faced Danger to Protect His Family\n\nJacob\r\nHe Faced Danger to Protect His Family NEAR the end of his life, Jacob chose two words to describe his years, “few” and “distressing.” (Gen. 47:9) He did have his share of hardships! Earlier in his life, he had to run away to distant Haran because his own brother wanted to kill him. In Haran, Jacob fell in love with Rachel, but her father, Laban, tricked him into marrying Rachel’s older sister first. So Jacob had two wives​—who did not get al",
+      "createdAt": "2026-09-06T20:36:00.000Z",
+      "updatedAt": "2026-09-06T20:36:00.000Z"
+    },
+    {
+      "id": "note_apuntes_kings_1",
+      "title": "Kings of Judah and Israel (Part 1: The Divided Kingdom to 8th Century B.C.E.)",
+      "isNote": true,
+      "noteId": "note_apuntes_kings_1",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "date": "2026-09-06",
+      "icon": "👑",
+      "rawTextSnippet": "# Kings of Judah and Israel\n## Part 1: The Divided Kingdom to the 8th Century B.C.E.\n\nKINGS OF JUDAH AND ISRAEL (CHRONOLOGY AND PROPHETS)\n\nPart 1: The Divided Kingdom to the 8th Century B.C.E.\n\nKings of Southern Two-Tribe Kingdom of Judah:\n- Rehoboam: Reigned 17 years (997 - 980 B.C.E.).\n- Abijah (Abijam): Reigned 3 years (980 - 978 B.C.E.).\n- Asa: Reigned 41 years (978 - 937 B.C.E.).\n- Jehoshaphat: Reigned 25 years (937 - 913 B.C.E.).\n- Jehoram (Judah): Reigned 8 years (913 - c. 906 B.C.E.).\n- ",
+      "createdAt": "2026-09-06T20:55:00.000Z",
+      "updatedAt": "2026-09-06T20:55:00.000Z"
+    },
+    {
+      "id": "note_apuntes_kings_2",
+      "title": "Kings of Judah and Israel (Part 2: Fall of Northern Kingdom & Jerusalem)",
+      "isNote": true,
+      "noteId": "note_apuntes_kings_2",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "date": "2026-09-06",
+      "icon": "👑",
+      "rawTextSnippet": "# Kings of Judah and Israel\n## Part 2: Fall of Northern Kingdom and Fall of Jerusalem\n\nKINGS OF JUDAH AND ISRAEL (CHRONOLOGY AND PROPHETS)\n\nPart 2: Fall of the Northern Kingdom and Fall of Jerusalem\n\nKings of the Southern Kingdom of Judah (Continued):\n- Uzziah (Azariah): Reigned 52 years until 777 B.C.E.\n- Jotham: Faithful king, reigned 16 years (777 - 762 B.C.E.).\n- Ahaz: Wicked king, reigned 16 years (762 - 746 B.C.E.).\n- Hezekiah: Great religious reformer, reigned 29 years (746 - 716 B.C.E.).",
+      "createdAt": "2026-09-06T20:55:00.000Z",
+      "updatedAt": "2026-09-06T20:55:00.000Z"
+    },
+    {
+      "id": "note_apuntes_books_bible",
+      "title": "Books of the Bible: Hebrew & Christian Greek Scriptures Chronology",
+      "isNote": true,
+      "noteId": "note_apuntes_books_bible",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "date": "2026-09-07",
+      "icon": "📖",
+      "rawTextSnippet": "# Books of the Bible Chronology\n\nBooks of the Hebrew Scriptures (B.C.E.)\n\nGenesis\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: 1513 B.C.E.\n\nTime Covered: \"In the beginning\" to 1657 B.C.E.\n\nExodus\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: 1512 B.C.E.\n\nTime Covered: 1657-1512 B.C.E.\n\nLeviticus\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: 1512 B.C.E.\n\nTime Covered: 1 month (1512 B.C.E.)\n\nNumbers\n\nWriter: Moses\n\nPlace Written: Wilderness and Plai",
+      "createdAt": "2026-09-07T00:47:18.172Z",
+      "updatedAt": "2026-09-07T00:47:18.172Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_1788744347289_xndz_0",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "According to the study notes on 'Books of the Bible', who wrote Genesis and where was it completed?",
+      "options": {
+        "A": "Moses, in the wilderness",
+        "B": "Samuel, in Ramah",
+        "C": "Joshua, in Canaan",
+        "D": "David, in Jerusalem"
+      },
+      "correctAnswer": "A",
+      "explanation": "Book: Genesis | Writer: Moses | Place Written: Wilderness | Writing Completed: 1513 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.291Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_1",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "In what year was the writing of Genesis completed, and what time period does it cover?",
+      "options": {
+        "A": "1473 B.C.E., covering 40 years of wandering in the wilderness",
+        "B": "580 B.C.E., covering Adam down to the Babylonian exile",
+        "C": "1077 B.C.E., covering the era of the judges of ancient Israel",
+        "D": "1513 B.C.E., covering from 'In the beginning' to 1657 B.C.E."
+      },
+      "correctAnswer": "D",
+      "explanation": "Writing Completed: 1513 B.C.E. | Time Covered: 'In the beginning' to 1657 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_2",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "In what year did Moses complete writing the biblical books of Exodus and Leviticus?",
+      "options": {
+        "A": "1512 B.C.E.",
+        "B": "1473 B.C.E.",
+        "C": "1513 B.C.E.",
+        "D": "1040 B.C.E."
+      },
+      "correctAnswer": "A",
+      "explanation": "Both Exodus and Leviticus were completed in 1512 B.C.E. in the wilderness.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_3",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "What historical time span is covered by the content of Leviticus?",
+      "options": {
+        "A": "1 year",
+        "B": "7 years",
+        "C": "1 month",
+        "D": "40 years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Leviticus: Time Covered: 1 month (1512 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 3,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_4",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Where did Moses complete writing the books of Numbers and Deuteronomy in 1473 B.C.E.?",
+      "options": {
+        "A": "In the hills of Hebron",
+        "B": "In the plains of Moab",
+        "C": "At Mount Sinai",
+        "D": "In the land of Egypt"
+      },
+      "correctAnswer": "B",
+      "explanation": "Place Written: Wilderness and Plains of Moab.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_5",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the book of Joshua, and what historical time span does it cover?",
+      "options": {
+        "A": "Phinehas; covering the entire period of judges",
+        "B": "Eleazar; covering 40 years of conquest",
+        "C": "Joshua; covering from 1473 to c. 1450 B.C.E.",
+        "D": "Caleb; covering from the Jordan to Jerusalem"
+      },
+      "correctAnswer": "C",
+      "explanation": "Joshua: Writer: Joshua | Writing Completed: c. 1450 B.C.E. | Time Covered: 1473-c. 1450 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_6",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who was the writer of the biblical books of Judges and Ruth?",
+      "options": {
+        "A": "Samuel",
+        "B": "Nathan",
+        "C": "Joshua",
+        "D": "David"
+      },
+      "correctAnswer": "A",
+      "explanation": "Judges and Ruth were both written by Samuel around 1100 and c. 1090 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_7",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Which three writers collaborated in writing the biblical book of 1 Samuel?",
+      "options": {
+        "A": "David, Solomon, and Asaph",
+        "B": "Moses, Joshua, and Caleb",
+        "C": "Samuel, Gad, and Nathan",
+        "D": "Jeremiah, Baruch, and Ezra"
+      },
+      "correctAnswer": "C",
+      "explanation": "1 Samuel: Writers: Samuel, Gad, Nathan | Writing Completed: c. 1078 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_8",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the book of 2 Samuel around 1040 B.C.E. in ancient Israel?",
+      "options": {
+        "A": "Gad and Nathan",
+        "B": "David and Solomon",
+        "C": "Abner and Joab",
+        "D": "Samuel alone"
+      },
+      "correctAnswer": "A",
+      "explanation": "2 Samuel: Writers: Gad, Nathan | Writing Completed: c. 1040 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_9",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the books of 1 Kings and 2 Kings, completed around 580 B.C.E.?",
+      "options": {
+        "A": "Ezra",
+        "B": "Isaiah",
+        "C": "Jeremiah",
+        "D": "Ezekiel"
+      },
+      "correctAnswer": "C",
+      "explanation": "1 and 2 Kings: Writer: Jeremiah | Place Written: Judah and Egypt | Writing Completed: 580 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 4,
+        "timesCorrect": 3
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_10",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who compiled the books of 1 Chronicles and 2 Chronicles around 460 B.C.E.?",
+      "options": {
+        "A": "Ezra",
+        "B": "Zerubbabel",
+        "C": "Nehemiah",
+        "D": "Daniel"
+      },
+      "correctAnswer": "A",
+      "explanation": "1 and 2 Chronicles: Writer: Ezra | Place Written: Jerusalem (?) | Writing Completed: c. 460 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_11",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the book of Nehemiah, and around what date was it completed?",
+      "options": {
+        "A": "Ezra, around 537 B.C.E.",
+        "B": "Malachi, around 400 B.C.E.",
+        "C": "Nehemiah, around 443 B.C.E.",
+        "D": "Zerubbabel, around 515 B.C.E."
+      },
+      "correctAnswer": "C",
+      "explanation": "Nehemiah: Writer: Nehemiah | Place Written: Jerusalem | Writing Completed: a. 443 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_12",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the historical book of Esther, and in what capital city was it completed?",
+      "options": {
+        "A": "Daniel, in Babylon",
+        "B": "Ezra, in Jerusalem",
+        "C": "Nehemiah, in Susa",
+        "D": "Mordecai, in Shushan"
+      },
+      "correctAnswer": "D",
+      "explanation": "Esther: Writer: Mordecai | Place Written: Shushan, Elam | Writing Completed: c. 475 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_13",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the poetic book of Job, and what time span does the narrative cover?",
+      "options": {
+        "A": "Elihu (covering over 20 years)",
+        "B": "Solomon (covering over 40 years)",
+        "C": "Eliphaz (covering over 80 years)",
+        "D": "Moses (covering over 140 years)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Job: Writer: Moses | Place Written: Wilderness | Writing Completed: c. 1473 B.C.E. | Time Covered: Over 140 years",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_14",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who was the principal writer of the book of Psalms, completed around 460 B.C.E.?",
+      "options": {
+        "A": "Moses alone",
+        "B": "David (and others)",
+        "C": "Asaph alone",
+        "D": "Solomon alone"
+      },
+      "correctAnswer": "B",
+      "explanation": "Psalms: Writers: David and others | Writing Completed: c. 460 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_15",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who collected and composed most of the book of Proverbs around 717 B.C.E.?",
+      "options": {
+        "A": "David and Samuel",
+        "B": "Solomon (and others)",
+        "C": "Jeremiah and Baruch",
+        "D": "Isaiah and Micah"
+      },
+      "correctAnswer": "B",
+      "explanation": "Proverbs: Writers: Solomon, Agur, Lemuel | Writing Completed: c. 717 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 3,
+        "timesCorrect": 3
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_16",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Which wise king wrote the biblical book of Ecclesiastes before 1000 B.C.E. in Jerusalem?",
+      "options": {
+        "A": "Josiah",
+        "B": "Solomon",
+        "C": "David",
+        "D": "Hezekiah"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ecclesiastes: Writer: Solomon | Place Written: Jerusalem | Writing Completed: b. 1000 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 3,
+        "timesCorrect": 3
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_17",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Who wrote the Song of Solomon around 1020 B.C.E. in Jerusalem?",
+      "options": {
+        "A": "Ethan",
+        "B": "Solomon",
+        "C": "Asaph",
+        "D": "Nathan"
+      },
+      "correctAnswer": "B",
+      "explanation": "Song of Solomon: Writer: Solomon | Place Written: Jerusalem | Writing Completed: c. 1020 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 3,
+        "timesCorrect": 3
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_18",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "Where was the major prophetic book of Isaiah written, and when was it completed?",
+      "options": {
+        "A": "In Nineveh, around 632 B.C.E.",
+        "B": "In Jerusalem, around 732 B.C.E.",
+        "C": "In Samaria, around 740 B.C.E.",
+        "D": "In Babylon, around 607 B.C.E."
+      },
+      "correctAnswer": "B",
+      "explanation": "Isaiah: Writer: Isaiah | Place Written: Jerusalem | Writing Completed: a. 732 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 2,
+        "timesCorrect": 2
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_xndz_19",
+      "topicId": "topic_1788742557944_xndz",
+      "topicTitle": "Books of the Bible",
+      "question": "In what two places was the prophetic book of Jeremiah written before 580 B.C.E.?",
+      "options": {
+        "A": "In Samaria and Syria",
+        "B": "In Judah and Egypt",
+        "C": "In Moab and Edom",
+        "D": "In Babylon and Susa"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jeremiah: Writer: Jeremiah | Place Written: Judah, Egypt | Writing Completed: 580 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 3,
+        "timesCorrect": 3
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_0",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "Near the end of his life, what two words did Jacob use to describe his years according to Genesis 47:9?",
+      "options": {
+        "A": "'Victorious and holy'",
+        "B": "'Few and distressing'",
+        "C": "'Peaceful and wealthy'",
+        "D": "'Slow and bitter'"
+      },
+      "correctAnswer": "B",
+      "explanation": "In Genesis 47:9, Jacob described his years as 'few and distressing'.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_1",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "Why did young Jacob have to flee to distant Haran?",
+      "options": {
+        "A": "By decree of the elders of Beersheba",
+        "B": "Because his brother Esau wanted to kill him",
+        "C": "To trade livestock with eastern tribes",
+        "D": "To escape a severe famine in Canaan"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jacob fled because his twin brother Esau wanted to kill him for receiving their father's blessing.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_2",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "Who warned Jacob of the danger and advised him to flee to Haran?",
+      "options": {
+        "A": "His grandfather Abraham",
+        "B": "His uncle Laban",
+        "C": "His father Isaac",
+        "D": "His mother Rebekah"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rebekah warned Jacob that Esau was comforting himself with plans to kill him.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_3",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "In Haran, Jacob loved Rachel. What deception did his father-in-law Laban commit at the wedding?",
+      "options": {
+        "A": "He demanded triple the agreed bride price",
+        "B": "He fled with all the flocks leaving him no dowry",
+        "C": "He forced him to marry an Egyptian servant first",
+        "D": "He gave him older daughter Leah instead of Rachel"
+      },
+      "correctAnswer": "D",
+      "explanation": "Laban tricked Jacob into marrying Leah first, so Jacob worked seven more years for Rachel.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_4",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "After decades of unfair treatment by Laban, what direct command did Jehovah give Jacob?",
+      "options": {
+        "A": "To build a fortified town near the Euphrates",
+        "B": "To leave Haran and return home to Canaan",
+        "C": "To travel down to Egypt to buy grain",
+        "D": "To stay in Haran until Laban passed away"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jehovah told Jacob: 'Return to the land of your fathers and to your relatives'.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_5",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "When Laban caught up with Jacob on his journey, what menacing statement did he make?",
+      "options": {
+        "A": "'You will never cross the borders of Canaan'",
+        "B": "'It is in my power to do harm to you'",
+        "C": "'I demand double of all the speckled sheep'",
+        "D": "'Your children belong to my house forever'"
+      },
+      "correctAnswer": "B",
+      "explanation": "Laban said threateningly: 'It is in my power to do harm to you' (Gen. 31:29).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_6",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "When Jacob was returning toward Canaan, how many men accompanied Esau, causing Jacob great fear?",
+      "options": {
+        "A": "1000 men",
+        "B": "300 men",
+        "C": "400 men",
+        "D": "100 men"
+      },
+      "correctAnswer": "C",
+      "explanation": "Esau was marching toward him with 400 men, causing Jacob anxiety.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_7",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "What strategy did Jacob use to help appease the anger of his brother Esau?",
+      "options": {
+        "A": "He hid his family in caves of Seir",
+        "B": "He formed an alliance with Amorite kings",
+        "C": "He built a stone fortress at the Jabbok",
+        "D": "He sent servants ahead with valuable livestock gifts"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jacob sent successive droves of livestock as gifts to appease Esau.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_8",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "In the predawn hours before meeting Esau, with whom did Jacob wrestle face to face?",
+      "options": {
+        "A": "With a local desert raider",
+        "B": "With an angel of Jehovah",
+        "C": "With an armed scout sent by Esau",
+        "D": "With his father-in-law Laban"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jacob wrestled through the night with a materialized angel of Jehovah.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_9",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "Approximately how old was Jacob when he wrestled with the angel?",
+      "options": {
+        "A": "70 years old",
+        "B": "45 years old",
+        "C": "120 years old",
+        "D": "97 years old"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jacob was about 97 years old when he wrestled with the angel.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_10",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "According to Hosea 12:4, what poignant detail marked Jacob's struggle for a blessing?",
+      "options": {
+        "A": "He struggled and even wept for divine favor",
+        "B": "He called upon Abraham and Isaac seven times",
+        "C": "He fasted three full days before the river",
+        "D": "He offered a burnt sacrifice of seven rams"
+      },
+      "correctAnswer": "A",
+      "explanation": "Hosea 12:4 states: 'He contended with an angel and prevailed. He wept and begged him for favor'.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_11",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "What physical injury did the angel inflict on Jacob with a mere touch at dawn?",
+      "options": {
+        "A": "He paralyzed the tendons of his heel",
+        "B": "He put his hip socket out of joint",
+        "C": "He fractured his right shoulder bone",
+        "D": "He tore the ligaments of his right knee"
+      },
+      "correctAnswer": "B",
+      "explanation": "At dawn, the angel touched the socket of Jacob's hip, putting it out of joint.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_12",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "What new name did the angel give Jacob, and what does it mean?",
+      "options": {
+        "A": "Israel, meaning 'Contending with God'",
+        "B": "Joshua, meaning 'Jehovah is Salvation'",
+        "C": "Judah, meaning 'Praised be Jehovah'",
+        "D": "Benjamin, meaning 'Son of the Right Hand'"
+      },
+      "correctAnswer": "A",
+      "explanation": "The angel said: 'Your name will no longer be Jacob but Israel, for you have contended with God'.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_13",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "How did Jacob approach Esau when they finally met on the road?",
+      "options": {
+        "A": "He placed Rachel and Joseph at the front of all",
+        "B": "He went ahead alone and bowed low seven times",
+        "C": "He rode ahead on horseback with weapon drawn",
+        "D": "He waited in camp while his servants negotiated"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jacob went ahead of his family and bowed down to the earth seven times.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_14",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "What was Esau's heartwarming reaction upon reaching Jacob?",
+      "options": {
+        "A": "He turned away coldly and returned to Seir",
+        "B": "He accepted the gifts but refused to embrace him",
+        "C": "He demanded half the flocks before forgiving him",
+        "D": "He drew no weapon, ran forward, and embraced him"
+      },
+      "correctAnswer": "D",
+      "explanation": "Esau ran to meet him, embraced him, fell on his neck, and wept.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_15",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "According to Genesis 28:14, what divine promise was fulfilled through Jacob?",
+      "options": {
+        "A": "That his lifespan would exceed that of Methuselah",
+        "B": "That all families of the earth would be blessed",
+        "C": "That he would rule over Egypt with pharaonic power",
+        "D": "That his flocks would never suffer pestilence"
+      },
+      "correctAnswer": "B",
+      "explanation": "God promised that through Jacob's offspring all families of the earth would be blessed.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_16",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "In the Scriptures, by what honorable title is Jehovah frequently called (Exodus 3:6)?",
+      "options": {
+        "A": "'The King of Haran'",
+        "B": "'The Shield of Jabbok'",
+        "C": "'The God of Jacob'",
+        "D": "'The Guide of Bethel'"
+      },
+      "correctAnswer": "C",
+      "explanation": "God identified himself to Moses as 'the God of Abraham, the God of Isaac, and the God of Jacob'.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_17",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "In which Gospel did Jesus quote the phrase 'the God of Jacob' to prove the resurrection of the dead?",
+      "options": {
+        "A": "John 3:16",
+        "B": "Matthew 10:28",
+        "C": "Luke 20:37, 38",
+        "D": "Mark 5:12"
+      },
+      "correctAnswer": "C",
+      "explanation": "Jesus cited this in Luke 20:37, 38 to prove that God is of the living.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_18",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "Which chapters of Genesis record the accounts of Jacob's life, struggle, and reconciliation?",
+      "options": {
+        "A": "Genesis chapters 45 to 50",
+        "B": "Genesis chapters 12 to 22",
+        "C": "Genesis chapters 27 to 33",
+        "D": "Genesis chapters 1 to 11"
+      },
+      "correctAnswer": "C",
+      "explanation": "The account spans Genesis 27:41-45; 31:1-29, 36-55; and 32:1–33:16.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_h807_19",
+      "topicId": "topic_1788742557945_h807",
+      "topicTitle": "Jacob",
+      "question": "What vital lesson does Jacob's life illustrate for servants of God today?",
+      "options": {
+        "A": "That faith and perseverance for divine blessing are worth every struggle",
+        "B": "That family rivalries can never be healed",
+        "C": "That armed confrontation is the best solution",
+        "D": "That material wealth depends on commercial cunning"
+      },
+      "correctAnswer": "A",
+      "explanation": "Jacob's determination proved that divine blessing is worth any effort or sacrifice.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_0",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did King Uzziah (Azariah) reign in Jerusalem until 777 B.C.E.?",
+      "options": {
+        "A": "52 years",
+        "B": "29 years",
+        "C": "16 years",
+        "D": "40 years"
+      },
+      "correctAnswer": "A",
+      "explanation": "Uzziah reigned 52 years until 777 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_1",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did faithful King Jotham reign over Judah (777 - 762 B.C.E.)?",
+      "options": {
+        "A": "52 years",
+        "B": "29 years",
+        "C": "16 years",
+        "D": "31 years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Jotham: Faithful king, reigned 16 years (777 - 762 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_2",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Which wicked king of Judah reigned 16 years (762 - 746 B.C.E.) following Jotham?",
+      "options": {
+        "A": "Amon",
+        "B": "Hezekiah",
+        "C": "Manasseh",
+        "D": "Ahaz"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ahaz: Wicked king, reigned 16 years (762 - 746 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_3",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Which great religious reformer and king of Judah reigned 29 years and witnessed deliverance from Sennacherib?",
+      "options": {
+        "A": "Asa",
+        "B": "Jotham",
+        "C": "Hezekiah",
+        "D": "Josiah"
+      },
+      "correctAnswer": "C",
+      "explanation": "Hezekiah: Great religious reformer, reigned 29 years (746 - 716 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_4",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did Manasseh reign, having the longest reign of any king in Jerusalem?",
+      "options": {
+        "A": "52 years",
+        "B": "29 years",
+        "C": "41 years",
+        "D": "55 years"
+      },
+      "correctAnswer": "D",
+      "explanation": "Manasseh: Reigned 55 years (716 - 661 B.C.E.), longest reign in Jerusalem.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_5",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "How many years did King Amon reign in Jerusalem before being assassinated (661 - 659 B.C.E.)?",
+      "options": {
+        "A": "10 years",
+        "B": "16 years",
+        "C": "31 years",
+        "D": "2 years"
+      },
+      "correctAnswer": "D",
+      "explanation": "Amon: Reigned 2 years (661 - 659 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_6",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Which righteous young king restored true worship in Judah and reigned 31 years (659 - 628 B.C.E.)?",
+      "options": {
+        "A": "Zedekiah",
+        "B": "Jehoiakim",
+        "C": "Jehoahaz",
+        "D": "Josiah"
+      },
+      "correctAnswer": "D",
+      "explanation": "Josiah: Righteous young king and restorer of true worship, reigned 31 years.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_7",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "How long did King Jehoahaz reign in Jerusalem before being imprisoned by Pharaoh Necho?",
+      "options": {
+        "A": "Only 3 months",
+        "B": "Only 6 months",
+        "C": "2 years",
+        "D": "11 years"
+      },
+      "correctAnswer": "A",
+      "explanation": "Jehoahaz: Reigned only 3 months (628 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_8",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did King Jehoiakim rule over Judah (628 - 618 B.C.E.)?",
+      "options": {
+        "A": "16 years",
+        "B": "3 years",
+        "C": "11 years",
+        "D": "29 years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Jehoiakim: Reigned 11 years (628 - 618 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_9",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "How long did King Jehoiachin reign in Jerusalem before being taken captive to Babylon?",
+      "options": {
+        "A": "3 months and 10 days",
+        "B": "6 months and 5 days",
+        "C": "2 full years",
+        "D": "1 year and 2 months"
+      },
+      "correctAnswer": "A",
+      "explanation": "Jehoiachin: Reigned 3 months and 10 days (618 - 617 B.C.E.). Taken captive to Babylon.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_10",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did Zedekiah, the last king on David's throne, reign in Jerusalem (617 - 607 B.C.E.)?",
+      "options": {
+        "A": "22 years",
+        "B": "16 years",
+        "C": "8 years",
+        "D": "11 years"
+      },
+      "correctAnswer": "D",
+      "explanation": "Zedekiah: Last king on David's throne in Jerusalem, reigned 11 years.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_11",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "In what year were Jerusalem and its temple destroyed by the Babylonians under King Nebuchadnezzar?",
+      "options": {
+        "A": "740 B.C.E.",
+        "B": "537 B.C.E.",
+        "C": "607 B.C.E.",
+        "D": "716 B.C.E."
+      },
+      "correctAnswer": "C",
+      "explanation": "607 B.C.E.: Jerusalem and its temple are destroyed by the Babylonians.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_12",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "In the northern kingdom of Israel, which king reigned for only 1 month before being killed (c. 791 B.C.E.)?",
+      "options": {
+        "A": "Pekah",
+        "B": "Menahem",
+        "C": "Shallum",
+        "D": "Zechariah"
+      },
+      "correctAnswer": "C",
+      "explanation": "Shallum: Reigned only 1 month (c. 791 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_13",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did King Menahem reign in Samaria and pay tribute to Pul king of Assyria?",
+      "options": {
+        "A": "2 years",
+        "B": "20 years",
+        "C": "10 years",
+        "D": "9 years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Menahem: Reigned 10 years (c. 791 - c. 780 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_14",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "For how many years did King Pekah rule over the northern kingdom of Israel (c. 778 - c. 758 B.C.E.)?",
+      "options": {
+        "A": "9 years",
+        "B": "10 years",
+        "C": "2 years",
+        "D": "20 years"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pekah: Reigned 20 years (c. 778 - c. 758 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_15",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Who was the last king of Israel, reigning 9 years before Samaria fell to Assyria?",
+      "options": {
+        "A": "Hoshea",
+        "B": "Shallum",
+        "C": "Zechariah",
+        "D": "Pekah"
+      },
+      "correctAnswer": "A",
+      "explanation": "Hoshea: Reigned 9 years from c. 748 B.C.E. Last king of Israel.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_16",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "In what year did Assyria conquer Samaria, bringing the northern ten-tribe kingdom of Israel to its complete end?",
+      "options": {
+        "A": "777 B.C.E.",
+        "B": "716 B.C.E.",
+        "C": "607 B.C.E.",
+        "D": "740 B.C.E."
+      },
+      "correctAnswer": "D",
+      "explanation": "740 B.C.E.: Assyria conquers Samaria; the northern kingdom comes to its complete end.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_17",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Which prophet prophesied in the northern kingdom of Israel between c. 800 and 745 B.C.E.?",
+      "options": {
+        "A": "Nahum",
+        "B": "Hosea",
+        "C": "Micah",
+        "D": "Habakkuk"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hosea: Prophesied in the northern kingdom (c. 800 - 745 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_18",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Which prophet prophesied in Judah during the reigns of Jotham, Ahaz, and Hezekiah (c. 777 - 716 B.C.E.)?",
+      "options": {
+        "A": "Obadiah",
+        "B": "Ezekiel",
+        "C": "Micah",
+        "D": "Hosea"
+      },
+      "correctAnswer": "C",
+      "explanation": "Micah: Prophesied in Judah during Jotham, Ahaz, and Hezekiah.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_6p52_19",
+      "topicId": "topic_1788742558355_6p52",
+      "topicTitle": "Kings of Juda and Israel 1",
+      "question": "Which prophet prophesied against the city of Nineveh before its fall in 632 B.C.E.?",
+      "options": {
+        "A": "Obadiah",
+        "B": "Jeremiah",
+        "C": "Zephaniah",
+        "D": "Nahum"
+      },
+      "correctAnswer": "D",
+      "explanation": "Nahum: Prophesied against Nineveh (before 632 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_0",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Who was the first king of the northern ten-tribe kingdom of Israel following the division in 997 B.C.E.?",
+      "options": {
+        "A": "Rehoboam",
+        "B": "Jeroboam",
+        "C": "Omri",
+        "D": "Baasha"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jeroboam was the first king of the northern ten tribes after the kingdom divided in 997 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_1",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Who was the first king of the southern two-tribe kingdom of Judah following the division?",
+      "options": {
+        "A": "Asa",
+        "B": "Abijah",
+        "C": "Rehoboam",
+        "D": "Jeroboam"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rehoboam, son of Solomon, was the first king of the southern kingdom of Judah.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_2",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which king of Israel had the shortest recorded reign, ruling for only 7 days?",
+      "options": {
+        "A": "Zimri",
+        "B": "Zechariah",
+        "C": "Shallum",
+        "D": "Elah"
+      },
+      "correctAnswer": "A",
+      "explanation": "Zimri reigned for only 7 days in Tirzah around 951 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_3",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which king of Judah ruled with fidelity for 41 years (978 - 937 B.C.E.)?",
+      "options": {
+        "A": "Uzziah",
+        "B": "Rehoboam",
+        "C": "Jehoshaphat",
+        "D": "Asa"
+      },
+      "correctAnswer": "D",
+      "explanation": "Asa reigned 41 years in Judah and removed idols from the land.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_4",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which king of Israel ruled 22 years and was married to the Phoenician princess Jezebel?",
+      "options": {
+        "A": "Jehu",
+        "B": "Ahab",
+        "C": "Jeroboam II",
+        "D": "Omri"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ahab reigned 22 years in Samaria and promoted Baal worship alongside Jezebel.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_5",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which commander and king of Israel executed divine judgment against the house of Ahab and reigned 28 years?",
+      "options": {
+        "A": "Pekah",
+        "B": "Menahem",
+        "C": "Jehoahaz",
+        "D": "Jehu"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jehu executed judgment on Ahab's dynasty and reigned 28 years.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_6",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Who was the only queen to usurp the throne of Judah, ruling for 6 years (c. 905 - 898 B.C.E.)?",
+      "options": {
+        "A": "Maacah",
+        "B": "Jezebel",
+        "C": "Athaliah",
+        "D": "Vashti"
+      },
+      "correctAnswer": "C",
+      "explanation": "Queen Athaliah usurped the throne of Judah until Jehoash was revealed as rightful king.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_7",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "During the reign of which kings of Israel was the prophet Elijah primarily active?",
+      "options": {
+        "A": "Jeroboam and Nadab",
+        "B": "Ahab and Ahaziah",
+        "C": "Pekah and Hoshea",
+        "D": "Jehu and Jehoahaz"
+      },
+      "correctAnswer": "B",
+      "explanation": "Elijah prophesied during the reigns of Ahab and Ahaziah in the northern kingdom.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_8",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Who was Elijah's successor as chief prophet in Israel, active during Jehoram, Jehu, Jehoahaz, and Jehoash?",
+      "options": {
+        "A": "Elisha",
+        "B": "Amos",
+        "C": "Jonah",
+        "D": "Micah"
+      },
+      "correctAnswer": "A",
+      "explanation": "Elisha succeeded Elijah and performed many miracles during multiple reigns.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_9",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which king of Israel had a long, prosperous reign of 41 years in the 9th century B.C.E.?",
+      "options": {
+        "A": "Jeroboam II",
+        "B": "Menahem",
+        "C": "Jehoash",
+        "D": "Baasha"
+      },
+      "correctAnswer": "A",
+      "explanation": "Jeroboam II reigned 41 years (c. 844 - c. 803 B.C.E.) during which Jonah and Amos prophesied.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_10",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which king of Judah reigned for 52 years in Jerusalem until struck with leprosy?",
+      "options": {
+        "A": "Hezekiah",
+        "B": "Ahaz",
+        "C": "Uzziah",
+        "D": "Jotham"
+      },
+      "correctAnswer": "C",
+      "explanation": "Uzziah (Azariah) reigned 52 years until 777 B.C.E.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_11",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "In what year did Samaria fall to Assyria, ending the northern ten-tribe kingdom of Israel?",
+      "options": {
+        "A": "607 B.C.E.",
+        "B": "997 B.C.E.",
+        "C": "716 B.C.E.",
+        "D": "740 B.C.E."
+      },
+      "correctAnswer": "D",
+      "explanation": "In 740 B.C.E., Assyria conquered Samaria and brought the northern kingdom to an end.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_12",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Who was the last king of the northern kingdom of Israel before its fall to Assyria?",
+      "options": {
+        "A": "Zechariah",
+        "B": "Pekah",
+        "C": "Hoshea",
+        "D": "Pekahiah"
+      },
+      "correctAnswer": "C",
+      "explanation": "Hoshea reigned 9 years as the last king of Israel.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_13",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which king of Judah had the longest reign in Jerusalem, ruling for 55 years?",
+      "options": {
+        "A": "Rehoboam",
+        "B": "Josiah",
+        "C": "Hezekiah",
+        "D": "Manasseh"
+      },
+      "correctAnswer": "D",
+      "explanation": "Manasseh reigned for 55 years (716 - 661 B.C.E.), longer than any other king in Jerusalem.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_14",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which faithful king of Judah witnessed the miraculous deliverance from Sennacherib and reigned 29 years?",
+      "options": {
+        "A": "Hezekiah",
+        "B": "Jehoshaphat",
+        "C": "Josiah",
+        "D": "Asa"
+      },
+      "correctAnswer": "A",
+      "explanation": "Hezekiah reigned 29 years (746 - 716 B.C.E.) and carried out major religious reforms.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_15",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which righteous young king of Judah came to the throne at age 8 and carried out great reforms (reigned 31 years)?",
+      "options": {
+        "A": "Jehoiakim",
+        "B": "Jehoahaz",
+        "C": "Josiah",
+        "D": "Zedekiah"
+      },
+      "correctAnswer": "C",
+      "explanation": "Josiah began reigning at age 8, restored true worship, and reigned 31 years (659 - 628 B.C.E.).",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_16",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "In what year were Jerusalem and its temple destroyed by the Babylonian forces under Nebuchadnezzar?",
+      "options": {
+        "A": "586 B.C.E.",
+        "B": "740 B.C.E.",
+        "C": "607 B.C.E.",
+        "D": "537 B.C.E."
+      },
+      "correctAnswer": "C",
+      "explanation": "In 607 B.C.E., Jerusalem and its temple were destroyed by the Babylonians.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 1,
+        "timesCorrect": 1
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_17",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Who was the last king to sit on David's throne in Jerusalem before the destruction of 607 B.C.E.?",
+      "options": {
+        "A": "Zedekiah",
+        "B": "Jehoahaz",
+        "C": "Jehoiakim",
+        "D": "Jehoiachin"
+      },
+      "correctAnswer": "A",
+      "explanation": "Zedekiah reigned 11 years (617 - 607 B.C.E.) as the final king of Judah.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_18",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which prophet warned the kings of Judah and witnessed the fall of Jerusalem in 607 B.C.E.?",
+      "options": {
+        "A": "Hosea",
+        "B": "Jeremiah",
+        "C": "Isaiah",
+        "D": "Micah"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jeremiah began prophesying in 647 B.C.E. and witnessed the city's destruction.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1788744347293_7t5d_19",
+      "topicId": "topic_1788742558381_7t5d",
+      "topicTitle": "Kings of Juda and Israel",
+      "question": "Which two prominent prophets served among the captives in Babylon during and after the fall of Jerusalem?",
+      "options": {
+        "A": "Isaiah and Jeremiah",
+        "B": "Hosea and Amos",
+        "C": "Ezekiel and Daniel",
+        "D": "Jonah and Micah"
+      },
+      "correctAnswer": "C",
+      "explanation": "Both Ezekiel and Daniel prophesied among the Jewish exiles in Babylon.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-07T01:25:47.293Z"
+    },
+    {
+      "id": "q_1789903969889_5qmcs",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "According to 1 Peter 5:2, what specific term is used to describe the role given to those who shepherd the flock of God?",
+      "options": {
+        "A": "Functioning as leaders",
+        "B": "Acting as directors",
+        "C": "Serving as overseers",
+        "D": "Working as ministers"
+      },
+      "correctAnswer": "C",
+      "explanation": "1 Peter 5:2 states: 'Shepherd the flock of God under your care, serving as overseers.'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.889Z"
+    },
+    {
+      "id": "q_1789903969889_jw3yg",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "In the discussion on feeding the flock, what specific Bible book and verse records Jesus telling Peter, 'Feed my sheep'?",
+      "options": {
+        "A": "Luke chapter 12",
+        "B": "Matthew chapter 4",
+        "C": "John chapter 21",
+        "D": "Mark chapter 6"
+      },
+      "correctAnswer": "D",
+      "explanation": "The notes state that Peter likely thought about what Jesus said to him in Mark 6:34: 'Feed my sheep.'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.889Z"
+    },
+    {
+      "id": "q_1789903969889_eg3gt",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "When discussing the protection of the sheep, which Bible verse is cited to state, 'I am the fine shepherd; the fine shepherd surrenders his life for the sheep'?",
+      "options": {
+        "A": "John chapter 10",
+        "B": "Mark chapter 14",
+        "C": "Matthew chapter 18",
+        "D": "Luke chapter 15"
+      },
+      "correctAnswer": "A",
+      "explanation": "John 10:11 is cited in the notes: 'I am the fine shepherd; the fine shepherd surrenders his life for the sheep.'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.889Z"
+    },
+    {
+      "id": "q_1789903969889_43hyg",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "In Matthew 18:12, what did Jesus speak of doing in relation to caring for each individual sheep?",
+      "options": {
+        "A": "Gathering the 12",
+        "B": "Leaving the 99",
+        "C": "Protecting the 10",
+        "D": "Counting the 50"
+      },
+      "correctAnswer": "B",
+      "explanation": "Matthew 18:12 speaks of leaving the 99 to search for the one that strayed.",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.889Z"
+    },
+    {
+      "id": "q_1789903969889_0h6db",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "Which Bible proverb is the foundational theme verse for the study notes on September 18, 2026?",
+      "options": {
+        "A": "Proverbs chapter 28",
+        "B": "Proverbs chapter 15",
+        "C": "Proverbs chapter 31",
+        "D": "Proverbs chapter 2"
+      },
+      "correctAnswer": "A",
+      "explanation": "The theme verse for September 18 is Proverbs 28:14: 'Happy is the man who is always on guard.'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.889Z"
+    },
+    {
+      "id": "q_1789903969889_y45kv",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "Which Bible book and verses are cited regarding spiritual exercise to 'Grow closer to the stature of Christ'?",
+      "options": {
+        "A": "Philippians 1:9-11",
+        "B": "Galatians 5:22-24",
+        "C": "Colossians 2:6-8",
+        "D": "Ephesians 4:11-13"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ephesians 4:11-13 is cited in the notes: 'Grow closer to the stature of Christ.'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.890Z"
+    },
+    {
+      "id": "q_1789903969890_vr263",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "When discussing how to manage stress and anxieties, which scripture warns us to pay attention to ourselves so our hearts never become weighed down?",
+      "options": {
+        "A": "Romans chapter 12",
+        "B": "Luke chapter 21",
+        "C": "Matthew chapter 6",
+        "D": "James chapter 1"
+      },
+      "correctAnswer": "B",
+      "explanation": "Luke 21:34 says: 'Pay attention to yourselves that your hearts never become weighed down...'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.890Z"
+    },
+    {
+      "id": "q_1789903969890_1urtp",
+      "topicId": "daily_text_2026_Septiembre",
+      "topicTitle": "Daily Text — Septiembre 2026",
+      "question": "Which Bible scripture states that 'The power beyond what is normal is God's and not from us'?",
+      "options": {
+        "A": "2 Corinthians 4:7",
+        "B": "Philippians 4:13",
+        "C": "1 Corinthians 2:5",
+        "D": "Romans 8:31"
+      },
+      "correctAnswer": "A",
+      "explanation": "2 Corinthians 4:7 is cited in the notes: 'The power beyond what is normal is God's and not from us.'",
+      "difficulty": "normal",
+      "stats": {
+        "timesAsked": 0,
+        "timesCorrect": 0
+      },
+      "createdAt": "2026-09-20T11:32:49.890Z"
+    }
+  ],
+  "history": [],
+  "notes": [
+    {
+      "id": "daily_text_2026_Julio",
+      "category": "daily_text",
+      "subCategory": "",
+      "isMonthDoc": true,
+      "year": 2026,
+      "month": "Julio",
+      "day": null,
+      "title": "Daily Text — Julio 2026",
+      "date": "2026-07-01",
+      "icon": "🌅",
+      "content": "# 🌅 Daily Text Comments — Julio 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Julio\" para registrar tus apuntes matutinos.*\n",
+      "tags": [
+        "daily_text",
+        "2026",
+        "Julio"
+      ],
+      "createdAt": "2026-09-20T23:14:08.198Z",
+      "updatedAt": "2026-09-20T23:14:08.198Z"
+    },
+    {
+      "id": "note_1789945604325_fcykp",
+      "category": "events",
+      "subCategory": "gilead_meeting",
+      "year": 2026,
+      "month": "Septiembre",
+      "day": 12,
+      "title": "Gilead Graduation 160th Class",
+      "date": "2026-09-12",
+      "icon": "🎓",
+      "content": "## 📅 Fecha: Sábado, 12 de Septiembre de 2026\n\n# ✍️ Título: Gilead Graduation 160th Class\n\n# Jedele Jody Introduction\n\nAs soon as you started school, you realized you could find balance. Assignments keep changing, but in all of them we need to find balance. When we walk, we need balance. Trying to keep balance on one leg with your eyes closed makes it very difficult. Balance means giving priority to the important things and using good judgment and modesty.\n\nOur spiritual routine needs to be balanced. When things don’t go your way—when someone hurts us or we suffer an injustice—how can we imitate Jehovah?\n\nThe worst moment in human history showed Jehovah’s feelings. Gen. 6:5, 6 says that Jehovah regretted that he had made humans; his heart was hurt. How did he handle this injustice? Gen. 3:15 (the Edenic promise) shows that Jehovah balanced his feelings with the love he felt for humanity. Ex. 4:14 says, “Jehovah’s anger blazed against Moses,” yet he said, “What about Aaron?” We don’t know how Moses knew Jehovah was angry, but Moses wrote it. Jehovah gave him his brother. Jehovah didn’t overreact. He focused on his purpose, and that allowed him to keep perfect balance.\n\nOur love for Jehovah, for people, and for our assignments will help us to stay balanced.\n\n# He Came to Give — D. Sheapher\n\nJesus came to give. He gave illustrations, explanations, thanks, food, authority, and more. He proved that there were no limits to his giving as he sanctified Jehovah’s name.\n\nHow can I give without disappointing? How can I give without running out of resources?\n\nMark 1:32, 35: He was tired, yet he cured many. Then, “early in the morning,” he went to an isolated place to pray. He was giving, but he was also refilling. He found time to strengthen himself.\n\nGenerosity is important, but his main work was to spread the good news. He learned when to say yes or no. Jesus said no to James and Andrew about positions in the Kingdom. When the Pharisees asked for a sign, Jesus said no. When Jesus said no, it wasn’t to punish anyone but to help.\n\nHe maintained his generous spirit to the end. He let Jehovah’s will guide how he used his energy.\n\nIt is easy to start focused and then suddenly get distracted. Say no to these.\n\nLuke 11:21: “Jesus was moved by love for the people.” He could see their motives. “Give the things that are within”—justice and love—qualities that cannot be seen.\n\nIf love is the motive for giving, we won’t even see our efforts as sacrifices. Don’t worry about disappointing people—we will. Jesus also did. Prayerfully focus on Jehovah’s will.\n\n# A Disposition Like His — Joel Dellinger\n\nPhil. 2:19-20: “I am sending Timothy… for I have no one else with a disposition like his who will genuinely care for your concerns.” Timothy responded to the love of people. We can strengthen and deepen our current disposition.\n\nVerses 21, 22: “He has slaved with me to advance the good news.” He put Christ’s interests ahead of his own. Timothy’s interests were always Christ’s. Day after day, he maintained this attitude. We should ask, “What is in the best interests of Christ and the people?”\n\nIf we do that, Jehovah and Christ will look after our interests. Keep putting our hearts into this. Timothy kept showing interest in others and was sensitive to their situations.\n\nHow did he become a loving shepherd? Day by day, assignment after assignment, he kept making the same choice.\n\nWe are a gift to others when genuine love becomes our motive.\n\nIsa. 6:1—Jehovah and the seraphs: “Holy, holy, holy is Jehovah.” They are angels in high positions, yet they don’t promote themselves. They cover their faces, showing modesty and humility. We should do the same by being humble. In verses 6, 7, a seraph came to speak with Isaiah, reminding us that no assignment puts us above any other person.\n\nWe should be humble and accept whatever assignments Jehovah gives us, because each one is an opportunity to praise Jehovah.\n\nThe seraphs used four wings to cover themselves, and with the other two they flew to serve Jehovah. Humility and modesty don’t stop us from serving Jehovah. We must keep flying in our assignments.\n\n# The Signal Pole — Trayce Flinlinsky\n\nEx. 17:9: The Amalekites attacked the Israelites. Moses said, “Choose men and go fight,” and Moses went up to the top of the hill. As long as Moses held his hands up, the Israelites were winning. Their victory did not come from their own strength; it was Jehovah who won. Verse 15 says, “Moses built an altar and named it Jehovah-nissi,” meaning “Jehovah is my signal pole.” It was raised high so they could look to it for direction. Their unity and confidence came from Jehovah.\n\nWhat lessons?\n\n- Keep looking to the signal pole for direction. Experience and abilities are gifts, but they are not good signal poles. We need to look to Jehovah for direction and guidance. Never become so occupied that we stop looking to Jehovah.\n- Rally around the signal pole in unity. We have different responsibilities, but the same signal pole. Differences don’t have to divide us if we are all looking to the same signal pole. Value what others bring to the table.\n- Be willing to give and receive support. Aaron and Hur helped Moses keep his arms raised. They helped him fulfill his assignment. Whose hands can I help hold up? The finest service you render is often unseen—like giving personal support to a fellow worker or friend. When we are sick or overwhelmed with responsibilities, remember we must accept help. Accepting help is a sign of modesty.\n\nPs. 121:1, 2: “My help comes from Jehovah, the Maker of heaven and earth.”\n\n# The Royal Law — Jeremy Clark\n\nJames 2:8: “If you carry out the royal law… you must love your neighbor.” Love for Jehovah and love for our neighbor are interdependent—like two hangers needed to keep a picture frame level.\n\nDavid put the law in his heart. In 1 Sam. 30, David is not yet king; he is on the run. When he returned, the men had no strength left, and they were blaming David (30:6). David strengthened himself by means of Jehovah. He asked, “What will please Jehovah? What is Jehovah teaching me today?” David repaid evil with good.\n\nAbigail helped remind David to apply the royal law. Verse 22 says, “The men were considered as good for nothing.” These men were not wicked; they suffered a great loss. David overlooked their sins. A third of his men were too tired to fight. Chapter 30 teaches that we cannot disregard the royal law just to get the job done, even when we feel mistreated. Verses 21-25 show the principle: “The share will be the same,” and it became a regulation in Israel.\n\nDavid showed how important it is to Jehovah how we treat our brothers and sisters.\n\nJehovah’s love brought you to this assignment; love for people will help you stay in this assignment.\n\n# Sing the Praise — Trent Leopold\n\nTo be unrecognized and unappreciated can feel worse than being hungry. Human speech separates us from animals.\n\nGen. 2:23: “Adam said: This is bone of my bones… She will be called woman.” How much those few words conveyed. Lyrics (from “lyric”) are poetry accompanied by music.\n\nWe all have the gift of speech. Gen. 2:19 says Adam named the animals. That helped him think and develop the ability to speak.\n\n“Raven” in Hebrew can mean “dark dust.” “Bear” in Hebrew can describe something slow in walking. Ten percent of the Bible is poetry. Prov. 25:16: “A gentle tongue can break a bone”—the wisdom behind a thought. Prov. 10:20: Words can be like the “stabs of a sword.” Prov. 18:21: “Death and life are in the power of the tongue.” There are consequences, and we have to live with them.\n\nMark 5:34: “Daughter, your faith has made you well.” Jehovah loved her. He recognized her faith—recognition that she was suffering. He validated her feelings and understood that she had solid reasons to grieve.\n\nOur purpose is to strengthen and stabilize the organization, and we can do that with our words.\n\nJob 4:4: “Your words will strengthen the knees that are trembling.” Use words that are personal and well applied. Use our tongue to help people. Think about the words you choose—words that build others up and express love.\n\n# \n\n# \n\n# Graduation Talk: Should You Be Worried? — Jeffrey Jackson\n\n# Yes, we should be worried! No matter what we say, you will worry. Sometimes worry can be helpful. We are not talking about undue worry that paralyzes us. We need to trust in Jehovah and take problems one at a time. Positive worry helps us to take action. 2 Cor. 11:23-28 speaks about Paul’s “worries for all the congregations”—his concerns. Paul did his best to help the congregations.  Concern should move us to care for our assignments and for the people, based on a desire to please Jehovah and to slave for him. Gal. 1:18, 19: Paul went from Damascus to Jer\n\nusalem. He went to see Cephas, and he also saw James, the brother of Jesus, to get information. He wanted to know more about Jesus. They were witnesses of Jesus’ life. Both started believing once they saw Jesus resurrected. Only Paul mentioned that Jesus appeared to James—perhaps because of that conversation.\n\nPaul went to seek advice and to understand the bigger picture. When we go to our assignments, try to get all the information. Seek advice. Never neglect the older sisters and brothers.\n\nIn 49 C.E., Paul went from Antioch to Jerusalem because of the circumcision issue. Be modest.\n\nGal. 2:1, 2: “As a result of a revelation,” Paul went before the highly regarded men “to make sure I was not running in vain.” Jesus told him to go to Jerusalem. Paul had a lot of experience, yet he still went to ask for direction. 5,6 “Just because they have so much experience, they didn´t impart anything new to me: Meaning that he was right. The GB was fully supportive.” Modesty doesn´t mean that we shouldn´t say anything. We should always present the facts so those who have to make the decision can decide accordingly to knowledge.",
+      "tags": [],
+      "createdAt": "2026-09-20T23:06:44.325Z",
+      "updatedAt": "2026-09-20T23:12:48.543Z"
+    },
+    {
+      "id": "daily_text_2026_Octubre",
+      "category": "daily_text",
+      "subCategory": "",
+      "isMonthDoc": true,
+      "year": 2026,
+      "month": "Octubre",
+      "day": null,
+      "title": "Daily Text — Octubre 2026",
+      "date": "2026-10-01",
+      "icon": "🌅",
+      "content": "# 🌅 Daily Text Comments — Octubre 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Octubre\" para registrar tus apuntes matutinos.*\n",
+      "tags": [
+        "daily_text",
+        "2026",
+        "Octubre"
+      ],
+      "createdAt": "2026-09-20T21:34:58.109Z",
+      "updatedAt": "2026-09-20T21:34:58.109Z"
+    },
+    {
+      "id": "daily_text_2026_Noviembre",
+      "category": "daily_text",
+      "subCategory": "",
+      "isMonthDoc": true,
+      "year": 2026,
+      "month": "Noviembre",
+      "day": null,
+      "title": "Daily Text — Noviembre 2026",
+      "date": "2026-11-01",
+      "icon": "🌅",
+      "content": "# 🌅 Daily Text Comments — Noviembre 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Noviembre\" para registrar tus apuntes matutinos.*\n",
+      "tags": [
+        "daily_text",
+        "2026",
+        "Noviembre"
+      ],
+      "createdAt": "2026-09-20T21:34:56.900Z",
+      "updatedAt": "2026-09-20T21:34:56.900Z"
+    },
+    {
+      "id": "note_1789823258841_e17x4",
+      "category": "events",
+      "subCategory": "others",
+      "year": 2026,
+      "month": "Septiembre",
+      "day": 19,
+      "title": "Follow the Course of Hospitatility",
+      "date": "2026-09-19",
+      "icon": "🎤",
+      "content": "---\n\n## 📅 Fecha: Sábado, 19 de Septiembre de 2026\n\n# ✍️ Título: Follow the Course of Hospitality\n\n> \"Follow the course of hospitality.\"\n\nThere is a lot of need, so whenever we share with others, Jehovah is very happy. Sometimes we share material things, but we can also share our time. When we show hospitality, we make people feel happy.\n\nIt promotes a loving and friendly spirit in the congregation.\n\nJehovah is the perfect example of hospitality. He causes rain to fall for everyone. He wants to fill our hearts with joy and gave us everything we need—things like food. For example, there are 75,000 varieties of apples! Jehovah is very generous; He is not partial, and He does not care about gender or race. He invites us to turn to Him in prayer.\n\n> Ps. 62:8: \"Pour out your heart before him.\"\n\nJehovah does not always answer our prayers right away; He knows when the perfect moment is.\n\nAbraham was a good example of hospitality. He had to leave the city.\n\n> Ge. 18:2: \"3 men standing... He ran to meet them... Please, let a little water, food, and rest be provided.\"\n\nEven if we do not have a lot, we can still show hospitality. Hospitality means fondness for strangers.\n\nJesus used His power to benefit others. He was a perfect example of hospitality. He transformed water into wine at the wedding. He did not have to do it, but He did, and it was the finest wine possible.\n\nMary and Martha were also good examples of hospitality. On one occasion, Martha was busy in the kitchen while Mary was listening.\n\n> Luk. 10:41: \"A few things are needed, or only one. For his part, Mary chose the good portion.\"\n\nWe do our best to focus on what is important. We do what we can to make others feel comfortable. When we show true love for others, this is reflected in the way we treat them.\n\n> Prov. 15:17: \"Better is a dish of vegetables where there is love than a fattened bull along with hatred.\"\n\nIf we give food but no attention, we miss the point of hospitality. We should constantly invite different people of various ages and backgrounds. Elaborate food might give the impression that we want to impress rather than share a good time together.\n\nIf we have only a little, we do what we can. But if we have something to share, we should not hesitate to do so.\n\n> 1 John 3:17: \"If whoever has the means of this world's support and sees his brother in need yet shuts the door of his tender compassions upon him, in what way does the love of God remain in him?\"\n\nWe will need our friends during the Great Tribulation, so we need to start building these relationships now. One way to do this is by sharing in the ministry with others. Most of the best conversations we have are in the ministry.\n\nBecause of a particular need, we may sometimes need to go the extra mile—such as when someone is sick or when there is an emergency.\n\nLydia also hosted Paul. She could not stop herself; she urged Paul and Barnabas to come to her house. By showing gratitude for the hospitality, she was able to encourage them.\n\n> Prov. 25:17: \"Let your foot seldom be in the house of your neighbor, lest he grow tired of you and hate you.\"\n\nWe should not take advantage of those who show us hospitality.\n\n💡 **Aplicación práctica:**",
+      "tags": [],
+      "createdAt": "2026-09-19T13:07:38.841Z",
+      "updatedAt": "2026-09-20T22:12:42.832Z"
+    },
+    {
+      "id": "note_1789756073681_yjqyt",
+      "category": "events",
+      "subCategory": "bethel_talks",
+      "year": 2026,
+      "month": "Enero",
+      "day": 14,
+      "title": "Look Intently at the Reward",
+      "date": "2026-09-14",
+      "icon": "🎤",
+      "content": "## 📅 Fecha: Lunes, 14 de Septiembre de 2026\n\n# ✍️ Título: Look Intently at the Reward\n\n**👤 Orador / Fuente:** Rian Wagner\n\nUsually, the rewards the world offers involve spending money.\n\nJehovah offers a reward for loyalty.\n\nHeb. 11:6 says: “He is a rewarder of those seeking him.” He is described as *the* Rewarder. Should we expect a reward for serving Jehovah? We are supposed to serve Jehovah out of love for him.\n\nDoes expecting a reward cheapen our service to Jehovah?\n\nJehovah doesn’t forget what we do for him (Heb. 11:4). Like a father who looks for ways to reward his children, Jehovah looks for ways to show us how much he loves us. Jehovah’s rewards are not transactional; otherwise, Satan would challenge his motives, as he did with Job.\n\nHeb. 11:6 shows that faith is necessary to please Jehovah. That means we must believe that he exists and that he is a rewarder. How could we please Jehovah if we didn’t believe he exists? This faith must be proved by actions. A person with real faith is fully convinced that Jehovah will reward our efforts. Jehovah appreciates everything we do in his service and in building a relationship with him. He does this not only to motivate us, but also out of love and appreciation.\n\nHow does Jehovah reward us?\n\nMoses’ example shows what happens when someone believes Jehovah is a rewarder. Heb. 11:26 says: “He looked intently to the payment of the reward.” Two rewards are mentioned: the reproach of the Christ and the future payment of the reward.\n\nThe reproach of the Christ: In this context, it refers to Moses as the one Jehovah appointed to carry out a commission. What was the reproach? Moses had to endure reproach—facing both the Israelites and Pharaoh. He had a difficult assignment.\n\nMoses looked to the future reward. He looked away from everything else and stayed focused on Jehovah’s promise to Abraham and his offspring. He did not focus on the riches of Egypt.\n\nJehovah rewarded Moses with a challenging assignment and with the future payment of the reward.\n\nEven “inside pleasures” can be difficult for us. Moses was overqualified for his assignment. He was educated in Egypt, and then he had to care for sheep. It wasn’t Moses’ timing or methods. He had to develop patience, mildness, and love.\n\nExample: stripping tape from cardboard boxes in the shipping department. Young ones could mingle with anointed Christians and ask them anything they wanted. It was a humble job with an amazing reward.\n\nFeelings of inadequacy (Ex. 4:10, 13, 14): “I’m not a good speaker.” After 40 years, Moses felt inadequate. Jehovah listened to Moses’ concerns. Jehovah said, in effect, “I’ve got you—I will back you up.” Still, Moses hesitated, so Jehovah arranged for Moses’ brother to go with him. Jehovah did not take the assignment from Moses and give it to Aaron.\n\nIn verses 29–31, they spoke the words to the people, and the people believed. Jehovah blessed Moses’ obedience.\n\nExample: our first assignment, or an assignment where we feel totally unqualified. Jehovah’s confidence in us outweighs our feelings of inadequacy. Think about how Jehovah has helped us in the past. True joy comes from Jehovah, not from our own abilities. Jehovah always shows up when we cannot carry an assignment on our own.\n\nFeelings of disappointment after missing opportunities: Moses didn’t enter the Promised Land. He wrote Deuteronomy at the entrance to the Promised Land, yet he expressed no resentment. We might feel similarly when we are suddenly removed or reassigned.\n\nMoses viewed the reproach as greater riches than the riches of Egypt. We should use our youth to serve Jehovah.\n\nMatt. 19:27 says: “We have left all things; what, then, will it be for us?” Verse 29 adds that we will receive 100 times as much now, and everlasting life. We must keep remembering what Jehovah has done for all of us.\n\nTake a moment to see how Jehovah has trained and refined you, making you a source of strength for others around you.\n\nHeb. 11:26 shows that Moses’ faith shaped the way he thought and acted. Moses had more rewards than just these two. He had Jehovah’s support, the satisfaction of leading the Israelites, the privilege of being the first human to perform miracles, and a close relationship with Jehovah—knowing him “face to face.”\n\nThe future payment of the reward: Moses understood the concept of resurrection because Jehovah identified himself as the God of Abraham, Isaac, and Jacob. With eyes of faith, Moses could see the unseen reward ahead.\n\nWe focus on the reward: our relationship with Jehovah, his support, and the privilege of assignments that favor the lowly ones. Our future reward will include everlasting life and the knowledge that we played a part in the sanctification of Jehovah’s name.",
+      "tags": [],
+      "createdAt": "2026-09-18T18:27:53.681Z",
+      "updatedAt": "2026-09-20T23:15:38.092Z"
+    },
+    {
+      "id": "daily_text_2026_Enero",
+      "category": "daily_text",
+      "subCategory": "",
+      "isMonthDoc": true,
+      "year": 2026,
+      "month": "Enero",
+      "day": null,
+      "title": "Daily Text — Enero 2026",
+      "date": "2026-01-01",
+      "icon": "🌅",
+      "content": "# 🌅 Daily Text Comments — Enero 2026\n\n*Cuaderno mensual de estudio. Pulsa \"+ Añadir Día a Enero\" para registrar tus apuntes matutinos.*\n",
+      "tags": [
+        "daily_text",
+        "2026",
+        "Enero"
+      ],
+      "createdAt": "2026-09-17T18:53:07.335Z",
+      "updatedAt": "2026-09-17T18:53:07.335Z"
+    },
+    {
+      "id": "daily_text_2026_Septiembre",
+      "category": "daily_text",
+      "subCategory": "",
+      "isMonthDoc": true,
+      "year": 2026,
+      "month": "Septiembre",
+      "day": 20,
+      "title": "Daily Text — Septiembre 2026",
+      "date": "2026-09-20",
+      "icon": "🌅",
+      "content": "# 🌅 Daily Text Comments — Septiembre 2026\n\n---\n\n## 📅 DÍA 1 • Keep Testing Whether You Are in the Faith (2 Cor. 13:5-6)\n\n# Keep Testing Whether You Are in the Faith — 1 de Septiembre de 2026\n\n> 📖 \"Keep testing whether you are in the faith. Keep proving what you yourselves are.\" — 2 Corintios 13:5-6\n\n### Overview\n\n- Meeting centered on **2 Corinthians 13:5-6**: *\"Keep testing whether you are in the faith. Keep proving what you yourselves are.\"*\n- Multiple speakers from different locations gave comments, followed by an extended main talk and Watchtower study reading.\n\n### Comments — Illustrations on Self-Examination\n\n- **Brother Brendan Frisbee (Fishkill):** Used a **vehicle alignment** analogy — just as a car's alignment can drift from bumps and rough roads, spiritual thinking can gradually shift due to challenges and worldly distractions; regular self-examination (like a mechanic's correction) is essential.\n- **Sister Karina Sukhoseva (ASL Translation Office, Fort Lauderdale):** Used a **vision test** analogy — honest self-assessment, like being honest with an eye doctor, allows Jehovah to help correct weaknesses and improve one's life.\n- **Sister Leslie Bogersi (Fishkill):** Addressed **perfectionism** as a barrier to self-examination — fear of failure can cause one to avoid searching questions; Jehovah is not looking to condemn but to identify good qualities and areas for growth; *\"we are valuable specks of dust.\"*\n- **Brother Keenan Flaugherzi:** Used a **water treatment plant** analogy — continuous testing is done not just to measure, but to adjust and prevent harm; outlined three steps:\n\n1. Test with searching questions.\n\n2. Analyze any weakness found.\n\n3. Seek Jehovah's help through prayer and practical steps.\n\n### Main Talk — Staying Spiritually Balanced\n\n- Paul's words warn that one could *\"fail the test\"* and become disapproved for everlasting life; the call is to stay alert and realign with Jehovah's thinking if veering off course.\n- Even those with significant spiritual responsibilities can fall away; conviction can fluctuate, as illustrated by Paul's confidence in **Romans 8:38-39** versus moments of internal struggle.\n- **Asaph's example (Psalm 73):** A highly respected man who nearly strayed after becoming envious of wealthy, arrogant people; his thinking became distorted and he felt his service was in vain.\n\n- *What helped Asaph:* He returned to Jehovah's sanctuary, surrounded himself with Jehovah's people, and reflected on the future of those who despised God — this reset his thinking and restored his joy.\n\n- Psalm 73 is recommended as a resource for anyone feeling spiritually unbalanced or discouraged.\n\n- **Deuteronomy 12:5 used as a key:** Jehovah told his people to seek wherever He *\"chooses to establish his name\"* as the identifying mark of true worship.\n\n- Only one group on earth loves and uses the name Jehovah proudly; **Psalm 91:14** and **Hebrews 6:10** affirm that Jehovah values and remembers those who know and love his name.\n\n- This is presented as evidence that the congregation has found the truth and every reason to remain faithful.\n\n### Watchtower Study — Read by Brother Nate Gutierrez\n\n- Spiritual maturity must be actively maintained, not assumed; overconfidence is a risk.\n- Paul's letter to the Colossians warned against worldly thinking even for established Christians; Epaphras prayed that they would *\"stand complete and mature\"* — highlighting that maturity requires both personal effort and God's support.\n\n---\n\n## 📅 DÍA 2 • Wednesday Morning Worship: \"Do Not Fear Them\" (Numbers 14:9)\n\n# Wednesday Morning Worship — Numbers 14:9, \"Do Not Fear Them\" — 2 de Septiembre de 2026\n\n> 📖 \"Jehovah is with us. Do not fear them.\" — Números 14:9\n\n### Overview\n\n- **Daily text:** Numbers 14:9 — *\"Jehovah is with us. Do not fear them.\"*\n- Meeting held on Wednesday, September 2nd at a branch; comments delivered by branch students.\n- **Central theme:** Overcoming fear of man through fear of (reverence for) Jehovah.\n\n### Commenter: Simon Susana — \"Do Not Fear\"\n\n- Cross-referenced **Deuteronomy 20:3**: *\"Do not let your hearts be timid.\"*\n- Used Jeremiah as an example: timid by nature but courageous through trust in Jehovah.\n- **Key point:** Jehovah understands human fear and helps us overcome feelings of inadequacy.\n- Joshua and Caleb also faced fear (e.g., in Rahab's house) but were confident because Jehovah was with them.\n\n### Commenter: Markus Waranen — Remembering Jehovah's Support\n\n- Drew on the account of Elisha's servant surrounded by the Syrian army: *\"There are more who are with us than those who are with them.\"*\n- Jehovah revealed heavenly forces ready to help, illustrating unseen angelic support.\n- **Practical application:** When fear of others' reactions hinders witnessing, visualizing angelic support can give courage to share the good news.\n\n### Commenter: Olivier Valmenos — Building a Personal History with Jehovah\n\n- Joshua and Caleb's confidence was rooted in past experiences of Jehovah's help.\n- Reflecting on what Jehovah has done previously strengthens confidence for future challenges.\n- **Key insight:** What matters is not the size of an obstacle, but the strength of one's confidence in Jehovah.\n- Staying close to Jehovah and following his direction gives every reason to be courageous.\n\n### Commenter: Frank Rurik — Clean Conscience and Approaching Jehovah\n\n- Drew a connection between fearlessness and realizing Jehovah is near.\n- *Illustration:* A helpful neighbor becomes difficult to approach after a falling-out — similarly, a troubled conscience hinders free approach to Jehovah in prayer.\n- A clean conscience enables confident, uninhibited prayer, reassuring us that Jehovah is near and ready to help.\n\n### Extended Teaching — Fear of God vs. Fear of Man\n\n- **Psalm 118:6:** *\"Jehovah is on my side, I will not be afraid. What can man do to me?\"* — fear of God conquers fear of man.\n- **Key scriptures examined on the fear of Jehovah:**\n\n- *Deuteronomy 10:12:* Fear of Jehovah is inseparable from loving and serving him wholeheartedly.\n\n- *Psalm 147:11:* Fear and love are not opposites but coexisting qualities that bring Jehovah's approval.\n\n- *Ecclesiastes 12:13:* Fearing God and keeping his commandments is \"the whole obligation of man.\"\n\n- *Proverbs 9:10:* \"The fear of Jehovah is the beginning of wisdom\" — it must be the starting point for handling any problem.\n\n- **Fear of man as a snare (Proverbs 29:25):** Like a rabbit caught in a trap, fear of man paralyzes and prevents action even when one knows what should be done.\n- **Israelites in the wilderness (Numbers 13:28–33):** Used as a cautionary example. Overwhelmed by the Canaanites, they described themselves as \"grasshoppers\" and were defeated in their hearts before the battle — they forgot Jehovah.\n- Excessive concern about what others think leads to losing touch with one's obligation and becoming paralyzed.\n- **Maintaining fear of God through prayer:** Jesus himself, in **Hebrews 5:7**, offered up supplications and petitions and *\"was favorably heard for his godly fear\"* — prayer is the key antidote to fear of man.\n- **Conclusion — Psalm 16:8:** *\"I keep Jehovah before me constantly... because he is at my right hand, I will never be shaken\"* — keeping Jehovah constantly in mind provides stability in an unstable world.\n\n---\n\n## 📅 DÍA 4 • Morning Worship: Jehovah's Close Friendship (Proverbs 3:32)\n\n# Morning Worship — Prov. 3:32 — 4 de Septiembre de 2026\n\n> 📖 \"For the devious person is detestable to Jehovah, but His close friendship is with the upright.\" — Proverbios 3:32\n\n- Our honesty can give people a witness of what it means to serve Jehovah. Honesty is rooted in our friendship with Jehovah.\n- We are all guests in Jehovah's tent, so we want to imitate him.\n- A kind word can really touch the heart. Whenever we see something good, we should say it.\n- Jehovah is a friend to those who speak truth in their heart. Being honest means being truthful.\n- We can have a close friendship with Jehovah. What does it take to develop and maintain this friendship? **Jeremiah 23:18** mentions the *\"inner circle of Jehovah.\"* We all have a circle of friends, and an inner circle of very close friends with whom we share our most intimate thoughts. It is amazing that we can have this kind of friendship with Jehovah, and we have to work hard to maintain it.\n\n### The Israelites failed to maintain it. Jeremiah mentioned three things:\n\n- **Jeremiah 23:18 — “To see and hear his word.”** The first requirement is to listen to Jehovah. Good listening is necessary to have a close friendship. We need to keep listening to him. He speaks to us through the Bible, meetings, and publications. Before we can help others, we must make sure we are close to him. Bible reading and meditation are not optional.\n- **Jeremiah 23:16 — “Do not listen to the words of the false prophets.”** The second requirement is this: Do not let others shape our thinking. We are influenced by Jehovah’s thinking. We cannot rely on our own thinking; we must voice only Jehovah’s opinions. We cannot rest on our own experiences. Experience is no replacement for getting Jehovah’s thoughts on a matter. The more Abraham served Jehovah, the less he relied on himself.\n- **Jeremiah 23:22 — “They would help others to obey and turn away.”** The third requirement is this: Help others draw close to Jehovah. We need to take care of our brothers and sisters. If we see a friend drifting, we must be quick to offer help and speak up so they get the help they need. We want them to be in our inner circle.\n\n> 💡 **Punto Clave:** Jehovah’s close friendship is with the upright. It is a great privilege.\n\n---\n\n## 📅 DÍA 7 • Morning Worship: The Rewarder of Those Seeking Him (Hebrews 11:6)\n\n# Morning Worship — Heb. 11:6 — 7 de Septiembre de 2026\n\n> 📖 \"He becomes the rewarder of those earnestly seeking him.\" — Hebreos 11:6\n\n- Ask yourself: In what ways do you see Jehovah's blessings and support today?\n- The invitation to approach Jehovah is for everyone. It also reminds us how we should approach others.\n- How do we feel when others receive blessings? We might feel entitled—thinking we should have received that privilege. Or we might feel sad, believing we are not good enough. We need to develop contentment and be happy to serve Jehovah as best we can, without comparing ourselves with others.\n- Work hard as a teacher, be an example to others, and help young ones. This was the counsel Paul gave to Timothy. Timothy joined Paul as a missionary.\n\n### How can we imitate Timothy?\n\n1. **As a teacher and speaker:** By the time he received this counsel, he was serving as a circuit overseer. **1 Tim. 4:13** says: *“Continue applying yourself to public reading, to exhortation, to teaching.”* Improving as a teacher is an ongoing effort. Verses 16 and 17 say: *“Ponder over these things; be absorbed in them... pay constant attention to yourself and to your teaching.”* Before preparing a talk, we need to meditate on the content of the outline.\n\n2. **As an example:** **1 Tim. 4:12** says: *“Become an example... in speech, conduct...”* By the time he was counseled, he was in his 30s and serving as a circuit overseer. The environment in Ephesus was difficult, and he was there to fortify the brothers and sisters despite real dangers. Enjoy your youth, but keep your main focus on pursuing spiritual goals.\n\n3. **As a preacher:** Reprove and exhort with the art of teaching. If we see someone in spiritual danger, we need to speak up. If the reaction is not what we expect, we must remain patient.\n\n> 💡 If we do that, we can be sure that Jehovah will reward us.\n\n---\n\n## 📅 DÍA 8 • Morning Worship: Jehovah's Power in Patience (2 Kings 17:13)\n\n# Morning Worship — 2 Ki. 17:13 — 8 de Septiembre de 2026\n\n> 📖 \"Jehovah kept warning Israel and Judah through all his prophets and every visionary.\" — 2 Reyes 17:13\n\n- One way Jehovah shows mercy is by how efficiently he provides help.\n- Jehovah's patience and mercy are matchless. There is power in patience—it is part of the fruitage of God’s spirit. Calm endurance and deliberate restraint are good ways to describe patience.\n- **1 Kings 18:3:** Obadiah obeyed Jehovah and hid the prophets of God. Jezebel wanted to kill them, yet he fed 100 people for a long time. That wasn’t easy during a drought—where would he find enough water and food, and do it without being noticed? He showed calm endurance, and Jehovah helped him save the prophets. The drought lasted three and a half years because Ahab disobeyed Jehovah. Obadiah had to make daily decisions that required courage. He needed to show calm endurance and not dwell on “what if” or “how could.”\n- Circumstances may arise that require us to show calm endurance and restrain ourselves. Jesus said that each day has its own problems.\n- **1 Kings 18:8:** *“Go and tell your lord that Elijah is here.”* (v. 9) Obadiah was afraid to tell Ahab he had seen Elijah, but by verse 16, *“he went and told Ahab.”* He obeyed despite the danger.\n- Patience is powerful. We can accomplish amazing things with patience and trust in Jehovah. It helps us obey and accept events calmly as they happen, not as we wish they would. Patience is like money—its value depends on the skill of the one using it.\n\n---\n\n## 📅 DÍA 9 • Morning Worship: All Scripture Inspired of God (2 Timothy 3:16)\n\n# Morning Worship — 2 Tim. 3:16 — 9 de Septiembre de 2026\n\n> 📖 \"All Scripture is inspired of God and beneficial for teaching, for reproving, for setting things straight.\" — 2 Timoteo 3:16\n\n- Wednesday, September 9 — All Scripture is inspired of God and beneficial. — 2 Tim. 3:16.\n- Jehovah is always our partner when preaching, so we need to let him speak by using the Bible.\n- **Translation:** What was the first translation of the Bible? The Greek Septuagint. Why Greek? Because of Alexander the Great—Greek culture and language became widespread across the empire. Tradition says there were 72 translators, six from each tribe of Israel. Haggai mentioned the precious things from all the nations, and many of those people did not speak Hebrew. Imagine 72 translators working shoulder to shoulder.\n- The apostles used this translation. They did not quote word-for-word but often used meaning-based renderings. Why should we care about the Septuagint? Because it has helped us understand the Bible. Ancient Hebrew is no longer spoken, and there are more than 1,000 Hebrew terms whose original meaning we do not fully know; in those cases, we can consult the Septuagint.\n- Some years ago, we studied the term *porneia*. What does it involve? Secular sources helped us understand its full meaning.\n- Hebrew fell into disuse after the exile but later returned in Jerusalem. Still, Matthew wrote his Gospel in Hebrew. It seems that, in reality, Hebrew gradually fell out of use after the destruction of Jerusalem in 70 C.E., not in 607 B.C.E.\n\n---\n\n## 📅 DÍA 10 • Morning Worship: The Desolating of Jerusalem (Luke 21:20)\n\n# Morning Worship — Luke 21:20 — 10 de Septiembre de 2026\n\n> 📖 \"When you see Jerusalem surrounded by encamped armies, then know that the desolating of her has drawn near.\" — Lucas 21:20\n\n- Maintaining our spiritual maturity, cultivating God's holy spirit, and discerning God's will can help us stay vigilant.\n- **Luke 13:34, 35:** *“Jerusalem, how often I tried to gather you. Look, your house is abandoned to you.”*\n- That was a shocking announcement because the city had been very special for the worship of Jehovah. It was called the throne of Jehovah—the theocratic government on earth. All of that changed when the Jews rejected Jesus, though many still believed the city remained part of Jehovah’s worship.\n- **Does reverence for Jerusalem have meaning today?** **Galatians 4:26** says, *“Jerusalem from above is our mother.”* Paul spoke about the free woman represented by Sarah. This refers to Jehovah’s heavenly organization; her children include Jesus and the 144,000 anointed.\n- Abraham was waiting for the city with real foundations—the heavenly Jerusalem, a kingdom. It refers to the Kingdom of Jesus and the anointed Christians. “New heavens” are new governments.\n- **New Jerusalem — Revelation 21:2:** *“The new Jerusalem prepared as a bride, the Lamb’s wife.”* This Jerusalem represents the 144,000 anointed Christians. It is coming down from heaven to the earth to accomplish God’s will on earth.\n- The role of the anointed Christians in these Jerusalems is remarkable. We preach to support Christ’s brothers because we love the anointed. It is an act of loyalty. *“I became hungry, sick, thirsty, and you helped me.”* Truly, I say to you: to the extent that you did it to one of the least of these, you did it to me.\n\n---\n\n## 📅 DÍA 11 • Morning Worship: The Lord Was Raised Up (Luke 24:34)\n\n# Morning Worship — Luke 24:34 — 11 de Septiembre de 2026\n\n> 📖 \"For a fact the Lord was raised up, and he appeared to Simon!\" — Lucas 24:34\n\n- The purpose of our privileges is to encourage others and remind them how special they are.\n- The events surrounding Jesus’ death are some of the most moving. Jesus patiently strengthened his disciples.\n- Jesus noticed those who were discouraged—like the two disciples walking to Emmaus (**Luke 24:31**). *“We were hoping”* expressed faith, but also disappointment. Jesus opened the Scriptures and encouraged them (v. 32): *“He was fully opening up the Scriptures.”* Their understanding improved. It’s like driving in the dark: we feel stressed, but when the lights come on, we can see.\n- **Jesus treasured the sisters:** **John 20:15, 16:** *“Why are you weeping? Mary.”* Mary Magdalene said, *“I have seen the Lord.”* Mary recognized Jesus by the way he spoke to her—by the sound of his voice. Jesus treasured women. We can give them commendation. One kind word can stay with a person for years.\n- **Jesus can help us move on beyond bad times—and even beyond mistakes:** Peter denied Jesus three times (**Luke 24:34**): *“He appeared to Simon.”* Jesus gave Peter personal encouragement. Jesus looked beyond Peter’s low moment and saw Peter’s potential. Thomas struggled to believe (**John 20:27**): *“Put your finger here, and stop doubting.”* Those who are sick don’t need criticism, but encouragement and reassurance.\n- In his last days, Jesus took to heart the need to encourage his disciples. Jesus no longer performed miracles, but he uses the congregation to encourage his people.",
+      "tags": [
+        "daily_text",
+        "2026",
+        "Septiembre"
+      ],
+      "createdAt": "2026-09-17T14:25:30.274Z",
+      "updatedAt": "2026-09-20T23:04:42.767Z"
+    },
+    {
+      "id": "note_spiritual_01",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "year": 2026,
+      "month": "",
+      "day": null,
+      "title": "Perlas Espirituales: La paciencia de Jacob en Harán",
+      "date": "2026-09-05",
+      "icon": "💡",
+      "content": "# Estudio Personal: La perseverancia de Jacob\n\n- **Lectura:** Génesis 29 al 31.\n- A pesar de los engaños continuos de su tío Labán, quien le cambió el salario diez veces, Jacob nunca tomó represalias con maldad.\n- Puso su confianza en que Dios haría justicia a su debido tiempo.\n- **Lección práctica:** Cuando alguien en el trabajo o en la vida diaria nos trate injustamente, imitar la paciencia de Jacob y dejar los asuntos en manos de Dios.",
+      "tags": [
+        "jacob",
+        "paciencia",
+        "estudio personal"
+      ],
+      "createdAt": "2026-09-17T14:25:30.274Z",
+      "updatedAt": "2026-09-17T14:25:30.274Z"
+    },
+    {
+      "id": "note_apuntes_jacob",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "year": 2026,
+      "month": "",
+      "day": null,
+      "title": "Jacob: He Faced Danger to Protect His Family",
+      "date": "2026-09-06",
+      "icon": "📜",
+      "content": "# Jacob: He Faced Danger to Protect His Family\n\nJacob\r\nHe Faced Danger to Protect His Family NEAR the end of his life, Jacob chose two words to describe his years, “few” and “distressing.” (Gen. 47:9) He did have his share of hardships! Earlier in his life, he had to run away to distant Haran because his own brother wanted to kill him. In Haran, Jacob fell in love with Rachel, but her father, Laban, tricked him into marrying Rachel’s older sister first. So Jacob had two wives​—who did not get along. For decades, Laban employed Jacob but repeatedly tried to swindle him. Yet, Jacob showed remarkable courage, faith, and endurance. One day, Jehovah told Jacob that it was time to leave Haran and return home to Canaan. But that could be dangerous, for Laban was possessive and greedy. Jacob consulted with his family and then gathered them and fled without telling Laban. When Laban learned of it, he gathered his men and pursued. He finally caught up with the family and harshly criticized Jacob for leaving. Laban even said, menacingly: “It is in my power to do harm to you.” But Jacob courageously corrected Laban. He pointed out that Laban had treated him unfairly and deviously for years. At the same time, Jacob had been willing to pursue peace. The two men parted on friendly terms. What enabled Jacob to make peace with aggressive family members and even to wrestle with a mighty angel? Jacob had yet to face his twin brother, Esau. Decades earlier, their mother, Rebekah, had warned Jacob that Esau wanted to kill him. Esau was convinced that Jacob had cheated him out of his father’s blessing. Now, Jacob sought to make peace. He learned that Esau was heading toward him and his family, leading 400 men. Jacob sent servants ahead to meet Esau, taking valuable gifts to him. But would that be enough to quell Esau’s anger? We read: “Jacob became very frightened and anxious.” Then something amazing happened. In the predawn hours, Jacob caught sight of a stranger. It was an angel of Jehovah, and the angel began to struggle with Jacob. Sensing that the angel had some blessing to offer, Jacob courageously grappled with him for hours. Jacob refused to give up​—though he was then 97 years old and hopelessly outmatched. He fought hard. He even wept. (Hos. 12:4) Jacob was determined, convinced that any blessing from Jehovah was worth the struggle. At dawn, with a mere touch, the angel put Jacob’s hip socket out of joint. Yet, the angel also told Jacob something wonderful​—that his name was now Israel. The name had meaning; it referred to contending with God. Jacob certainly had persisted and had exerted himself in order to gain a blessing from Jehovah. Jacob limped back to his family. In the distance, there was Esau, approaching with his 400 men. Jacob went ahead, alone, to face them all. As he approached Esau, Jacob bowed low seven times. Then Esau ran toward him. But Esau drew no weapon. Instead, he opened his arms wide and embraced Jacob! The two men wept. Jacob’s generous gifts and his humble manner had completely disarmed Esau. Perhaps he admired Jacob’s courage as well. Jacob had found a way to make peace with his brother. For the rest of his life, Jacob limped because of his injured hip. And he faced many more hardships. But he surely never regretted his decisions to obey Jehovah or to struggle with that angel. In time, a wonderful promise Jehovah had made to him was fulfilled​—Israel became a great nation. (Gen. 28:14) Moreover, Jehovah was often called “the God of Jacob.” (Ex. 3:6) Jesus Christ himself used that phrase. He added that Jehovah “is a God, not of the dead, but of the living, for they are all living to him.” (Luke 20:37, 38) So Jacob’s future is assured. In the new world, his years will be long beyond counting and happy beyond measure! Read the Bible account: Genesis 27:41-45; 31:1-29, 36-55; 32:1–33:16",
+      "tags": [
+        "jacob",
+        "estudio personal",
+        "fe",
+        "familia",
+        "génesis"
+      ],
+      "createdAt": "2026-09-06T20:36:00.000Z",
+      "updatedAt": "2026-09-06T20:36:00.000Z"
+    },
+    {
+      "id": "note_apuntes_kings_1",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "year": 2026,
+      "month": "",
+      "day": null,
+      "title": "Kings of Judah and Israel (Part 1: The Divided Kingdom to 8th Century B.C.E.)",
+      "date": "2026-09-06",
+      "icon": "👑",
+      "content": "# Kings of Judah and Israel\n## Part 1: The Divided Kingdom to the 8th Century B.C.E.\n\nKINGS OF JUDAH AND ISRAEL (CHRONOLOGY AND PROPHETS)\n\nPart 1: The Divided Kingdom to the 8th Century B.C.E.\n\nKings of Southern Two-Tribe Kingdom of Judah:\n- Rehoboam: Reigned 17 years (997 - 980 B.C.E.).\n- Abijah (Abijam): Reigned 3 years (980 - 978 B.C.E.).\n- Asa: Reigned 41 years (978 - 937 B.C.E.).\n- Jehoshaphat: Reigned 25 years (937 - 913 B.C.E.).\n- Jehoram (Judah): Reigned 8 years (913 - c. 906 B.C.E.).\n- Ahaziah (Judah): Reigned 1 year (c. 906 - c. 905 B.C.E.).\n- Queen Athaliah: Usurped throne and ruled for 6 years (c. 905 - 898 B.C.E.).\n- Jehoash: Reigned 40 years (898 - 858 B.C.E.).\n- Amaziah: Reigned 29 years (858 - 829 B.C.E.).\n- Uzziah (Azariah): Reigned 52 years (829 - 777 B.C.E.).\n\nKings of Northern Ten-Tribe Kingdom of Israel:\n- Jeroboam: First king of the northern kingdom, reigned 22 years (997 - c. 976 B.C.E.).\n- Nadab: Reigned 2 years (c. 976 - c. 975 B.C.E.).\n- Baasha: Reigned 24 years (c. 975 - c. 952 B.C.E.).\n- Elah: Reigned 2 years (c. 952 - c. 951 B.C.E.).\n- Zimri: Reigned only 7 days (c. 951 B.C.E.).\n- Omri and Tibni: Ruled divided for 4 years (c. 947 B.C.E.).\n- Omri (alone): Reigned 8 years (c. 940 B.C.E.).\n- Ahab: Reigned 22 years (c. 940 - c. 920 B.C.E.). Husband of Jezebel.\n- Ahaziah (Israel): Reigned 2 years (c. 920 - c. 917 B.C.E.).\n- Jehoram (Israel): Reigned 12 years (c. 917 - c. 905 B.C.E.).\n- Jehu: Executed Ahab's house, reigned 28 years (c. 905 - 876 B.C.E.).\n- Jehoahaz: Reigned 14 years (876 - c. 862 B.C.E.).\n- Jehoahaz and Jehoash: Coreigned 3 years (c. 862 - c. 859 B.C.E.).\n- Jehoash (alone): Reigned 16 years (c. 859 - c. 844 B.C.E.).\n- Jeroboam II: Reigned 41 years (c. 844 - c. 803 B.C.E.).\n\nContemporary Prophets:\n- Elijah: Active during the reigns of Ahab and Ahaziah in Israel (c. 940 - c. 905 B.C.E.).\n- Elisha: Successor to Elijah, active during Jehoram, Jehu, Jehoahaz, and Jehoash (c. 917 - c. 859 B.C.E.).\n- Jonah: Active around 850 B.C.E. during the era of Jeroboam II.\n- Joel: Active in Judah around 820 B.C.E.\n- Amos: Active in Israel around 810 B.C.E. during the reign of Jeroboam II and Uzziah.",
+      "tags": [
+        "reyes",
+        "cronología",
+        "judá",
+        "israel",
+        "profetas"
+      ],
+      "createdAt": "2026-09-06T20:55:00.000Z",
+      "updatedAt": "2026-09-06T20:55:00.000Z"
+    },
+    {
+      "id": "note_apuntes_kings_2",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "year": 2026,
+      "month": "",
+      "day": null,
+      "title": "Kings of Judah and Israel (Part 2: Fall of Northern Kingdom & Jerusalem)",
+      "date": "2026-09-06",
+      "icon": "👑",
+      "content": "# Kings of Judah and Israel\n## Part 2: Fall of Northern Kingdom and Fall of Jerusalem\n\nKINGS OF JUDAH AND ISRAEL (CHRONOLOGY AND PROPHETS)\n\nPart 2: Fall of the Northern Kingdom and Fall of Jerusalem\n\nKings of the Southern Kingdom of Judah (Continued):\n- Uzziah (Azariah): Reigned 52 years until 777 B.C.E.\n- Jotham: Faithful king, reigned 16 years (777 - 762 B.C.E.).\n- Ahaz: Wicked king, reigned 16 years (762 - 746 B.C.E.).\n- Hezekiah: Great religious reformer, reigned 29 years (746 - 716 B.C.E.). Witnessed deliverance from Sennacherib.\n- Manasseh: Reigned 55 years (716 - 661 B.C.E.), longest reign of any king in Jerusalem. Later repented.\n- Amon: Reigned 2 years (661 - 659 B.C.E.).\n- Josiah: Righteous young king and restorer of true worship, reigned 31 years (659 - 628 B.C.E.).\n- Jehoahaz: Reigned only 3 months (628 B.C.E.).\n- Jehoiakim: Reigned 11 years (628 - 618 B.C.E.).\n- Jehoiachin: Reigned 3 months and 10 days (618 - 617 B.C.E.). Taken captive to Babylon.\n- Zedekiah: Last king on David's throne in Jerusalem, reigned 11 years (617 - 607 B.C.E.).\n- 607 B.C.E.: Jerusalem and its temple are destroyed by the Babylonians under King Nebuchadnezzar.\n\nKings of the Northern Kingdom of Israel (Continued):\n- Zechariah: Recorded reign of only 6 months (c. 803 B.C.E.). Assassinated by Shallum.\n- Shallum: Reigned only 1 month (c. 791 B.C.E.).\n- Menahem: Reigned 10 years (c. 791 - c. 780 B.C.E.). Paid tribute to Pul king of Assyria.\n- Pekahiah: Reigned 2 years (c. 780 - c. 778 B.C.E.).\n- Pekah: Reigned 20 years (c. 778 - c. 758 B.C.E.).\n- Hoshea: Reigned 9 years from c. 748 B.C.E. Last king of Israel.\n- 740 B.C.E.: Assyria conquers Samaria and subjugates Israel; the northern ten-tribe kingdom of Israel comes to its complete end.\n\nContemporary Prophets:\n- Hosea: Prophesied in the northern kingdom (c. 800 - 745 B.C.E.).\n- Micah: Prophesied in Judah during Jotham, Ahaz, and Hezekiah (c. 777 - 716 B.C.E.).\n- Isaiah: Major prophet in Jerusalem (c. 778 - after 732 B.C.E.).\n- Nahum: Prophesied against Nineveh (before 632 B.C.E.).\n- Zephaniah: Active during early days of King Josiah (c. 650 B.C.E.).\n- Jeremiah: Weeping prophet, witnessed the fall of Jerusalem (647 - 580 B.C.E.).\n- Habakkuk: Active shortly before the Babylonian invasion (c. 628 B.C.E.).\n- Obadiah: Prophesied against Edom (c. 607 B.C.E.).\n- Ezekiel: Prophesied to the Jewish exiles in Babylon (c. 613 - 591 B.C.E.).\n- Daniel: Statesman and prophet in Babylon (c. 618 - 536 B.C.E.).",
+      "tags": [
+        "reyes",
+        "cronología",
+        "jerusalén",
+        "profetas"
+      ],
+      "createdAt": "2026-09-06T20:55:00.000Z",
+      "updatedAt": "2026-09-06T20:55:00.000Z"
+    },
+    {
+      "id": "note_apuntes_books_bible",
+      "category": "spiritual_notes",
+      "subCategory": "",
+      "year": 2026,
+      "month": "",
+      "day": null,
+      "title": "Books of the Bible: Hebrew & Christian Greek Scriptures Chronology",
+      "date": "2026-09-07",
+      "icon": "📖",
+      "content": "# Books of the Bible Chronology\n\nBooks of the Hebrew Scriptures (B.C.E.)\n\nGenesis\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: 1513 B.C.E.\n\nTime Covered: \"In the beginning\" to 1657 B.C.E.\n\nExodus\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: 1512 B.C.E.\n\nTime Covered: 1657-1512 B.C.E.\n\nLeviticus\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: 1512 B.C.E.\n\nTime Covered: 1 month (1512 B.C.E.)\n\nNumbers\n\nWriter: Moses\n\nPlace Written: Wilderness and Plains of Moab\n\nWriting Completed: 1473 B.C.E.\n\nTime Covered: 1512-1473 B.C.E.\n\nDeuteronomy\n\nWriter: Moses\n\nPlace Written: Plains of Moab\n\nWriting Completed: 1473 B.C.E.\n\nTime Covered: 2 months (1473 B.C.E.)\n\nJoshua\n\nWriter: Joshua\n\nPlace Written: Canaan\n\nWriting Completed: c. 1450 B.C.E.\n\nTime Covered: 1473-c. 1450 B.C.E.\n\nJudges\n\nWriter: Samuel\n\nPlace Written: Israel\n\nWriting Completed: c. 1100 B.C.E.\n\nTime Covered: c. 1450-c. 1120 B.C.E.\n\nRuth\n\nWriter: Samuel\n\nPlace Written: Israel\n\nWriting Completed: c. 1090 B.C.E.\n\nTime Covered: 11 years of Judges' rule\n\n1 Samuel\n\nWriters: Samuel, Gad, Nathan\n\nPlace Written: Israel\n\nWriting Completed: c. 1078 B.C.E.\n\nTime Covered: c. 1180-1078 B.C.E.\n\n2 Samuel\n\nWriters: Gad, Nathan\n\nPlace Written: Israel\n\nWriting Completed: c. 1040 B.C.E.\n\nTime Covered: 1077-c. 1040 B.C.E.\n\n1 Kings\n\nWriter: Jeremiah\n\nPlace Written: Judah\n\nWriting Completed: 580 B.C.E.\n\nTime Covered: c. 1040-911 B.C.E.\n\n2 Kings\n\nWriter: Jeremiah\n\nPlace Written: Judah and Egypt\n\nWriting Completed: 580 B.C.E.\n\nTime Covered: c. 920-580 B.C.E.\n\n1 Chronicles\n\nWriter: Ezra\n\nPlace Written: Jerusalem (?)\n\nWriting Completed: c. 460 B.C.E.\n\nTime Covered: After 1 Chronicles 9:44; c. 1077-1037 B.C.E.\n\n2 Chronicles\n\nWriter: Ezra\n\nPlace Written: Jerusalem (?)\n\nWriting Completed: c. 460 B.C.E.\n\nTime Covered: c. 1037-537 B.C.E.\n\nEzra\n\nWriter: Ezra\n\nPlace Written: Jerusalem\n\nWriting Completed: c. 460 B.C.E.\n\nTime Covered: 537-c. 467 B.C.E.\n\nNehemiah\n\nWriter: Nehemiah\n\nPlace Written: Jerusalem\n\nWriting Completed: after 443 B.C.E.\n\nTime Covered: 456-after 443 B.C.E.\n\nEsther\n\nWriter: Mordecai\n\nPlace Written: Shushan, Elam\n\nWriting Completed: c. 475 B.C.E.\n\nTime Covered: 493-c. 475 B.C.E.\n\nJob\n\nWriter: Moses\n\nPlace Written: Wilderness\n\nWriting Completed: c. 1473 B.C.E.\n\nTime Covered: Over 140 years between 1657 and 1473 B.C.E.\n\nPsalms\n\nWriters: David and others\n\nWriting Completed: c. 460 B.C.E.\n\nProverbs\n\nWriters: Solomon, Agur, Lemuel\n\nPlace Written: Jerusalem\n\nWriting Completed: c. 717 B.C.E.\n\nEcclesiastes\n\nWriter: Solomon\n\nPlace Written: Jerusalem\n\nWriting Completed: before 1000 B.C.E.\n\nSong of Solomon\n\nWriter: Solomon\n\nPlace Written: Jerusalem\n\nWriting Completed: c. 1020 B.C.E.\n\nIsaiah\n\nWriter: Isaiah\n\nPlace Written: Jerusalem\n\nWriting Completed: after 732 B.C.E.\n\nTime Covered: c. 778-after 732 B.C.E.\n\nJeremiah\n\nWriter: Jeremiah\n\nPlace Written: Judah and Egypt\n\nWriting Completed: 580 B.C.E.\n\nTime Covered: 647-580 B.C.E.\n\nLamentations\n\nWriter: Jeremiah\n\nPlace Written: Near Jerusalem\n\nWriting Completed: 607 B.C.E.\n\nEzekiel\n\nWriter: Ezekiel\n\nPlace Written: Babylon\n\nWriting Completed: c. 591 B.C.E.\n\nTime Covered: 613-c. 591 B.C.E.\n\nDaniel\n\nWriter: Daniel\n\nPlace Written: Babylon\n\nWriting Completed: c. 536 B.C.E.\n\nTime Covered: 618-c. 536 B.C.E.\n\nHosea\n\nWriter: Hosea\n\nPlace Written: Samaria (District)\n\nWriting Completed: after 745 B.C.E.\n\nTime Covered: before 804-after 745 B.C.E.\n\nJoel\n\nWriter: Joel\n\nPlace Written: Judah\n\nWriting Completed: c. 820 B.C.E.\n\nAmos\n\nWriter: Amos\n\nPlace Written: Judah\n\nWriting Completed: c. 804 B.C.E.\n\nObadiah\n\nWriter: Obadiah\n\nWriting Completed: c. 607 B.C.E.\n\nJonah\n\nWriter: Jonah\n\nWriting Completed: c. 844 B.C.E.\n\nMicah\n\nWriter: Micah\n\nPlace Written: Judah\n\nWriting Completed: before 717 B.C.E.\n\nTime Covered: c. 777-717 B.C.E.\n\nNahum\n\nWriter: Nahum\n\nPlace Written: Judah\n\nWriting Completed: before 632 B.C.E.\n\nHabakkuk\n\nWriter: Habakkuk\n\nPlace Written: Judah\n\nWriting Completed: c. 628 B.C.E.\n\nZephaniah\n\nWriter: Zephaniah\n\nPlace Written: Judah\n\nWriting Completed: before 648 B.C.E.\n\nHaggai\n\nWriter: Haggai\n\nPlace Written: Jerusalem\n\nWriting Completed: 520 B.C.E.\n\nTime Covered: 112 days (520 B.C.E.)\n\nZechariah\n\nWriter: Zechariah\n\nPlace Written: Jerusalem\n\nWriting Completed: 518 B.C.E.\n\nTime Covered: 520-518 B.C.E.\n\nMalachi\n\nWriter: Malachi\n\nPlace Written: Jerusalem\n\nWriting Completed: after 443 B.C.E.\n\nBooks of the Greek Scriptures (C.E.)\n\nMatthew\n\nWriter: Matthew\n\nPlace Written: Israel\n\nWriting Completed: c. 41 C.E.\n\nTime Covered: 2 B.C.E.-33 C.E.\n\nMark\n\nWriter: Mark\n\nPlace Written: Rome\n\nWriting Completed: c. 60-65 C.E.\n\nTime Covered: 29-33 C.E.\n\nLuke\n\nWriter: Luke\n\nPlace Written: Caesarea\n\nWriting Completed: c. 56-58 C.E.\n\nTime Covered: 3 B.C.E.-33 C.E.\n\nJohn\n\nWriter: Apostle John\n\nPlace Written: Ephesus, or near\n\nWriting Completed: c. 98 C.E.\n\nTime Covered: After prologue, 29-33 C.E.\n\nActs\n\nWriter: Luke\n\nPlace Written: Rome\n\nWriting Completed: c. 61 C.E.\n\nTime Covered: 33-c. 61 C.E.\n\nRomans\n\nWriter: Paul\n\nPlace Written: Corinth\n\nWriting Completed: c. 56 C.E.\n\n1 Corinthians\n\nWriter: Paul\n\nPlace Written: Ephesus\n\nWriting Completed: c. 55 C.E.\n\n2 Corinthians\n\nWriter: Paul\n\nPlace Written: Macedonia\n\nWriting Completed: c. 55 C.E.\n\nGalatians\n\nWriter: Paul\n\nPlace Written: Corinth or Syrian Antioch\n\nWriting Completed: c. 50-52 C.E.\n\nEphesians\n\nWriter: Paul\n\nPlace Written: Rome\n\nWriting Completed: c. 60-61 C.E.\n\nPhilippians\n\nWriter: Paul\n\nPlace Written: Rome\n\nWriting Completed: c. 60-61 C.E.\n\nColossians\n\nWriter: Paul\n\nPlace Written: Rome\n\nWriting Completed: c. 60-61 C.E.\n\n1 Thessalonians\n\nWriter: Paul\n\nPlace Written: Corinth\n\nWriting Completed: c. 50 C.E.\n\n2 Thessalonians\n\nWriter: Paul\n\nPlace Written: Corinth\n\nWriting Completed: c. 51 C.E.\n\n1 Timothy\n\nWriter: Paul\n\nPlace Written: Macedonia\n\nWriting Completed: c. 61-64 C.E.\n\n2 Timothy\n\nWriter: Paul\n\nPlace Written: Rome\n\nWriting Completed: c. 65 C.E.\n\nTitus\n\nWriter: Paul\n\nPlace Written: Macedonia (?)\n\nWriting Completed: c. 61-64 C.E.\n\nPhilemon\n\nWriter: Paul\n\nPlace Written: Rome\n\nWriting Completed: c. 60-61 C.E.\n\nHebrews\n\nWriter: Paul\n\nPlace Written: Rome\n\nWriting Completed: c. 61 C.E.\n\nJames\n\nWriter: James (Jesus' brother)\n\nPlace Written: Jerusalem\n\nWriting Completed: before 62 C.E.\n\n1 Peter\n\nWriter: Peter\n\nPlace Written: Babylon\n\nWriting Completed: c. 62-64 C.E.\n\n2 Peter\n\nWriter: Peter\n\nPlace Written: Babylon (?)\n\nWriting Completed: c. 64 C.E.\n\n1 John\n\nWriter: Apostle John\n\nPlace Written: Ephesus, or near\n\nWriting Completed: c. 98 C.E.\n\n2 John\n\nWriter: Apostle John\n\nPlace Written: Ephesus, or near\n\nWriting Completed: c. 98 C.E.\n\n3 John\n\nWriter: Apostle John\n\nPlace Written: Ephesus, or near\n\nWriting Completed: c. 98 C.E.\n\nJude\n\nWriter: Jude (Jesus' brother)\n\nPlace Written: Israel (?)\n\nWriting Completed: c. 65 C.E.\n\nRevelation\n\nWriter: Apostle John\n\nPlace Written: Patmos\n\nWriting Completed: c. 96 C.E.",
+      "tags": [
+        "canon bíblico",
+        "escrituras",
+        "cronología",
+        "autores bíblicos"
+      ],
+      "createdAt": "2026-09-07T00:47:18.172Z",
+      "updatedAt": "2026-09-07T00:47:18.172Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "daily_text",
+      "name": "Daily Text Comments",
+      "icon": "🌅",
+      "isSystem": true,
+      "subCategories": []
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "icon": "🏛️",
+      "isSystem": true,
+      "subCategories": [
+        {
+          "id": "bethel_talks",
+          "name": "Bethel Talks",
+          "icon": "🎤",
+          "isSystem": true
+        },
+        {
+          "id": "annual_meeting",
+          "name": "Annual Meeting",
+          "icon": "🌐",
+          "isSystem": true
+        },
+        {
+          "id": "gilead_meeting",
+          "name": "Gilead Meeting",
+          "icon": "🎓",
+          "isSystem": true
+        },
+        {
+          "id": "others",
+          "name": "Others",
+          "icon": "📂",
+          "isSystem": true
+        }
+      ]
+    },
+    {
+      "id": "spiritual_notes",
+      "name": "Spiritual Notes",
+      "icon": "💡",
+      "isSystem": true,
+      "subCategories": []
+    }
+  ]
+}
