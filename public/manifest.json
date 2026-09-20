@@ -1,0 +1,19 @@
+{
+  "name": "Estudio Personal - Cuaderno de Apuntes y Juegos",
+  "short_name": "Estudio Personal",
+  "description": "Tu cuaderno digital de notas bíblicas, perlas espirituales, discursos y juegos de repaso interactivos",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#181614",
+  "theme_color": "#c99a4e",
+  "categories": ["education", "books", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

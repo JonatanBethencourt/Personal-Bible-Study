@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a241e"/>
+      <stop offset="100%" stop-color="#141210"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d77f"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9a7b1c"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- Fondo redondeado elegante de la app -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+  <rect x="12" y="12" width="488" height="488" rx="100" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-opacity="0.4"/>
+
+  <!-- Libro / Cuaderno de Estudio Bíblico -->
+  <g filter="url(#shadow)" transform="translate(60, 65) scale(0.76)">
+    <!-- Lomo y páginas traseras -->
+    <path d="M256,120 C200,90 100,90 40,110 L40,430 C100,410 200,410 256,440 C312,410 412,410 472,430 L472,110 C412,90 312,90 256,120 Z" fill="#fff9ee" stroke="#dcd0be" stroke-width="4"/>
+    
+    <!-- Cubierta exterior dorada -->
+    <path d="M256,120 C200,90 100,90 40,110 L40,430 C100,410 200,410 256,440" fill="none" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M256,120 C312,90 412,90 472,110 L472,430 C412,410 312,410 256,440" fill="none" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Centro del libro (costura central) -->
+    <line x1="256" y1="120" x2="256" y2="440" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Líneas de renglones / páginas -->
+    <line x1="75" y1="180" x2="225" y2="170" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="75" y1="230" x2="225" y2="220" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="75" y1="280" x2="225" y2="270" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="75" y1="330" x2="190" y2="320" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+
+    <line x1="287" y1="170" x2="437" y2="180" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="287" y1="220" x2="437" y2="230" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="287" y1="270" x2="437" y2="280" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+    <line x1="287" y1="320" x2="380" y2="330" stroke="#cfc5b4" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Cinta marcapáginas dorada -->
+    <path d="M256,120 L256,470 L240,455 L224,470 L224,120 Z" fill="url(#goldGrad)"/>
+    
+    <!-- Estrella / Chispa de IA y Sabiduría -->
+    <g transform="translate(370, 80) scale(0.6)">
+      <path d="M50 0 L65 35 L100 50 L65 65 L50 100 L35 65 L0 50 L35 35 Z" fill="url(#goldGrad)"/>
+    </g>
+  </g>
+</svg>

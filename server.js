@@ -231,6 +231,27 @@ app.post('/api/backup/git-push', (req, res) => {
   });
 });
 
+// Sincronizar / Pull automático desde GitHub al abrir la aplicación
+app.post('/api/sync/pull', (req, res) => {
+  const { exec } = require('child_process');
+  const projectDir = path.resolve(__dirname);
+
+  exec(`git pull origin main`, { cwd: projectDir }, (error, stdout, stderr) => {
+    if (error) {
+      console.warn('[Git Pull Warning/Offline]:', error.message);
+      return res.json({ success: false, error: error.message, isOffline: true });
+    }
+    const output = (stdout || '').trim();
+    const isAlreadyUpToDate = output.includes('Already up to date') || output.includes('Ya está actualizado');
+    res.json({
+      success: true,
+      updated: !isAlreadyUpToDate,
+      message: isAlreadyUpToDate ? 'Tus notas ya están al día.' : 'Nuevas notas sincronizadas con éxito.',
+      output
+    });
+  });
+});
+
 // Asistente de IA para notas (Corregir, Mejorar con Gemini y Track Changes)
 app.post('/api/notes/:id/ai-assist', async (req, res) => {
   try {
@@ -736,7 +757,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log('=====================================================');
   console.log(`🎙️  SABER Y GANAR - ESTUDIO PERSONAL`);
   console.log(`🌐  Servidor iniciado en: http://localhost:${PORT}`);

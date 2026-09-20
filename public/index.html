@@ -9,10 +9,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Kalam:wght@300;400;700&family=Patrick+Hand&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=20260920_v7">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#c99a4e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Estudio Personal">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="icon" href="icons/icon.svg">
 </head>
 <body>
   <canvas id="confettiCanvas"></canvas>
+  <div id="syncToast" style="display: none; position: fixed; top: 18px; right: 24px; z-index: 999999; background: #1e293b; color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); padding: 10px 18px; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.6); font-size: 0.88rem; align-items: center; gap: 8px; font-weight: 500; transition: all 0.3s ease;">
+    <span id="syncToastIcon">🔄</span> <span id="syncToastText">Sincronizando notas...</span>
+  </div>
 
   <!-- Encabezado Superior Principal -->
   <header>
@@ -59,6 +68,9 @@
       </button>
       <button id="btnOpenConfig" class="btn-icon" title="Configurar API de Gemini y Ajustes">
         ⚙️ <span>Ajustes</span>
+      </button>
+      <button id="btnInstallApp" class="btn-icon" style="display: none; color: var(--gold-primary); border-color: rgba(201, 154, 78, 0.4); background: rgba(201, 154, 78, 0.1);" title="Instalar en tu ordenador como aplicación nativa de escritorio">
+        📲 <span>Instalar App</span>
       </button>
 
       <!-- Grupo de Controles de Ventana en la Esquina Superior Derecha -->

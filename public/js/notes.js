@@ -221,7 +221,13 @@
 
     // Respaldo y GitHub
     btnSyncGitHub: document.getElementById('btnSyncGitHub'),
-    gitSyncStatusText: document.getElementById('gitSyncStatusText')
+    gitSyncStatusText: document.getElementById('gitSyncStatusText'),
+
+    // PWA & Sincronización Automática
+    btnInstallApp: document.getElementById('btnInstallApp'),
+    syncToast: document.getElementById('syncToast'),
+    syncToastIcon: document.getElementById('syncToastIcon'),
+    syncToastText: document.getElementById('syncToastText')
   };
 
   let pendingAiResult = '';
@@ -233,6 +239,7 @@
     initEmojiPicker();
     initStudyPreferences();
     initEventListeners();
+    initPwaInstall();
     await fetchAvailableYears();
     await fetchCategories();
     await fetchNotes();
@@ -244,7 +251,91 @@
     renderSidebarTree();
     updateSidebarMainActionBtn();
     renderNotesList();
+
+    // Sincronizar automáticamente cualquier nota nueva en segundo plano al iniciar
+    checkAndSyncOnStartup();
   });
+
+  // ==========================================
+  // PWA (APLICACIÓN INSTALABLE DE ESCRITORIO)
+  // ==========================================
+
+  let deferredInstallPrompt = null;
+
+  function initPwaInstall() {
+    // Registrar el Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('[PWA] Service Worker activo:', reg.scope))
+          .catch(err => console.warn('[PWA] Service Worker aviso:', err));
+      });
+    }
+
+    // Capturar evento de instalación de Windows / Chrome / Edge
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredInstallPrompt = e;
+      if (dom.btnInstallApp) {
+        dom.btnInstallApp.style.display = 'inline-flex';
+      }
+    });
+
+    if (dom.btnInstallApp) {
+      dom.btnInstallApp.addEventListener('click', async () => {
+        if (!deferredInstallPrompt) {
+          alert('Para instalar esta aplicación en tu ordenador, pulsa el botón de instalación (🖥️ o ⊕) en la barra de direcciones de tu navegador (Edge o Chrome).');
+          return;
+        }
+        deferredInstallPrompt.prompt();
+        const choiceResult = await deferredInstallPrompt.userChoice;
+        if (choiceResult && choiceResult.outcome === 'accepted') {
+          console.log('[PWA] El usuario aceptó instalar la app');
+          dom.btnInstallApp.style.display = 'none';
+        }
+        deferredInstallPrompt = null;
+      });
+    }
+
+    window.addEventListener('appinstalled', () => {
+      console.log('[PWA] Aplicación instalada con éxito');
+      if (dom.btnInstallApp) dom.btnInstallApp.style.display = 'none';
+      showToastNotification('✅ Aplicación instalada en tu ordenador con éxito', '📲');
+    });
+  }
+
+  // ================================================================
+  // SINCRONIZACIÓN AUTOMÁTICA DE APUNTES AL INICIAR LA APLICACIÓN
+  // ================================================================
+
+  function showToastNotification(message, icon = '🔄', durationMs = 4000) {
+    if (!dom.syncToast) return;
+    if (dom.syncToastIcon) dom.syncToastIcon.textContent = icon;
+    if (dom.syncToastText) dom.syncToastText.textContent = message;
+    dom.syncToast.style.display = 'inline-flex';
+    setTimeout(() => {
+      if (dom.syncToast) dom.syncToast.style.display = 'none';
+    }, durationMs);
+  }
+
+  async function checkAndSyncOnStartup() {
+    try {
+      const res = await fetch('/api/sync/pull', { method: 'POST' });
+      const data = await res.json();
+      if (data.success && data.updated) {
+        showToastNotification('¡Apuntes actualizados automáticamente desde la nube!', '🔄', 4500);
+        await fetchNotes();
+        renderSidebarTree();
+        renderNotesList();
+        if (notesState.activeNoteId) {
+          const updatedNote = notesState.notes.find(n => n.id === notesState.activeNoteId);
+          if (updatedNote) selectNote(updatedNote.id);
+        }
+      }
+    } catch (e) {
+      // Modo offline o sin conexión remota: arranque silencioso
+    }
+  }
 
   // ==========================================
   // GESTIÓN DE TEMA (MODO DÍA / MODO NOCHE)
