@@ -24,7 +24,8 @@
     game: document.getElementById('gameView'),
     victory: document.getElementById('victoryView'),
     rosco: document.getElementById('roscoView'),
-    roscoResult: document.getElementById('roscoResultView')
+    roscoResult: document.getElementById('roscoResultView'),
+    reyes: document.getElementById('reyesView')
   };
 
   const elements = {
@@ -63,7 +64,16 @@
     questionsModal: document.getElementById('questionsModal'),
     btnCloseQuestions: document.getElementById('btnCloseQuestions'),
     questionsModalTitle: document.getElementById('questionsModalTitle'),
-    questionsModalList: document.getElementById('questionsModalList')
+    questionsModalList: document.getElementById('questionsModalList'),
+    btnSubTabQuiz: document.getElementById('btnSubTabQuiz'),
+    btnSubTabReyes: document.getElementById('btnSubTabReyes'),
+    btnOpenReyesFeatured: document.getElementById('btnOpenReyesFeatured'),
+    btnBackFromReyes: document.getElementById('btnBackFromReyes'),
+    btnReloadReyes: document.getElementById('btnReloadReyes'),
+    btnOpenReyesNewTab: document.getElementById('btnOpenReyesNewTab'),
+    reyesIframe: document.getElementById('reyesIframe'),
+    btnVictoryToReyes: document.getElementById('btnVictoryToReyes'),
+    btnRoscoToReyes: document.getElementById('btnRoscoToReyes')
   };
 
   window.addEventListener('DOMContentLoaded', async () => {
@@ -147,14 +157,77 @@
     elements.btnCloseQuestions.addEventListener('click', () => {
       elements.questionsModal.classList.remove('active');
     });
+
+    // Sub-navegación Concurso vs Reyes y Profetas
+    if (elements.btnSubTabQuiz) {
+      elements.btnSubTabQuiz.addEventListener('click', () => showView('lobby'));
+    }
+    if (elements.btnSubTabReyes) {
+      elements.btnSubTabReyes.addEventListener('click', () => showView('reyes'));
+    }
+    if (elements.btnOpenReyesFeatured) {
+      elements.btnOpenReyesFeatured.addEventListener('click', () => showView('reyes'));
+    }
+    if (elements.btnBackFromReyes) {
+      elements.btnBackFromReyes.addEventListener('click', () => showView('lobby'));
+    }
+    if (elements.btnReloadReyes) {
+      elements.btnReloadReyes.addEventListener('click', () => {
+        if (elements.reyesIframe) {
+          elements.reyesIframe.src = '/reyes-memorizador/index.html?t=' + Date.now();
+        }
+      });
+    }
+    if (elements.btnOpenReyesNewTab) {
+      elements.btnOpenReyesNewTab.addEventListener('click', () => {
+        window.open('/reyes-memorizador/index.html', '_blank');
+      });
+    }
+    if (elements.btnVictoryToReyes) {
+      elements.btnVictoryToReyes.addEventListener('click', () => {
+        if (typeof stopConfetti === 'function') stopConfetti();
+        showView('reyes');
+      });
+    }
+    if (elements.btnRoscoToReyes) {
+      elements.btnRoscoToReyes.addEventListener('click', () => {
+        showView('reyes');
+      });
+    }
   }
 
   function showView(viewName) {
+    const gameSec = document.getElementById('gameSection');
+    if (gameSec) {
+      if (viewName === 'reyes') {
+        gameSec.classList.add('reyes-mode-active');
+      } else {
+        gameSec.classList.remove('reyes-mode-active');
+      }
+    }
+
+    if (elements.btnSubTabQuiz && elements.btnSubTabReyes) {
+      if (viewName === 'reyes') {
+        elements.btnSubTabQuiz.classList.remove('active');
+        elements.btnSubTabReyes.classList.add('active');
+      } else {
+        elements.btnSubTabQuiz.classList.add('active');
+        elements.btnSubTabReyes.classList.remove('active');
+      }
+    }
+
     Object.keys(views).forEach(k => {
       if (views[k]) {
-        views[k].style.display = (k === viewName) ? 'block' : 'none';
+        views[k].style.display = (k === viewName) ? (k === 'reyes' ? 'flex' : 'block') : 'none';
       }
     });
+
+    if (viewName === 'reyes' && elements.reyesIframe) {
+      const currentSrc = elements.reyesIframe.getAttribute('src');
+      if (!currentSrc || currentSrc === 'about:blank' || !currentSrc.includes('/reyes-memorizador/')) {
+        elements.reyesIframe.src = '/reyes-memorizador/index.html';
+      }
+    }
   }
 
   async function loadConfig() {
@@ -701,4 +774,15 @@
 
   // Exponer para abrir el banco de preguntas desde el menú del cuaderno
   window.openQuestionsModalForTopic = openQuestionsModal;
+
+  // Exponer para abrir el Memorizador de Reyes directamente desde cualquier parte de la app
+  window.openReyesMemorizador = function () {
+    if (typeof window.switchToTab === 'function') {
+      window.switchToTab('game');
+    } else {
+      const btn = document.getElementById('btnTabGame');
+      if (btn) btn.click();
+    }
+    showView('reyes');
+  };
 })();

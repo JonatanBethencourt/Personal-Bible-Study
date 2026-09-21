@@ -3821,6 +3821,7 @@
   }
 
   // Exponer API global
+  window.switchToTab = switchToTab;
   window.NotionNotes = {
     selectNote,
     fetchNotes,

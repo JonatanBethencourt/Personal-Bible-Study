@@ -394,12 +394,36 @@
     <!-- SECCIÓN 2: PLATÓ DE JUEGOS (SABER Y GANAR & EL ROSCO A-Z)        -->
     <!-- ================================================================ -->
     <section id="gameSection" style="display: none;">
+      <!-- BARRA DE MODOS: CONCURSO APUNTES vs MEMORIZADOR REYES Y PROFETAS -->
+      <div class="game-subnav-bar">
+        <button id="btnSubTabQuiz" class="game-subnav-btn active" type="button">
+          🏆 Concurso Saber y Ganar & El Rosco
+        </button>
+        <button id="btnSubTabReyes" class="game-subnav-btn" type="button">
+          👑 Memorizador de Reyes y Profetas (Gráficos A6-A y A6-B)
+        </button>
+      </div>
+
       <!-- VISTA 1: LOBBY / SELECCIÓN DE TEMAS -->
       <section id="lobbyView">
         <div class="hero-banner">
           <div class="hero-badge">Estudio Interactivo con IA</div>
           <h1>El Gran Concurso de tu Estudio</h1>
           <p>Elige de 1 a 5 temas de tus apuntes diarios o documentos, responde preguntas con 4 opciones (5 puntos cada acierto) y alcanza los 100 puntos (20 preguntas) para desbloquear la Ruleta de la A a la Z.</p>
+        </div>
+
+        <!-- TARJETA DESTACADA: MEMORIZADOR Y APUNTES DE REYES Y PROFETAS -->
+        <div class="reyes-featured-card">
+          <div class="reyes-featured-left">
+            <div class="reyes-featured-badge">👑 APUNTES Y REFERENCIA HISTÓRICA</div>
+            <h3>Memorizador y Cronología de Reyes y Profetas</h3>
+            <p>Accede a la cronología visual completa de los reyes de Judá e Israel y sus profetas contemporáneos (Gráficos jw.org A6-A y A6-B). 58 fichas interactivas, tablas cronológicas y notas de referencia para estudiar y memorizar.</p>
+          </div>
+          <div class="reyes-featured-right">
+            <button id="btnOpenReyesFeatured" class="btn-primary" type="button" style="white-space: nowrap; padding: 12px 22px; font-size: 0.95rem;">
+              👑 Abrir Memorizador y Apuntes ➔
+            </button>
+          </div>
         </div>
 
         <div class="selection-bar">
@@ -512,9 +536,10 @@
           <button id="btnStartRosco" class="btn-primary" style="font-size: 1.25rem; padding: 15px 35px; box-shadow: 0 0 30px var(--gold-glow); animation: pulse-correct 1.5s infinite;">
             🎡 ¡ENTRAR A LA RULETA FINAL (A a la Z)!
           </button>
-          <div style="display: flex; gap: 12px;">
+          <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
             <button id="btnPlayAgain" class="btn-secondary">🔄 Jugar Otra Partida Normal</button>
             <button id="btnBackToLobby" class="btn-secondary">🏠 Volver al Menú</button>
+            <button id="btnVictoryToReyes" class="btn-secondary" style="border-color: rgba(201, 154, 78, 0.4); color: var(--gold-primary);">👑 Estudiar Reyes y Profetas</button>
           </div>
         </div>
       </section>
@@ -608,9 +633,40 @@
           <div id="roscoAnswersReview" style="max-height: 320px; overflow-y: auto; background: rgba(0,0,0,0.3); border-radius: 8px; padding: 1rem;"></div>
         </div>
 
-        <div style="display: flex; justify-content: center; gap: 15px;">
+        <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
           <button id="btnRoscoRetry" class="btn-primary">🔄 Repetir el Rosco</button>
           <button id="btnRoscoToMenu" class="btn-secondary">🏠 Volver a Selección de Temas</button>
+          <button id="btnRoscoToReyes" class="btn-secondary" style="border-color: rgba(201, 154, 78, 0.4); color: var(--gold-primary);">👑 Estudiar Reyes y Profetas</button>
+        </div>
+      </section>
+
+      <!-- VISTA 6: MEMORIZADOR Y APUNTES DE REYES Y PROFETAS -->
+      <section id="reyesView" class="reyes-view-container" style="display: none;">
+        <div class="reyes-view-header">
+          <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+            <button id="btnBackFromReyes" class="btn-secondary" type="button" style="font-size: 0.88rem; padding: 7px 14px;">
+              ◀ Volver a Concurso
+            </button>
+            <div>
+              <div style="font-weight: 700; color: var(--gold-primary); font-size: 1.05rem; display: flex; align-items: center; gap: 8px;">
+                👑 Memorizador de Reyes y Profetas de Judá e Israel
+              </div>
+              <div style="color: var(--text-muted); font-size: 0.8rem;">
+                Gráficos jw.org A6-A / A6-B • 58 fichas visuales interactivas • Tablas cronológicas y apuntes de referencia
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+            <button id="btnReloadReyes" class="btn-secondary" type="button" title="Recargar las fichas y gráficos" style="font-size: 0.85rem; padding: 7px 12px;">
+              🔄 Recargar Fichas
+            </button>
+            <button id="btnOpenReyesNewTab" class="btn-secondary" type="button" title="Abrir en ventana o pestaña separada para estudiar a pantalla completa" style="font-size: 0.85rem; padding: 7px 12px;">
+              ↗ Ventana Separada
+            </button>
+          </div>
+        </div>
+        <div class="reyes-iframe-wrapper">
+          <iframe id="reyesIframe" src="" data-src="/reyes-memorizador/index.html" title="Memorizador de Reyes y Profetas de Judá e Israel" allow="fullscreen"></iframe>
         </div>
       </section>
     </section>
@@ -1042,9 +1098,9 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/sound.js?v=20260920_v7"></script>
-  <script src="js/rosco.js?v=20260920_v7"></script>
-  <script src="js/game.js?v=20260920_v7"></script>
-  <script src="js/notes.js?v=20260920_v7"></script>
+  <script src="js/sound.js?v=20260920_v8"></script>
+  <script src="js/rosco.js?v=20260920_v8"></script>
+  <script src="js/game.js?v=20260920_v8"></script>
+  <script src="js/notes.js?v=20260920_v8"></script>
 </body>
 </html>
