@@ -699,9 +699,21 @@
       if (data.success && Array.isArray(data.categories)) {
         notesState.categories = data.categories;
         updateCategorySelects();
+        // Backup categories for offline access
+        try {
+          localStorage.setItem('study_categories_backup', JSON.stringify(data.categories));
+        } catch (e) { /* ignore storage errors */ }
       }
     } catch (err) {
       console.warn('Error al cargar categorías:', err.message);
+      // Restore from localStorage backup
+      try {
+        const backup = localStorage.getItem('study_categories_backup');
+        if (backup) {
+          notesState.categories = JSON.parse(backup);
+          updateCategorySelects();
+        }
+      } catch (e) { /* ignore */ }
     }
   }
 
@@ -873,6 +885,14 @@
       if (data.success) {
         notesState.notes = data.notes || [];
 
+        // Backup notes to localStorage for offline access
+        try {
+          localStorage.setItem('study_notes_backup', JSON.stringify(notesState.notes));
+          localStorage.setItem('study_notes_backup_time', new Date().toISOString());
+        } catch (storageErr) {
+          console.warn('Could not backup notes to localStorage:', storageErr);
+        }
+
         // Extraer años que existan en notas y añadirlos a la lista de años
         notesState.notes.forEach(n => {
           if (n.year && !notesState.availableYears.includes(Number(n.year))) {
@@ -887,6 +907,29 @@
       }
     } catch (err) {
       console.error('Error al cargar notas:', err);
+      // Restore notes from localStorage backup when server is unavailable
+      try {
+        const backupJson = localStorage.getItem('study_notes_backup');
+        if (backupJson) {
+          notesState.notes = JSON.parse(backupJson);
+          const backupTime = localStorage.getItem('study_notes_backup_time') || 'unknown';
+          console.log('[Offline] Restored', notesState.notes.length, 'notes from backup (' + backupTime + ')');
+          showToastNotification('📴 Modo offline — mostrando notas guardadas localmente', '📴', 5000);
+
+          notesState.notes.forEach(n => {
+            if (n.year && !notesState.availableYears.includes(Number(n.year))) {
+              notesState.availableYears.push(Number(n.year));
+            }
+          });
+          notesState.availableYears.sort((a, b) => a - b);
+
+          renderYearPills();
+          renderSidebarTree();
+          renderNotesList();
+        }
+      } catch (restoreErr) {
+        console.error('Could not restore notes from localStorage:', restoreErr);
+      }
     }
   }
 

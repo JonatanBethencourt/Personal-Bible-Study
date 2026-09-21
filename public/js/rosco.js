@@ -179,8 +179,28 @@ window.RoscoManager = (function () {
     const itemIdx = roscoState.queue[roscoState.pointer];
     const item = roscoState.items[itemIdx];
 
+    // Sincronizar el prefijo y la pregunta para asegurar 100% de coherencia
+    const normAns = normStr(item.answer);
+    const targetL = item.letter.toUpperCase();
+    const isEn = /starts with|contains/i.test(item.prefix || '') || (item.question && /starts with|contains/i.test(item.question));
+
+    let properPrefix = '';
+    if (normAns.length > 0 && normAns[0].toUpperCase() === targetL) {
+      properPrefix = isEn ? `Starts with ${targetL}` : `Empieza por ${targetL}`;
+    } else if (normAns.includes(targetL.toLowerCase())) {
+      properPrefix = isEn ? `Contains ${targetL}` : `Contiene la ${targetL}`;
+    } else {
+      properPrefix = item.prefix || (isEn ? `Starts with ${targetL}` : `Empieza por ${targetL}`);
+    }
+
+    item.prefix = properPrefix;
+
+    let cleanQ = (item.question || '').replace(/^(Empieza por|Contiene la|Contiene el|Contiene|Starts with|Contains)\s+([A-Za-zÁÉÍÓÚáéíóúñ]+)[:\s-]*/i, '').trim();
+    if (!cleanQ) cleanQ = item.question || '';
+    item.question = `${item.prefix}: ${cleanQ}`;
+
     dom.roscoActiveLetterBadge.textContent = item.letter;
-    dom.roscoPrefix.textContent = item.prefix || `Empieza por ${item.letter}`;
+    dom.roscoPrefix.textContent = item.prefix;
     dom.roscoQuestionText.textContent = item.question;
 
     dom.roscoInput.value = '';
@@ -200,13 +220,28 @@ window.RoscoManager = (function () {
     item.userAnswer = answer;
 
     const cleanUser = normStr(answer);
-    const expectedList = [item.answer, ...(item.aliases || [])].map(a => normStr(a));
+    const targetLetter = item.letter.toUpperCase();
+    const isStartsWith = (item.prefix || '').toLowerCase().includes('empieza') || (item.prefix || '').toLowerCase().includes('starts with');
 
-    const isMatch = expectedList.some(cleanExp =>
-      (cleanUser === cleanExp) ||
-      (cleanExp.length >= 4 && cleanExp.includes(cleanUser)) ||
-      (cleanUser.length >= 4 && cleanUser.includes(cleanExp))
-    );
+    // 1. REGLA ESTRICTA DE LETRA:
+    // La respuesta del usuario debe cumplir con la letra requerida
+    const coreUser = normStr(stripLeadingArticles(answer));
+    const userFirstLetter = (coreUser[0] || cleanUser[0] || '').toUpperCase();
+
+    let letterCompliant = false;
+    if (isStartsWith) {
+      // Debe empezar por la letra indicada (ej. "J" -> "Jeroboán" o "Rey Jeroboán", NO "Roboam")
+      letterCompliant = (userFirstLetter === targetLetter) || (cleanUser[0].toUpperCase() === targetLetter);
+    } else {
+      // Debe contener la letra indicada
+      letterCompliant = cleanUser.includes(targetLetter.toLowerCase());
+    }
+
+    let isMatch = false;
+    if (letterCompliant) {
+      const expectedList = [item.answer, ...(item.aliases || [])].filter(Boolean);
+      isMatch = expectedList.some(exp => checkAnswerMatch(answer, exp));
+    }
 
     if (isMatch) {
       soundEngine.playCorrect();
@@ -358,6 +393,62 @@ window.RoscoManager = (function () {
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  function stripLeadingArticles(str) {
+    if (!str) return '';
+    return str
+      .replace(/^(el|la|los|las|un|una|unos|unas|the|a|an)\s+/i, '')
+      .replace(/^(rey|king|profeta|prophet|apostol|apóstol|apostle|patriarca|patriarch|reina|queen)\s+/i, '')
+      .trim();
+  }
+
+  function levenshtein(a, b) {
+    if (a === b) return 0;
+    if (!a.length) return b.length;
+    if (!b.length) return a.length;
+    const matrix = [];
+    for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+    for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+    for (let i = 1; i <= b.length; i++) {
+      for (let j = 1; j <= a.length; j++) {
+        if (b.charAt(i - 1) === a.charAt(j - 1)) {
+          matrix[i][j] = matrix[i - 1][j - 1];
+        } else {
+          matrix[i][j] = Math.min(
+            matrix[i - 1][j - 1] + 1,
+            matrix[i][j - 1] + 1,
+            matrix[i - 1][j] + 1
+          );
+        }
+      }
+    }
+    return matrix[b.length][a.length];
+  }
+
+  function checkAnswerMatch(userInput, expected) {
+    const uNorm = normStr(userInput);
+    const eNorm = normStr(expected);
+    if (!uNorm || !eNorm) return false;
+
+    // 1. Coincidencia exacta directa
+    if (uNorm === eNorm) return true;
+
+    // 2. Coincidencia exacta sin artículos ni títulos
+    const uCore = normStr(stripLeadingArticles(userInput));
+    const eCore = normStr(stripLeadingArticles(expected));
+    if (uCore === eCore) return true;
+
+    // 3. Tolerancia a erratas menores (Levenshtein)
+    // Para palabras de 5 a 8 letras, hasta 1 errata tipográfica
+    if (eCore.length >= 5 && levenshtein(uCore, eCore) <= 1) return true;
+    // Para nombres largos de 9+ letras (ej. Nabucodonosor), hasta 2 erratas
+    if (eCore.length >= 9 && levenshtein(uCore, eCore) <= 2) return true;
+
+    // 4. Coincidencia de prefijo con palabra completa (ej: "Josías rey" vs "Josías")
+    if (uCore.startsWith(eCore) && (uCore.length - eCore.length) <= 3) return true;
+
+    return false;
   }
 
   window.addEventListener('DOMContentLoaded', setupEvents);

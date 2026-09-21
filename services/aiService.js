@@ -132,7 +132,7 @@ const STUDY_CONCEPTS_EN = [
   { letter: 'C', answer: 'Canaan', aliases: ['Canaan'], clue: 'Promised land where Jehovah commanded Jacob to return after dwelling in Haran.', exp: 'Jehovah told Jacob: Return to the land of your fathers in Canaan.' },
   { letter: 'D', answer: 'Daniel', aliases: ['Daniel'], clue: 'Hebrew statesman and prophet who served faithfully in the royal court during the exile in Babylon.', exp: 'Daniel served as a prophet in Babylon during the captivity.' },
   { letter: 'E', answer: 'Esau', aliases: ['Esau', 'Esaú'], clue: 'Twin brother of Jacob who sought to kill him after losing the birthright blessing.', exp: 'Esau threatened Jacob\'s life, causing him to flee to Haran.' },
-  { letter: 'F', answer: 'Pharaoh', aliases: ['Pharaoh', 'Faraón'], clue: 'Supreme ruler of Egypt whom patriarch Jacob solemnly blessed in his old age.', exp: 'Jacob was brought before Pharaoh and blessed him (Genesis 47:7).' },
+  { letter: 'F', answer: 'Felix', aliases: ['Felix', 'Festus', 'Faith'], clue: 'Roman governor of Judea before whom apostle Paul spoke about righteousness and judgment to come.', exp: 'Paul gave a bold witness before Governor Felix in Caesarea (Acts 24).' },
   { letter: 'G', answer: 'Genesis', aliases: ['Genesis', 'Génesis'], clue: 'First book of the Pentateuch, completed by Moses in the wilderness in 1513 B.C.E.', exp: 'Genesis was penned by Moses in the wilderness in 1513 B.C.E.' },
   { letter: 'H', answer: 'Haran', aliases: ['Haran', 'Harán'], clue: 'Distant city where Jacob fled to find refuge with his uncle Laban.', exp: 'Jacob traveled to Haran after Rebekah\'s warning.' },
   { letter: 'I', answer: 'Israel', aliases: ['Israel'], clue: 'Name given to Jacob by the angel after wrestling with him all night at Peniel.', exp: 'Israel means: Contender or one who perseveres with God.' },
@@ -140,15 +140,15 @@ const STUDY_CONCEPTS_EN = [
   { letter: 'L', answer: 'Laban', aliases: ['Laban', 'Labán'], clue: 'Uncle and father-in-law of Jacob who deceived him by giving Leah instead of Rachel.', exp: 'Laban repeatedly altered Jacob\'s wages and agreements in Haran.' },
   { letter: 'M', answer: 'Manasseh', aliases: ['Manasseh', 'Manasés'], clue: 'King of Judah who had the longest reign in Jerusalem, governing for 55 years.', exp: 'Manasseh reigned for 55 years (716 - 661 B.C.E.).' },
   { letter: 'N', answer: 'Nebuchadnezzar', aliases: ['Nebuchadnezzar', 'Nabucodonosor'], clue: 'King of Babylon whose armies destroyed Jerusalem and its temple in 607 B.C.E.', exp: 'Nebuchadnezzar led the forces that desolated Jerusalem.' },
-  { letter: 'O', answer: 'Hoshea', aliases: ['Hoshea', 'Oseas', 'Hosea'], clue: 'Last king of the northern ten-tribe kingdom of Israel before the Assyrian conquest.', exp: 'Hoshea reigned 9 years until the fall of Samaria in 740 B.C.E.' },
+  { letter: 'O', answer: 'Obadiah', aliases: ['Obadiah', 'Omri'], clue: 'Biblical prophet who pronounced Jehovah\'s judgment against the arrogant nation of Edom.', exp: 'The book of Obadiah foretells the desolation of Edom.' },
   { letter: 'P', answer: 'Peniel', aliases: ['Peniel', 'Penuel'], clue: 'Place near the river Jabbok where Jacob wrestled with an angel until the break of dawn.', exp: 'At Peniel, the angel touched the socket of Jacob\'s hip.' },
-  { letter: 'Q', answer: 'Rachel', aliases: ['Rachel', 'Raquel'], clue: 'Contains Q: Beloved wife of Jacob for whom he served Laban fourteen years.', exp: 'Jacob loved Rachel and served seven additional years for her.' },
+  { letter: 'Q', answer: 'Quirinius', aliases: ['Quirinius', 'Aquila'], clue: 'Governor of Syria when the Roman census took place prior to Jesus\' birth in Bethlehem (Luke 2:2).', exp: 'Quirinius oversaw the registration during the reign of Augustus.' },
   { letter: 'R', answer: 'Rehoboam', aliases: ['Rehoboam', 'Roboam'], clue: 'First king of the southern kingdom of Judah following the division in 997 B.C.E.', exp: 'Rehoboam reigned 17 years in Jerusalem after the split.' },
   { letter: 'S', answer: 'Samaria', aliases: ['Samaria'], clue: 'Capital city of the northern kingdom of Israel that fell to Assyria in 740 B.C.E.', exp: 'Samaria was conquered by the Assyrian empire in 740 B.C.E.' },
   { letter: 'T', answer: 'Temple', aliases: ['Temple', 'Templo'], clue: 'Sacred house of worship in Jerusalem that was burned to the ground in 607 B.C.E.', exp: 'The Babylonians burned the house of God in Jerusalem.' },
   { letter: 'U', answer: 'Uzziah', aliases: ['Uzziah', 'Uzías', 'Azariah', 'Azarías'], clue: 'King of Judah who reigned 52 years in Jerusalem until struck with leprosy for his arrogance.', exp: 'Uzziah reigned 52 years until 777 B.C.E.' },
-  { letter: 'V', answer: 'Leviticus', aliases: ['Leviticus', 'Levítico'], clue: 'Contains V: Bible book completed by Moses in the wilderness in 1512 B.C.E.', exp: 'Leviticus was completed by Moses in 1512 B.C.E.' },
-  { letter: 'Z', answer: 'Zedekiah', aliases: ['Zedekiah', 'Sedequías'], clue: 'Contains Z: Last king on the throne of David before Jerusalem was desolated in 607 B.C.E.', exp: 'Zedekiah reigned 11 years before the fall of Jerusalem.' }
+  { letter: 'V', answer: 'Vashti', aliases: ['Vashti', 'Leviticus'], clue: 'Queen of Persia deposed by King Ahasuerus after refusing his royal feast command (Esther 1).', exp: 'Vashti refused the king\'s banquet summons and Esther became queen.' },
+  { letter: 'Z', answer: 'Zedekiah', aliases: ['Zedekiah', 'Sedequías', 'Zechariah'], clue: 'Last king of Judah on the throne of David before Jerusalem was desolated in 607 B.C.E.', exp: 'Zedekiah reigned 11 years before the fall of Jerusalem.' }
 ];
 
 const STUDY_CONCEPTS_ES = [
@@ -167,14 +167,137 @@ const STUDY_CONCEPTS_ES = [
   { letter: 'N', answer: 'Nabucodonosor', aliases: ['Nabucodonosor', 'Nebuchadnezzar'], clue: 'Rey de Babilonia cuyas tropas destruyeron Jerusalén y su templo en 607 a.C.', exp: 'Nabucodonosor dirigió las fuerzas que desolaron Jerusalén.' },
   { letter: 'O', answer: 'Oseas', aliases: ['Oseas', 'Hoshea', 'Hosea'], clue: 'Último rey del reino norteño de diez tribus de Israel antes de la conquista asiria.', exp: 'Oseas reinó 9 años hasta la caída de Samaria en 740 a.C.' },
   { letter: 'P', answer: 'Peniel', aliases: ['Peniel', 'Penuel'], clue: 'Lugar junto al río Jaboc donde Jacob luchó con un ángel hasta el rayar del alba.', exp: 'En Peniel, el ángel tocó la articulación de la cadera de Jacob.' },
-  { letter: 'Q', answer: 'Raquel', aliases: ['Raquel', 'Rachel'], clue: 'Contiene la Q: Esposa amada de Jacob por la que sirvió catorce años a Labán.', exp: 'Jacob amó a Raquel y sirvió siete años adicionales por ella.' },
+  { letter: 'Q', answer: 'Querubines', aliases: ['Querubines', 'Querubin', 'Querubín', 'Raquel'], clue: 'Poderosas criaturas espirituales de alto rango que custodiaban el camino al árbol de la vida en Edén.', exp: 'Jehová colocó querubines y una espada llameante al este del jardín de Edén.' },
   { letter: 'R', answer: 'Roboam', aliases: ['Roboam', 'Rehoboam'], clue: 'Primer rey del reino sureño de Judá tras la división de la monarquía en 997 a.C.', exp: 'Roboam reinó 17 años en Jerusalén tras la división.' },
   { letter: 'S', answer: 'Samaria', aliases: ['Samaria'], clue: 'Ciudad capital del reino del norte de Israel que cayó ante Asiria en 740 a.C.', exp: 'Samaria fue conquistada por el imperio asirio en 740 a.C.' },
   { letter: 'T', answer: 'Templo', aliases: ['Templo', 'Temple'], clue: 'Sagrada edificación de adoración en Jerusalén que fue arrasada por fuego en 607 a.C.', exp: 'Los babilonios quemaron la casa de Dios en Jerusalén.' },
   { letter: 'U', answer: 'Uzías', aliases: ['Uzías', 'Uzziah', 'Azarías', 'Azariah'], clue: 'Rey de Judá que reinó 52 años en Jerusalén hasta enfermar de lepra por su altivez.', exp: 'Uzías (Azarías) reinó 52 años hasta 777 a.C.' },
-  { letter: 'V', answer: 'Levítico', aliases: ['Levítico', 'Leviticus'], clue: 'Contiene la V: Libro bíblico escrito por Moisés en el desierto en 1512 a.C.', exp: 'Levítico fue completado por Moisés en el desierto en 1512 a.C.' },
-  { letter: 'Z', answer: 'Sedequías', aliases: ['Sedequías', 'Zedekiah'], clue: 'Contiene la Z: Último rey sobre el trono de David antes de la desolación de 607 a.C.', exp: 'Sedequías reinó 11 años antes de la caída de Jerusalén.' }
+  { letter: 'V', answer: 'Vasti', aliases: ['Vasti', 'Vashti', 'Levítico'], clue: 'Reina de Persia destituida por el rey Asuero tras negarse a comparecer ante los invitados del banquete real.', exp: 'La reina Vasti desobedeció la orden del rey y fue reemplazada por Ester.' },
+  { letter: 'Z', answer: 'Zacarías', aliases: ['Zacarías', 'Zacarias', 'Zechariah', 'Zorobabel'], clue: 'Fiel profeta y sacerdote bíblico que animó al pueblo a reconstruir el templo de Jerusalén.', exp: 'El profeta Zacarías animó a Zorobabel y a los judíos repatriados.' }
 ];
+
+/**
+ * Valida, depura y asegura al 100% que cada pregunta y respuesta del Rosco coincida exactamente
+ * con la letra asignada, sin discrepancias entre "Empieza por" / "Starts with" y "Contiene la" / "Contains".
+ */
+function sanitizeAndVerifyRosco(candidates, rawText, isEn) {
+  const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'Z'];
+  const baseConcepts = isEn ? STUDY_CONCEPTS_EN : STUDY_CONCEPTS_ES;
+  const verifiedList = [];
+  const usedAnswers = new Set();
+
+  alphabet.forEach(letter => {
+    const letterUpper = letter.toUpperCase();
+    const letterLower = letter.toLowerCase();
+
+    // 1. Filtrar candidatos que correspondan a esta letra
+    const matchingCandidates = Array.isArray(candidates)
+      ? candidates.filter(c => c && (String(c.letter || '').toUpperCase() === letterUpper || !c.letter))
+      : [];
+
+    let selected = null;
+
+    // Prioridad 1: Candidato que EMPIECE por la letra
+    for (const c of matchingCandidates) {
+      if (!c.answer || typeof c.answer !== 'string') continue;
+      const ansTrim = c.answer.trim();
+      const norm = ansTrim.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '');
+      if (!norm || usedAnswers.has(norm)) continue;
+
+      if (norm[0].toUpperCase() === letterUpper) {
+        const prefix = isEn ? `Starts with ${letterUpper}` : `Empieza por ${letterUpper}`;
+        let clue = (c.question || c.clue || '').replace(/^(Empieza por|Contiene la|Contiene el|Contiene|Starts with|Contains)\s+([A-Za-zÁÉÍÓÚáéíóúñ]+)[:\s-]*/i, '').trim();
+        if (!clue) clue = isEn ? `Key biblical term from the study notes.` : `Término bíblico clave de los apuntes.`;
+
+        selected = {
+          letter: letterUpper,
+          prefix,
+          question: `${prefix}: ${clue}`,
+          answer: ansTrim,
+          aliases: Array.isArray(c.aliases) && c.aliases.length > 0 ? c.aliases : [ansTrim],
+          explanation: c.explanation || c.exp || (isEn ? 'Fact from the study notes.' : 'Dato extraído de los apuntes.')
+        };
+        break;
+      }
+    }
+
+    // Prioridad 2: Si ningún candidato empieza, buscar en baseConcepts uno que EMPIECE por la letra
+    if (!selected) {
+      const baseStarts = baseConcepts.find(b => {
+        const norm = b.answer.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '');
+        return norm[0].toUpperCase() === letterUpper && !usedAnswers.has(norm);
+      });
+
+      if (baseStarts) {
+        const prefix = isEn ? `Starts with ${letterUpper}` : `Empieza por ${letterUpper}`;
+        let clue = baseStarts.clue.replace(/^(Empieza por|Contiene la|Contiene el|Contiene|Starts with|Contains)\s+([A-Za-zÁÉÍÓÚáéíóúñ]+)[:\s-]*/i, '').trim();
+        selected = {
+          letter: letterUpper,
+          prefix,
+          question: `${prefix}: ${clue}`,
+          answer: baseStarts.answer,
+          aliases: baseStarts.aliases || [baseStarts.answer],
+          explanation: baseStarts.exp
+        };
+      }
+    }
+
+    // Prioridad 3: Candidato que CONTENGA la letra
+    if (!selected) {
+      for (const c of matchingCandidates) {
+        if (!c.answer || typeof c.answer !== 'string') continue;
+        const ansTrim = c.answer.trim();
+        const norm = ansTrim.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '');
+        if (!norm || usedAnswers.has(norm)) continue;
+
+        if (norm.includes(letterLower)) {
+          const prefix = isEn ? `Contains ${letterUpper}` : `Contiene la ${letterUpper}`;
+          let clue = (c.question || c.clue || '').replace(/^(Empieza por|Contiene la|Contiene el|Contiene|Starts with|Contains)\s+([A-Za-zÁÉÍÓÚáéíóúñ]+)[:\s-]*/i, '').trim();
+          if (!clue) clue = isEn ? `Key biblical term from the study notes.` : `Término bíblico clave de los apuntes.`;
+
+          selected = {
+            letter: letterUpper,
+            prefix,
+            question: `${prefix}: ${clue}`,
+            answer: ansTrim,
+            aliases: Array.isArray(c.aliases) && c.aliases.length > 0 ? c.aliases : [ansTrim],
+            explanation: c.explanation || c.exp || (isEn ? 'Fact from the study notes.' : 'Dato extraído de los apuntes.')
+          };
+          break;
+        }
+      }
+    }
+
+    // Prioridad 4: Concepto base garantizado que CONTENGA la letra
+    if (!selected) {
+      const baseContains = baseConcepts.find(b => {
+        const norm = b.answer.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '');
+        return norm.includes(letterLower) && !usedAnswers.has(norm);
+      });
+
+      if (baseContains) {
+        const prefix = isEn ? `Contains ${letterUpper}` : `Contiene la ${letterUpper}`;
+        let clue = baseContains.clue.replace(/^(Empieza por|Contiene la|Contiene el|Contiene|Starts with|Contains)\s+([A-Za-zÁÉÍÓÚáéíóúñ]+)[:\s-]*/i, '').trim();
+        selected = {
+          letter: letterUpper,
+          prefix,
+          question: `${prefix}: ${clue}`,
+          answer: baseContains.answer,
+          aliases: baseContains.aliases || [baseContains.answer],
+          explanation: baseContains.exp
+        };
+      }
+    }
+
+    if (selected) {
+      const normFinal = selected.answer.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '');
+      usedAnswers.add(normFinal);
+      verifiedList.push(selected);
+    }
+  });
+
+  return verifiedList;
+}
 
 /**
  * Genera Rosco con Gemini adaptando el idioma según las notas
@@ -186,18 +309,19 @@ async function generateRoscoWithGemini(text, topicsStr, apiKey) {
 
   const prompt = isEn
     ? `Act as the host and writer of the TV game show "The Alphabet Wheel" (similar to Pasapalabra / El Rosco).
-Based on the following study notes for "${topicsStr}", create an alphabetical trivia wheel from A to Z.
+Based on the following study notes for "${topicsStr}", create an alphabetical trivia wheel from A to Z using standard letters [A, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V, Z].
 
-MANDATORY RULES:
-1. LANGUAGE REQUIREMENT: Because the notes are in English, ALL questions, prefixes, answers, and explanations MUST BE ENTIRELY IN ENGLISH.
-2. ALL answers MUST be real words, concepts, or proper names explicitly present in the notes.
-3. Each question must formulate a direct trivia definition/clue about a real fact (e.g. "Starts with A: Faithful king of Judah who ruled 41 years...").
-4. STRICTLY FORBIDDEN to ask "complete the statement: _____" or ask about headings, outlines, or sections (e.g. NEVER ask about "Part 1:", "Part 2:").
-5. "prefix": If the word starts with the letter, use "Starts with [Letter]". If it contains it, use "Contains [Letter]".
-6. "question": Clean clue starting with the prefix (e.g. "Starts with A: Faithful king of Judah...").
-7. "answer": The exact term or name in English.
-8. "aliases": Array of accepted synonyms or variants (e.g. ["Josiah", "Josías"]).
-9. "explanation": Concise fact or reference from the notes.
+MANDATORY LETTER RULES:
+1. LANGUAGE REQUIREMENT: All questions, prefixes, answers, and explanations MUST BE ENTIRELY IN ENGLISH.
+2. EXACT LETTER MATCHING:
+   - If the answer STARTS with the letter: "prefix" MUST be "Starts with [Letter]", and "question" must begin with "Starts with [Letter]: [definition]".
+   - If the answer only CONTAINS the letter (not first): "prefix" MUST be "Contains [Letter]", and "question" must begin with "Contains [Letter]: [definition]".
+   - NEVER use an answer that does NOT contain or start with the assigned letter!
+3. Each question must formulate a direct trivia definition about a real fact, person, place, or concept from the notes.
+4. STRICTLY FORBIDDEN to ask "complete the statement: _____" or ask about headings/outlines.
+5. "answer": The exact term or name in English.
+6. "aliases": Array of accepted synonyms or variants (e.g. ["Josiah", "Josías"]).
+7. "explanation": Concise fact or reference from the notes.
 
 Return ONLY valid JSON:
 [
@@ -214,18 +338,20 @@ Return ONLY valid JSON:
 STUDY NOTES:
 ${truncatedText}`
     : `Actúa como el presentador y guionista del concurso televisivo "El Rosco / La Ruleta de la A a la Z" (estilo Pasapalabra).
-Basándote en los siguientes apuntes de estudio sobre "${topicsStr}", crea una ruleta de preguntas alfabéticas.
+Basándote en los siguientes apuntes de estudio sobre "${topicsStr}", crea una ruleta de preguntas alfabéticas con las letras [A, B, C, D, E, F, G, H, I, J, L, M, N, O, P, Q, R, S, T, U, V, Z].
 
-REGLAS OBLIGATORIAS:
+REGLAS OBLIGATORIAS DE CONCORDANCIA DE LETRA:
 1. REGLA DE IDIOMA: Como los apuntes están en español, todas las preguntas, prefijos, respuestas y explicaciones DEBEN ESTAR EN ESPAÑOL.
-2. TODAS las respuestas DEBEN ser palabras, conceptos o nombres propios que figuren en los apuntes.
-3. Cada pregunta debe formular una DEFINICIÓN O PISTA DIRECTA DE CONCURSO sobre el dato del apunte (ej: "Empieza por A: Fiel rey de Judá que gobernó 41 años...").
-4. QUEDA TERMINANTEMENTE PROHIBIDO formular preguntas de tipo "completa la afirmación: _______" o preguntar sobre encabezados, índices, esquemas o partes (ej. NUNCA preguntar por palabras de "Part 1:", "Part 2:", etc.).
-5. "prefix": Si la palabra empieza por esa letra usa "Empieza por [Letra]". Si la contiene, usa "Contiene la [Letra]".
-6. "question": Pista clara y elegante que empieza siempre con el prefijo (ej: "Empieza por A: Fiel rey de Judá...").
-7. "answer": La palabra o término exacto en español.
-8. "aliases": Lista de sinónimos o variantes aceptadas (ej: ["Josías", "Josiah"]).
-9. "explanation": Breve dato o cita del apunte.
+2. COINCIDENCIA EXACTA CON LA LETRA:
+   - Si la respuesta EMPIEZA por la letra: "prefix" DEBE ser "Empieza por [Letra]", y "question" DEBE empezar por "Empieza por [Letra]: [definición]".
+   - Si la respuesta únicamente CONTIENE la letra (no al principio): "prefix" DEBE ser "Contiene la [Letra]", y "question" DEBE empezar por "Contiene la [Letra]: [definición]".
+   - QUEDA TERMINANTEMENTE PROHIBIDO usar una palabra que no contenga ni empiece por la letra indicada.
+   - NUNCA pongas "Empieza por" si la palabra no empieza por esa letra.
+3. Cada pregunta debe formular una DEFINICIÓN O PISTA DIRECTA DE CONCURSO sobre el dato del apunte.
+4. QUEDA TERMINANTEMENTE PROHIBIDO formular preguntas de tipo "completa la afirmación: _______" o preguntar sobre encabezados, esquemas o partes.
+5. "answer": La palabra o término exacto en español.
+6. "aliases": Lista de sinónimos o variantes aceptadas (ej: ["Josías", "Josiah"]).
+7. "explanation": Breve dato o cita del apunte.
 
 Devuelve ÚNICAMENTE un JSON válido:
 [
@@ -267,15 +393,11 @@ ${truncatedText}`;
 
       const parsed = JSON.parse(cleaned);
       if (Array.isArray(parsed) && parsed.length >= 8) {
-        const defaultPrefix = isEn ? 'Starts with' : 'Empieza por';
-        return parsed.map(item => ({
-          letter: item.letter.toUpperCase(),
-          prefix: item.prefix || `${defaultPrefix} ${item.letter.toUpperCase()}`,
-          question: item.question,
-          answer: item.answer.trim(),
-          aliases: item.aliases || [item.answer.trim()],
-          explanation: item.explanation || (isEn ? 'Based on the study notes.' : 'Basado en los apuntes.')
-        }));
+        // Validar y depurar rigurosamente las respuestas de Gemini
+        const verified = sanitizeAndVerifyRosco(parsed, text, isEn);
+        if (verified && verified.length >= 15) {
+          return verified;
+        }
       }
     } catch (e) {
       console.warn(`[Rosco Gemini] Error con modelo ${model}:`, e.message);
@@ -291,7 +413,6 @@ ${truncatedText}`;
  * Bilingüe: genera en inglés o español según el idioma de los apuntes.
  */
 function generateRoscoLocally(rawText, topicsStr) {
-  const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'Z'];
   const text = cleanText(rawText);
   const isEn = detectLanguage(text) === 'en';
   const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
@@ -310,7 +431,6 @@ function generateRoscoLocally(rawText, topicsStr) {
       if (term.length >= 3 && rawClue.length >= 10 && !isHeader(term)) {
         let cleanClue = rawClue;
         if (!isEn) {
-          // Si el texto es en español, normalizar al español
           cleanClue = cleanClue
             .replace(/reigned/gi, 'reinó')
             .replace(/years/gi, 'años')
@@ -346,7 +466,6 @@ function generateRoscoLocally(rawText, topicsStr) {
             cleanClue = `Profeta bíblico que ${cleanClue}`;
           }
         } else {
-          // Si el texto es en inglés, mantener la formulación en inglés
           if (/^reigned/i.test(cleanClue)) {
             cleanClue = `Biblical king who ${cleanClue}`;
           } else if (/^prophesied/i.test(cleanClue)) {
@@ -366,61 +485,7 @@ function generateRoscoLocally(rawText, topicsStr) {
 
   const baseConcepts = isEn ? STUDY_CONCEPTS_EN : STUDY_CONCEPTS_ES;
   const allConcepts = [...dynamicConcepts, ...baseConcepts];
-  const usedAnswers = new Set();
-  const rosco = [];
-
-  alphabet.forEach(letter => {
-    // 1. Buscar concepto cuya respuesta empiece por la letra
-    let match = allConcepts.find(c => {
-      const first = c.answer[0].toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      return first === letter && !usedAnswers.has(c.answer.toLowerCase());
-    });
-
-    if (match) {
-      usedAnswers.add(match.answer.toLowerCase());
-      const prefix = isEn ? `Starts with ${letter}` : `Empieza por ${letter}`;
-      let clue = match.clue;
-      const lowerClue = clue.toLowerCase();
-      if (!lowerClue.startsWith('empieza') && !lowerClue.startsWith('starts with')) {
-        clue = `${prefix}: ${clue}`;
-      }
-      rosco.push({
-        letter,
-        prefix,
-        question: clue,
-        answer: match.answer,
-        aliases: match.aliases || [match.answer],
-        explanation: match.exp || (isEn ? 'Fact from the study notes.' : 'Dato extraído de los apuntes de estudio.')
-      });
-      return;
-    }
-
-    // 2. Si no empieza, buscar concepto que contenga la letra
-    let containsMatch = allConcepts.find(c => {
-      const norm = c.answer.toUpperCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      return norm.includes(letter) && !usedAnswers.has(c.answer.toLowerCase());
-    });
-
-    if (containsMatch) {
-      usedAnswers.add(containsMatch.answer.toLowerCase());
-      const prefix = isEn ? `Contains ${letter}` : `Contiene la ${letter}`;
-      let clue = containsMatch.clue;
-      const lowerClue = clue.toLowerCase();
-      if (!lowerClue.startsWith('contiene') && !lowerClue.startsWith('empieza') && !lowerClue.startsWith('contains') && !lowerClue.startsWith('starts with')) {
-        clue = `${prefix}: ${clue}`;
-      }
-      rosco.push({
-        letter,
-        prefix,
-        question: clue,
-        answer: containsMatch.answer,
-        aliases: containsMatch.aliases || [containsMatch.answer],
-        explanation: containsMatch.exp || (isEn ? 'Fact from the study notes.' : 'Dato extraído de los apuntes de estudio.')
-      });
-    }
-  });
-
-  return rosco;
+  return sanitizeAndVerifyRosco(allConcepts, rawText, isEn);
 }
 
 /**
