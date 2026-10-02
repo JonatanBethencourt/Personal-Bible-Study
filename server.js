@@ -9,6 +9,7 @@ const { extractTextFromFile, cleanText } = require('./services/docParser');
 const dbService = require('./services/dbService');
 const { generateQuestionsFromText, generateRoscoQuestions, improveNoteWithAI } = require('./services/aiService');
 const { getScriptureText, parseScriptureRef } = require('./services/scriptureService');
+const { suggestFromWol } = require('./services/wolService');
 
 const app = express();
 const PORT = process.env.PORT || 3005;
@@ -279,6 +280,18 @@ app.post('/api/notes/:id/ai-assist', async (req, res) => {
   } catch (err) {
     console.error('Error en ai-assist:', err);
     res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// Asistente de sugerencias basado en la Biblioteca en línea Watchtower (wol.jw.org) con Gemini
+app.post('/api/wol/suggest', async (req, res) => {
+  try {
+    const { title, tags, context, focus } = req.body || {};
+    const out = await suggestFromWol({ title, tags, context, focus });
+    res.json({ success: true, ...out });
+  } catch (err) {
+    const status = err.code === 'NO_KEY' ? 400 : err.code === 'BUSY' ? 429 : err.code === 'TOO_SHORT' ? 400 : 502;
+    res.status(status).json({ success: false, code: err.code || 'ERROR', error: err.message });
   }
 });
 
