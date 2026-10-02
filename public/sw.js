@@ -1,5 +1,5 @@
 // Service Worker para Estudio Personal (PWA)
-const CACHE_NAME = 'estudio-personal-v2';
+const CACHE_NAME = 'estudio-personal-v3';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
@@ -8,6 +8,8 @@ const ASSETS_TO_CACHE = [
   '/js/rosco.js',
   '/js/game.js',
   '/js/notes.js',
+  '/js/wol-assistant.js',
+  '/css/wol-assistant.css',
   '/icons/icon.svg',
   '/manifest.json'
 ];
